@@ -1,0 +1,35 @@
+{
+  "id": "86a50855-b3fe-4754-bb4a-0ecee6e62b93",
+  "name": "movilidad_cuatrimestre",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Puedes consultar como funciona la movilidad de cuatrimestre en el siguiente enlace: https://www.ubu.es/grado-oficial-online-en-ingenieria-informatica/informacion-basica/trabajo-fin-de-grado"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
