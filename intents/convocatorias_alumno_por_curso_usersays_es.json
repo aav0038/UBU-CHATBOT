@@ -1,0 +1,41 @@
+[
+  {
+    "id": "6340f809-72d6-4d03-95d8-ced4d270e363",
+    "data": [
+      {
+        "text": "¿cuantas convocatorias tengo este curso?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "383db13d-7bfd-4000-afc9-e0225c902720",
+    "data": [
+      {
+        "text": "¿cuantas convocatorias por curso?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "fda30711-ca2b-4843-b11b-2b751c61a4c2",
+    "data": [
+      {
+        "text": "¿cuantas convocatorias tengo por año para hacer el tfg?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

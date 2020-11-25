@@ -1,13 +1,22 @@
 {
-  "id": "b8885457-24a6-4f60-aa3f-57909c000fed",
-  "name": "Default Fallback Intent",
+  "id": "99ee7351-2fec-487a-9ad8-28bcc2a36215",
+  "name": "que_cuatrimestre",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "action": "input.unknown",
-      "affectedContexts": [],
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "quecuatrimestre",
+          "lifespan": 1
+        },
+        {
+          "name": "que_cuatrimestre-followup",
+          "lifespan": 2
+        }
+      ],
       "parameters": [],
       "messages": [
         {
@@ -16,7 +25,7 @@
           "textToSpeech": "",
           "lang": "es",
           "speech": [
-            "No he entendido a que te refieres, ¿podrías repetirlo, por favor?."
+            "Por defecto la asignatura TFG está asignada al segundo cuatrimestre y las convocatorias de evaluación son en mayo y junio."
           ],
           "condition": ""
         }
@@ -27,7 +36,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "fallbackIntent": true,
+  "fallbackIntent": false,
   "events": [],
   "conditionalResponses": [],
   "condition": "",

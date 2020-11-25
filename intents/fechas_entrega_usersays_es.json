@@ -1,0 +1,41 @@
+[
+  {
+    "id": "33d3b337-b256-4290-a93a-db824496e70a",
+    "data": [
+      {
+        "text": "cuando hay que entregarlo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "26cc4345-ece3-43b6-a6c4-4a2cb500a9a0",
+    "data": [
+      {
+        "text": "Cuales son las fechas de entrega",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8da6245b-c1b1-467a-aa53-13caf0ee92c7",
+    "data": [
+      {
+        "text": "¿Cuál es la fecha de entrega?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

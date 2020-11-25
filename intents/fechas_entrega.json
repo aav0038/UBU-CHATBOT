@@ -1,12 +1,12 @@
 {
-  "id": "b8885457-24a6-4f60-aa3f-57909c000fed",
-  "name": "Default Fallback Intent",
+  "id": "6560f849-1e75-4987-ba7f-fc46ad2e1494",
+  "name": "fechas_entrega",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "action": "input.unknown",
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
@@ -16,7 +16,7 @@
           "textToSpeech": "",
           "lang": "es",
           "speech": [
-            "No he entendido a que te refieres, ¿podrías repetirlo, por favor?."
+            "Puedes consultar las fechas de entrega aquí: https://clopezno.github.io/tfg_gii_online/"
           ],
           "condition": ""
         }
@@ -27,7 +27,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "fallbackIntent": true,
+  "fallbackIntent": false,
   "events": [],
   "conditionalResponses": [],
   "condition": "",

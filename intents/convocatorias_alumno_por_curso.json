@@ -1,12 +1,12 @@
 {
-  "id": "b8885457-24a6-4f60-aa3f-57909c000fed",
-  "name": "Default Fallback Intent",
+  "id": "e929e328-14b8-4003-970e-10ff863a0ef2",
+  "name": "convocatorias_alumno_por_curso",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "action": "input.unknown",
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
@@ -16,7 +16,7 @@
           "textToSpeech": "",
           "lang": "es",
           "speech": [
-            "No he entendido a que te refieres, ¿podrías repetirlo, por favor?."
+            "Cada curso el estudiante que se matricula del TFG tiene derecho a dos convocatorias de evaluación."
           ],
           "condition": ""
         }
@@ -27,7 +27,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "fallbackIntent": true,
+  "fallbackIntent": false,
   "events": [],
   "conditionalResponses": [],
   "condition": "",

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "7ac50c83-6a6e-45e6-8b0a-a23c26712a88",
+    "data": [
+      {
+        "text": "puedo adelantarlo a ",
+        "userDefined": false
+      },
+      {
+        "text": "septiembre",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "84696fe2-a4c7-4d36-aa45-17e254dacbdf",
+    "data": [
+      {
+        "text": "¿no lo puedo hacer en ",
+        "userDefined": false
+      },
+      {
+        "text": "septiembre",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "dbdaba7e-835b-470b-b185-242652ea58ba",
+    "data": [
+      {
+        "text": "¿y si lo quiero hacer en ",
+        "userDefined": false
+      },
+      {
+        "text": "septiembre",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

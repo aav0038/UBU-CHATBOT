@@ -1,12 +1,14 @@
 {
-  "id": "b8885457-24a6-4f60-aa3f-57909c000fed",
-  "name": "Default Fallback Intent",
+  "id": "654d8ec8-9852-4bf1-b3a7-a75702c43131",
+  "name": "que_cuatrimestre-cambiarAPrimero",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "quecuatrimestre"
+  ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "input.unknown",
+      "action": "que_cuatrimestre.que_cuatrimestre-custom",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
@@ -16,7 +18,7 @@
           "textToSpeech": "",
           "lang": "es",
           "speech": [
-            "No he entendido a que te refieres, ¿podrías repetirlo, por favor?."
+            "Puedes cambiarlo al primer cuatrimestre, para ello debes presentar una instancia solicitando la movilidad de cuatrimestre en secretaria de EPS. Puedes consultar más información aquí: https://www.ubu.es/grado-oficial-online-en-ingenieria-informatica/informacion-basica/trabajo-fin-de-grado"
           ],
           "condition": ""
         }
@@ -27,7 +29,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "fallbackIntent": true,
+  "fallbackIntent": false,
   "events": [],
   "conditionalResponses": [],
   "condition": "",

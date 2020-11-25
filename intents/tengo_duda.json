@@ -1,12 +1,12 @@
 {
-  "id": "b8885457-24a6-4f60-aa3f-57909c000fed",
-  "name": "Default Fallback Intent",
+  "id": "415c5d00-76be-46f8-97ce-acaca47f5abe",
+  "name": "tengo_duda",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "action": "input.unknown",
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
@@ -16,7 +16,7 @@
           "textToSpeech": "",
           "lang": "es",
           "speech": [
-            "No he entendido a que te refieres, ¿podrías repetirlo, por favor?."
+            "Pregúntame, estoy aquí para ayudarte :)"
           ],
           "condition": ""
         }
@@ -27,7 +27,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "fallbackIntent": true,
+  "fallbackIntent": false,
   "events": [],
   "conditionalResponses": [],
   "condition": "",

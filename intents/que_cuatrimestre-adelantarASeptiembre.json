@@ -1,12 +1,14 @@
 {
-  "id": "b8885457-24a6-4f60-aa3f-57909c000fed",
-  "name": "Default Fallback Intent",
+  "id": "c1bb5a9f-881b-45d2-af17-902c7cd1852c",
+  "name": "que_cuatrimestre-adelantarASeptiembre",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "quecuatrimestre"
+  ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "input.unknown",
+      "action": "que_cuatrimestre.que_cuatrimestre-custom",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
@@ -16,7 +18,7 @@
           "textToSpeech": "",
           "lang": "es",
           "speech": [
-            "No he entendido a que te refieres, ¿podrías repetirlo, por favor?."
+            "Si quieres adelantar la convocatoria de enero a septiembre tienes que presentar una instancia al director de EPS en secretaria EPS."
           ],
           "condition": ""
         }
@@ -27,7 +29,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "fallbackIntent": true,
+  "fallbackIntent": false,
   "events": [],
   "conditionalResponses": [],
   "condition": "",

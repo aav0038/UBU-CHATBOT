@@ -44,7 +44,7 @@
   "mlMinConfidence": 0.3,
   "supportedLanguages": [],
   "enableOnePlatformApi": true,
-  "onePlatformApiVersion": "v2",
+  "onePlatformApiVersion": "v2beta1",
   "secondaryKey": "a456aa6fb1274c8197fa72948c8dad57",
   "analyzeQueryTextSentiment": false,
   "enabledKnowledgeBaseNames": [],

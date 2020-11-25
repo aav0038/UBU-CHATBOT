@@ -16,9 +16,7 @@
           "textToSpeech": "",
           "lang": "es",
           "speech": [
-            "¡Hola!",
-            "¡Hey!",
-            "¡Buenos días!"
+            "¡Hola! Soy el asistente virtual. ¿Cómo te puedo ayudar?"
           ],
           "condition": ""
         }
