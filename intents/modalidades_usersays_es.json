@@ -1,0 +1,50 @@
+[
+  {
+    "id": "714d82ad-3e90-4885-aacb-30d957e38466",
+    "data": [
+      {
+        "text": "como funciona el tfg",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "b3b8315c-c669-4404-aadb-e7b82a08d218",
+    "data": [
+      {
+        "text": "que tipo de modalidades hay",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "bb7be280-7b92-4114-94a8-62ec2d671fc8",
+    "data": [
+      {
+        "text": "cuales ",
+        "userDefined": false
+      },
+      {
+        "text": "son",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " las modalidades",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

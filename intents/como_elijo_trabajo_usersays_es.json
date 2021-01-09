@@ -1,0 +1,41 @@
+[
+  {
+    "id": "47ee4900-48a4-4563-81d4-5bb6f2676337",
+    "data": [
+      {
+        "text": "pasos a seguir",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "980ac6a5-fc56-4f5b-8d6b-e3100f3b1535",
+    "data": [
+      {
+        "text": "como elegir trabajo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "af672628-3ec6-419c-ba80-7428635938a1",
+    "data": [
+      {
+        "text": "como elijo trabajo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

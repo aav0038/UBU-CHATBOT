@@ -1,0 +1,28 @@
+[
+  {
+    "id": "3f085fb7-c4b7-444b-932d-56ed3cf3d230",
+    "data": [
+      {
+        "text": "como puedo elegir tutor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "072f01b4-1071-4164-bb87-639ef17b6b28",
+    "data": [
+      {
+        "text": "como elijo tutor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

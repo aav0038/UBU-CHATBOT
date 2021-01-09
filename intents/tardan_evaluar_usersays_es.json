@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1cabe0ee-eb14-45a2-9b4d-debdd93c48f4",
+    "data": [
+      {
+        "text": "cuanto tiempo les cuesta calificar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "aed279c4-d2be-4285-96b3-0039be35fb2e",
+    "data": [
+      {
+        "text": "cuanto tardarán en evaluarme",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f6d3035c-7d57-4342-b3af-f9052a27d23d",
+    "data": [
+      {
+        "text": "cuanto se tarda en evaluar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3abae1e2-abea-4109-a0d0-00ffbda82670",
+    "data": [
+      {
+        "text": "¿Cuánto tardan en darme la nota?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

@@ -1,12 +1,12 @@
 {
-  "id": "c1bb5a9f-881b-45d2-af17-902c7cd1852c",
-  "name": "que_cuatrimestre-adelantarASeptiembre",
+  "id": "d70a62f0-6690-4fc0-aa17-6e9eed62c6b9",
+  "name": "tema_si_repito",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "action": "que_cuatrimestre.que_cuatrimestre-custom",
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
@@ -16,7 +16,7 @@
           "textToSpeech": "",
           "lang": "es",
           "speech": [
-            "Si quieres adelantar la convocatoria de enero a septiembre tienes que presentar una instancia al director de EPS en secretaria EPS."
+            "La asignación de un tema es válida exclusivamente para la matrícula del curso académico que corresponda. Posteriores matrículas implicarán, en principio, nuevas asignaciones, salvo que excepcionalmente el Tribunal correspondiente autorizase una prórroga por una sola vez."
           ],
           "condition": ""
         }

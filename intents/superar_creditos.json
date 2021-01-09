@@ -1,0 +1,53 @@
+{
+  "id": "bccbd1d4-2f14-4175-b05a-56cb925f3e6a",
+  "name": "superar_creditos",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Ponte en contacto con administración de estudiante de EPS Edf Vena  "
+                  ],
+                  "type": "description"
+                },
+                {
+                  "link": "https://www.ubu.es/escuela-politecnica-superior/",
+                  "text": "Administración de Estudiantes",
+                  "icon": {
+                    "color": "#FF9800",
+                    "type": "link"
+                  },
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

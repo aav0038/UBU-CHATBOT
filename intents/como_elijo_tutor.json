@@ -1,12 +1,12 @@
 {
-  "id": "c1bb5a9f-881b-45d2-af17-902c7cd1852c",
-  "name": "que_cuatrimestre-adelantarASeptiembre",
+  "id": "c54d2094-f263-4c11-a328-bf27f5a9d5e9",
+  "name": "como_elijo_tutor",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "action": "que_cuatrimestre.que_cuatrimestre-custom",
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
@@ -16,7 +16,7 @@
           "textToSpeech": "",
           "lang": "es",
           "speech": [
-            "Si quieres adelantar la convocatoria de enero a septiembre tienes que presentar una instancia al director de EPS en secretaria EPS."
+            "En la modalidad C de oferta de TFG por el alumno una buena opción es identificar los conceptos teóricos principales que se necesitan en el TFG y buscar a los profesores de las guías docentes de las asignaturas del Grado que te los enseñaron."
           ],
           "condition": ""
         }

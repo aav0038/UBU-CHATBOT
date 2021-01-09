@@ -1,12 +1,12 @@
 {
-  "id": "c1bb5a9f-881b-45d2-af17-902c7cd1852c",
-  "name": "que_cuatrimestre-adelantarASeptiembre",
+  "id": "dd3c3d63-d984-47b6-8cab-5737832e09c5",
+  "name": "ayuda_profesor",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "action": "que_cuatrimestre.que_cuatrimestre-custom",
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
@@ -16,7 +16,7 @@
           "textToSpeech": "",
           "lang": "es",
           "speech": [
-            "Si quieres adelantar la convocatoria de enero a septiembre tienes que presentar una instancia al director de EPS en secretaria EPS."
+            "El principal apoyo para ayudarte con tu TFG será tu tutor. En caso de que allá algún problema concreto que necesite la consulta a otros profesores él te lo indicará."
           ],
           "condition": ""
         }

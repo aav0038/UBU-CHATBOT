@@ -1,0 +1,37 @@
+[
+  {
+    "id": "8f68bd1d-164f-4a69-a307-5f657642c51b",
+    "data": [
+      {
+        "text": "habrá público en la exposición?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9b0c49da-3233-44e9-b224-9732427fec15",
+    "data": [
+      {
+        "text": "quienes estarán en ",
+        "userDefined": false
+      },
+      {
+        "text": "mi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " exposición",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

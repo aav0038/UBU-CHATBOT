@@ -1,12 +1,12 @@
 {
-  "id": "c1bb5a9f-881b-45d2-af17-902c7cd1852c",
-  "name": "que_cuatrimestre-adelantarASeptiembre",
+  "id": "df345376-66ca-4c4c-b5e5-21ffb1505aa7",
+  "name": "convalidar",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "action": "que_cuatrimestre.que_cuatrimestre-custom",
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
@@ -16,7 +16,7 @@
           "textToSpeech": "",
           "lang": "es",
           "speech": [
-            "Si quieres adelantar la convocatoria de enero a septiembre tienes que presentar una instancia al director de EPS en secretaria EPS."
+            "Para convalidar se seguiría el mismo procedimiento administrativo de reconocimiento de créditos en otras asignaturas. Se tendría que analizar por el tribunal de TFG el reconocimiento de un TFG de Ingeniería Informática realizado en otra Universidad."
           ],
           "condition": ""
         }

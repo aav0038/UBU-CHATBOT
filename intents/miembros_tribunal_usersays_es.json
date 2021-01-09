@@ -1,0 +1,80 @@
+[
+  {
+    "id": "59aaf1d3-e9ba-4347-856f-ce954b3f803e",
+    "data": [
+      {
+        "text": "quien es el secretario",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3ded3f97-2576-49db-896f-0aa68486c719",
+    "data": [
+      {
+        "text": "quien es el secretario del tribunal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "b377b8a1-c391-428c-8fef-703f75aa8eaf",
+    "data": [
+      {
+        "text": "quienes son los vocales",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "4bbbee47-3735-494c-8e80-ec43637441d6",
+    "data": [
+      {
+        "text": "cuales son los miembros del tribunal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "cd5f9798-2260-443e-9bb3-ecd7271bca86",
+    "data": [
+      {
+        "text": "quienes forman el tribunal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ecc303da-6436-4ca1-8e2b-aeff4a12f9df",
+    "data": [
+      {
+        "text": "¿quién es el presidente del tribunal?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

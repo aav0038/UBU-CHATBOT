@@ -1,0 +1,59 @@
+[
+  {
+    "id": "9e471945-809d-4d81-9e26-39a0bb85b418",
+    "data": [
+      {
+        "text": "puedo hacerlo de lo que quiera?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "bc8bc88b-477e-4cfe-953c-1f3ff4d44b92",
+    "data": [
+      {
+        "text": "quiero elegir tema",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e5448bc8-3c3a-4960-b626-52b0c3b01c99",
+    "data": [
+      {
+        "text": "es",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tema libre?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f36dc810-1db2-4f41-80c6-727819748283",
+    "data": [
+      {
+        "text": "puedo elegir el tema?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

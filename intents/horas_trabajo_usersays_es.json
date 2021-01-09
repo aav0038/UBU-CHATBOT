@@ -1,0 +1,63 @@
+[
+  {
+    "id": "8ce7da76-65a6-499d-9452-5609b5169cf0",
+    "data": [
+      {
+        "text": "cuanto cuesta hacer el tfg",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "62434fae-7354-4845-b503-de92d4189819",
+    "data": [
+      {
+        "text": "cuanto tiempo hay que dedicarle",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "937ad806-50aa-4879-afbc-cfeb16a92e1a",
+    "data": [
+      {
+        "text": "cuantas horas se tarda en hacer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "de87bfb2-261b-490a-b24a-cd4af6e05fe9",
+    "data": [
+      {
+        "text": "¿Cuantas horas de trabajo ",
+        "userDefined": false
+      },
+      {
+        "text": "son",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

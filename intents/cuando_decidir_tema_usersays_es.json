@@ -1,0 +1,41 @@
+[
+  {
+    "id": "28112746-dfce-4493-b2f9-8e2e7f292589",
+    "data": [
+      {
+        "text": "cuando tengo que elegir sobre que lo hago",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "aff339e7-80ed-4a5a-96e2-208e3801ceab",
+    "data": [
+      {
+        "text": "cuando tengo que decidir el tema",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "6416ee65-9a79-405d-aa1a-f77d2904bfd7",
+    "data": [
+      {
+        "text": "cuando se decide el tema",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

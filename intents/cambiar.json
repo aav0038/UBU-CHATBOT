@@ -1,12 +1,12 @@
 {
-  "id": "c1bb5a9f-881b-45d2-af17-902c7cd1852c",
-  "name": "que_cuatrimestre-adelantarASeptiembre",
+  "id": "6f7eeae7-e622-4901-9cdf-c2bdd7d69d50",
+  "name": "cambiar",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "action": "que_cuatrimestre.que_cuatrimestre-custom",
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
@@ -16,7 +16,7 @@
           "textToSpeech": "",
           "lang": "es",
           "speech": [
-            "Si quieres adelantar la convocatoria de enero a septiembre tienes que presentar una instancia al director de EPS en secretaria EPS."
+            "El estudiante que quiera realizar un cambio de tutor y/o tema deberá solicitarlo al Tribunal por escrito, de manera motivada, en el plazo máximo de un mes desde la fecha de la publicación de la asignación. El Tribunal estará obligado a contestar al alumno por escrito en un plazo máximo de siete días hábiles. En dicho escrito se motivará la resolución del TFG/TFM a la petición del alumno."
           ],
           "condition": ""
         }

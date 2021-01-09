@@ -1,0 +1,46 @@
+[
+  {
+    "id": "196dc94f-2c1b-4ac9-b920-836bf009cab1",
+    "data": [
+      {
+        "text": "me gustaría hacerla ",
+        "userDefined": false
+      },
+      {
+        "text": "en la Universidad",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "b1b3fef8-3333-47e6-be43-dc812e0a539b",
+    "data": [
+      {
+        "text": "quiero hacerla presencial",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e3df8ec7-c709-4713-a438-b77f7f6a87fe",
+    "data": [
+      {
+        "text": "puedo hacerla presencial?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

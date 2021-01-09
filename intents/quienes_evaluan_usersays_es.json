@@ -1,0 +1,119 @@
+[
+  {
+    "id": "c1ebdb29-a6bb-4234-b9a0-ac22255967e3",
+    "data": [
+      {
+        "text": "que criterios se utilizar para la calificacion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1ec83074-13ef-4194-836b-ccc4357252a5",
+    "data": [
+      {
+        "text": "en base a que se pone la nota",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "b8169204-00bf-44dc-a28d-407cf596892a",
+    "data": [
+      {
+        "text": "como se pone la nota",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f8137423-100a-4f1d-b1a3-829722dc6dfc",
+    "data": [
+      {
+        "text": "como se evalúa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8577a25f-f4fe-418e-a048-37385a0d5a15",
+    "data": [
+      {
+        "text": "¿como se evalua?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8ba2cb14-5646-4e97-a078-14a157c97d2d",
+    "data": [
+      {
+        "text": "quien me va a evaluar?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "67af0167-988f-4194-82dc-05868dc775fe",
+    "data": [
+      {
+        "text": "quien evalua?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "b42f2281-7be9-48c6-a5f2-c128f5e38cfd",
+    "data": [
+      {
+        "text": "quienes ponen la nota?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "a6e6abec-fc4a-41fd-a9e8-bd2bb973cab0",
+    "data": [
+      {
+        "text": "quien me pone la nota?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

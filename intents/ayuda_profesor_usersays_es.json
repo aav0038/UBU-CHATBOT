@@ -1,0 +1,59 @@
+[
+  {
+    "id": "c62f397d-e340-4653-8ebc-86ae62407025",
+    "data": [
+      {
+        "text": "me podrán ayudar otros profesores?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "7b7c6c62-8b16-4ed4-bbc6-2675be961fa2",
+    "data": [
+      {
+        "text": "tendré alguna ayuda?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c1e7af8e-681b-43be-8b8e-2d3d354cd9bf",
+    "data": [
+      {
+        "text": "mi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tutor me ayudará?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "a3abf462-6914-4cb0-a739-e8c78449780b",
+    "data": [
+      {
+        "text": "¿me ayudará algún profesor?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

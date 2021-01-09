@@ -1,13 +1,13 @@
 [
   {
-    "id": "0e1d6b24-2186-493d-96f3-0fff421ccc70",
+    "id": "a4d55eaa-99f9-4654-96b3-5ec4a235e789",
     "data": [
       {
-        "text": "quiero presentarme en ",
+        "text": "mover ",
         "userDefined": false
       },
       {
-        "text": "septiembre",
+        "text": "de junio a septiembre",
         "meta": "@sys.ignore",
         "userDefined": false
       }
@@ -18,19 +18,15 @@
     "updated": 0
   },
   {
-    "id": "7ac50c83-6a6e-45e6-8b0a-a23c26712a88",
+    "id": "1b551a2e-4dd3-467c-8bff-a604dfb12cca",
     "data": [
       {
-        "text": "puedo adelantarlo a ",
+        "text": "atrasar ",
         "userDefined": false
       },
       {
-        "text": "septiembre",
+        "text": "de junio a septiembre",
         "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": "?",
         "userDefined": false
       }
     ],
@@ -40,19 +36,15 @@
     "updated": 0
   },
   {
-    "id": "84696fe2-a4c7-4d36-aa45-17e254dacbdf",
+    "id": "fa2b7337-556c-467e-a250-1c6461f35368",
     "data": [
       {
-        "text": "¿no lo puedo hacer en ",
+        "text": "cambiar ",
         "userDefined": false
       },
       {
-        "text": "septiembre",
+        "text": "de junio a septiembre",
         "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": "?",
         "userDefined": false
       }
     ],
@@ -62,14 +54,14 @@
     "updated": 0
   },
   {
-    "id": "dbdaba7e-835b-470b-b185-242652ea58ba",
+    "id": "f25321ba-649f-4965-83af-b1f60257a7f8",
     "data": [
       {
-        "text": "¿y si lo quiero hacer en ",
+        "text": "¿Puedo retrasar la convocatoria ",
         "userDefined": false
       },
       {
-        "text": "septiembre",
+        "text": "de junio a septiembre",
         "meta": "@sys.ignore",
         "userDefined": false
       },

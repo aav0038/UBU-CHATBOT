@@ -1,0 +1,134 @@
+[
+  {
+    "id": "cd85ea18-52d8-4c0a-bb7b-7754e7a6534e",
+    "data": [
+      {
+        "text": "vivo lejos de ",
+        "userDefined": false
+      },
+      {
+        "text": "Burgos",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "a0d1750c-e4fb-48d1-b7c1-7f76aee32903",
+    "data": [
+      {
+        "text": "puedo presentarlo de manera telematica",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "cb721380-07e7-4cae-a9a9-60a4147c8460",
+    "data": [
+      {
+        "text": "puedo presentar a distancia",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "734bd991-aea9-4b4f-9cb9-9ab297093769",
+    "data": [
+      {
+        "text": "¿puedo hacer la presentación online?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d52d5662-3240-445d-87d3-18be09490b7c",
+    "data": [
+      {
+        "text": "no vivo en ",
+        "userDefined": false
+      },
+      {
+        "text": "Burgos",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "fa7361ed-ba2c-445d-bfde-c1f3bde8624a",
+    "data": [
+      {
+        "text": "hay que presentarlo ",
+        "userDefined": false
+      },
+      {
+        "text": "en la Universidad",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3d3dd845-ed57-4726-ac38-3df811ee5dce",
+    "data": [
+      {
+        "text": "¿tengo que presentarlo de manera presencial?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "aaaac6c8-5a4b-43d5-95f4-36aefa95e4e7",
+    "data": [
+      {
+        "text": "¿Tengo que ir a ",
+        "userDefined": false
+      },
+      {
+        "text": "Burgos",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " a hacer la presentación?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

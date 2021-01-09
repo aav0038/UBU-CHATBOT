@@ -1,0 +1,47 @@
+{
+  "id": "9b00da33-ca55-4850-b2b7-f903a8e5852d",
+  "name": "modalidades",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Existen tres modalidades: ",
+                  "text": [
+                    "Modalidad A:  propuestas de TFG concretas que publiquen los tutores",
+                    "Modalidad B:  propuestas de TFG que ofertan empresas previo acuerdo con un tutor de la asignatura ",
+                    "Modalidad C : propuestas de TFG que ofertan los alumnos, siempre que se adecúen al perfil de conocimientos de los tutores online y estén correctamente descritas y justificadas con trabajos y asignaturas relacionadas. En función de que se cumplan o no estos requisitos las propuestas pueden ser aceptadas o rechazadas por el tribunal.  Las propuesta deberán ser enviadas y resueltas por el tribunal durante el primer mes del cuatrimestre."
+                  ],
+                  "type": "description"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

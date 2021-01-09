@@ -1,0 +1,41 @@
+[
+  {
+    "id": "142b45a8-f710-487b-a413-e432328583b7",
+    "data": [
+      {
+        "text": "quiero ver ejemplos de presentaciones",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c113ad92-f8b4-4845-a462-ca7c5e5c1bed",
+    "data": [
+      {
+        "text": "puedo ver las presentaciones de mis compañeros",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8c2ff493-2fe9-4b91-8df7-ee7129b14b23",
+    "data": [
+      {
+        "text": "puedo ver presentaciones de años anteriores",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

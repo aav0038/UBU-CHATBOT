@@ -1,0 +1,53 @@
+{
+  "id": "b16ca576-6830-4d38-935b-ffd93e4b6045",
+  "name": "matricularme_cuando_quiera",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Ponte en contacto con administración de estudiante de EPS Edf Vena"
+                  ],
+                  "type": "description"
+                },
+                {
+                  "text": "Administración de Estudiantes",
+                  "link": "https://www.ubu.es/escuela-politecnica-superior/",
+                  "icon": {
+                    "color": "#FF9800",
+                    "type": "link"
+                  },
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
