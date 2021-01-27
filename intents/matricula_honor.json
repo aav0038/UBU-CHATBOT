@@ -1,0 +1,53 @@
+{
+  "id": "3247b83d-0e98-4310-910e-f1be4cadbf76",
+  "name": "matricula_honor",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "El tribunal seguirá lo estipulado en el Reglamento de Evaluación de la UBU en cuanto a la asignación de la calificación de Matrícula de Honor:"
+                  ],
+                  "type": "description"
+                },
+                {
+                  "link": "https://www.ubu.es/servicio-de-gestion-academica-0/normativa-en-gestion-academica/normativa-con-caracter-general/reglamento-de-evaluacion-de-la-universidad-de-burgos",
+                  "icon": {
+                    "color": "#FF9800",
+                    "type": "link"
+                  },
+                  "type": "button",
+                  "text": "Reglamento de Evalación de la UBU"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

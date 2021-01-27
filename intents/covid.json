@@ -1,0 +1,50 @@
+{
+  "id": "4e940f07-e6f7-49ea-bfb4-b528189810b3",
+  "name": "covid",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4c1c18cd-da9b-4471-881a-8215639ec94c",
+          "name": "covid",
+          "required": false,
+          "dataType": "@covid",
+          "value": "$covid",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Dado el carácter online de la asignatura no hay que tener en cuenta aspectos relacionados con el Covid. Si surgiera alguna cuestión adicional por causas sobrevenidas, se comunicarán en el tablón de la asignatura con antelación suficiente."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

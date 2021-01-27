@@ -1,0 +1,40 @@
+[
+  {
+    "id": "dfdae0ab-665a-42d5-8c5d-df140f06d219",
+    "data": [
+      {
+        "text": "curso ",
+        "userDefined": false
+      },
+      {
+        "text": "tfg",
+        "meta": "@tfg",
+        "alias": "tfg",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "37b28d44-ea70-4e56-a0c9-82f8ef3dddb2",
+    "data": [
+      {
+        "text": "en que curso hago el ",
+        "userDefined": false
+      },
+      {
+        "text": "tfg",
+        "meta": "@tfg",
+        "alias": "tfg",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

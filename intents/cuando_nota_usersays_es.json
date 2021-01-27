@@ -1,0 +1,106 @@
+[
+  {
+    "id": "7f96b40a-c8b5-4b23-8278-b8764759c049",
+    "data": [
+      {
+        "text": "¿Cuánto tardan en decir la nota del TFG?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "da741aee-bb92-4827-960c-eaa48a6cf4c8",
+    "data": [
+      {
+        "text": "¿Cuándo se publican las notas?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "cfb1b359-14ac-4680-9dc0-1da70636cd60",
+    "data": [
+      {
+        "text": "\n ¿Cuándo se publican las notas?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1ca3bd79-f1ee-4357-87da-157a3abd7bcc",
+    "data": [
+      {
+        "text": "¿Cuándo se sabe la calificación obtenida?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1cabe0ee-eb14-45a2-9b4d-debdd93c48f4",
+    "data": [
+      {
+        "text": "cuanto tiempo les cuesta calificar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "aed279c4-d2be-4285-96b3-0039be35fb2e",
+    "data": [
+      {
+        "text": "cuanto tardarán en evaluarme",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f6d3035c-7d57-4342-b3af-f9052a27d23d",
+    "data": [
+      {
+        "text": "cuanto se tarda en evaluar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3abae1e2-abea-4109-a0d0-00ffbda82670",
+    "data": [
+      {
+        "text": "¿Cuánto tardan en darme la nota?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

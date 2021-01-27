@@ -16,7 +16,8 @@
           "textToSpeech": "",
           "lang": "es",
           "speech": [
-            "No he entendido a que te refieres, ¿podrías repetirlo, por favor?."
+            "No he entendido a qué te refieres, ¿podrías repetirlo, por favor?",
+            "Perdona, no he entendido, dame más detalles sobre tu pregunta"
           ],
           "condition": ""
         }

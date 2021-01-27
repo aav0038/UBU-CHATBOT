@@ -1,0 +1,139 @@
+[
+  {
+    "id": "526dc00c-a628-47ad-96bd-8fa519e741c8",
+    "data": [
+      {
+        "text": "puedo cambiar ",
+        "userDefined": false
+      },
+      {
+        "text": "mi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " entrega?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f642e9ef-2e34-4075-a4c9-7219953af6ef",
+    "data": [
+      {
+        "text": "puedo modificar la entrega?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "2a938ab9-c6e2-42ec-aa44-41bf686e8189",
+    "data": [
+      {
+        "text": "subir",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " entrega de nuevo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "29f07678-02f8-4fc1-97ef-9287667f65ba",
+    "data": [
+      {
+        "text": "editar entrega",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "6ef1b519-8bad-414a-abaa-62f7684f3058",
+    "data": [
+      {
+        "text": "modificar entrega memoria",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1e87a782-1288-4b36-97f8-785830d8f9ca",
+    "data": [
+      {
+        "text": "modificar entrega",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "6c3fbe88-3f1d-4def-97e0-a76495603d3c",
+    "data": [
+      {
+        "text": "Una",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " vez que se ",
+        "userDefined": false
+      },
+      {
+        "text": "ha",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "subido",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " la memoria del TFG, ¿Se puede modificar y ",
+        "userDefined": false
+      },
+      {
+        "text": "subir",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " de nuevo?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

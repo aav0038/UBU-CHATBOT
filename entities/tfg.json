@@ -1,0 +1,9 @@
+{
+  "id": "f99686ad-285e-4045-8078-de32c9750074",
+  "name": "tfg",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

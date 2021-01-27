@@ -1,0 +1,35 @@
+{
+  "id": "413e2186-82c9-4172-a516-2e9257c93188",
+  "name": "componentes_trabajo",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Para la entrega se habilitan en UBUVirtual, en la convocatoria correspondientes las subidas de ficheros correspondientes (memoria, anexos, fuentes y otros enlaces de interés)."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

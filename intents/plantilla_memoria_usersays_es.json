@@ -1,0 +1,176 @@
+[
+  {
+    "id": "2c16d110-ab1f-40cc-852a-dcc167ceed14",
+    "data": [
+      {
+        "text": "estructura memoria",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "74214d23-c644-4a0d-a786-966533bfae40",
+    "data": [
+      {
+        "text": "Cual es la estructura de la memoria",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "0d4c35c1-65b9-4e3f-88a8-8db3cd147255",
+    "data": [
+      {
+        "text": "diseño",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " de la memoria",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "0c23615e-0dc2-47c7-b2fd-a3b2386d1d88",
+    "data": [
+      {
+        "text": "tipografia a usar en la memoria",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "db545e7e-a5b8-4a08-8be9-2bfbd950ac7b",
+    "data": [
+      {
+        "text": "tipografia",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d38f5e40-653e-444a-8ce4-2c3aa4d8a8e9",
+    "data": [
+      {
+        "text": "que tamaño de letra tengo que usar en la memoria?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ddbb621f-70c8-4da0-a2e3-31094b6587e1",
+    "data": [
+      {
+        "text": "tamaño letra",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "2a3423f1-c2a7-4a56-95f2-968a87190097",
+    "data": [
+      {
+        "text": "tipo de fuente a utilizar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d87bd324-b97f-45af-808a-7d88eb10b53d",
+    "data": [
+      {
+        "text": "estilo memoria",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c9d1ea09-2e4f-4150-801d-77671d1cc548",
+    "data": [
+      {
+        "text": "plantilla memoria",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d69e74cb-2b2d-4b76-b3be-da76a8222a92",
+    "data": [
+      {
+        "text": "¿tamaño de letra memoria?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "7ea65033-d89a-4053-8664-b07f94ab36ae",
+    "data": [
+      {
+        "text": "¿Qué estilo de letra es recomendable usar en la memoria?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8f1f1cba-f047-41fe-97e7-168be64f0c3a",
+    "data": [
+      {
+        "text": "¿hay alguna plantilla para la memoria?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

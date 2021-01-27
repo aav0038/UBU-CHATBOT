@@ -1,0 +1,213 @@
+[
+  {
+    "id": "565997d6-fa13-4713-8b5d-ca0d526b816b",
+    "data": [
+      {
+        "text": "cuanto rato tengo que exponer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3c96810e-d847-4097-85c9-ee81ff0a1bd5",
+    "data": [
+      {
+        "text": "cuanto tiempo ",
+        "userDefined": false
+      },
+      {
+        "text": "dura",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " las preguntas del tribunal?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "351ef328-07b9-4320-9b16-8025d6174ff5",
+    "data": [
+      {
+        "text": "cuanto dura la presentación?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1f19e185-376d-406f-9806-879a2b1e226b",
+    "data": [
+      {
+        "text": "¿como se estructura la defensa?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "442bebec-40f8-47c6-8b86-4d57918e870a",
+    "data": [
+      {
+        "text": "cuanto tiempo suele costar hacer ",
+        "userDefined": false
+      },
+      {
+        "text": "la defensa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "fe8b83e7-bcf4-4f92-b54e-f7d5ad58998a",
+    "data": [
+      {
+        "text": "tiempo que dura la presentación",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "6b8b0fdc-d4f0-4c95-aaf3-82561766d108",
+    "data": [
+      {
+        "text": "tiempo que dura ",
+        "userDefined": false
+      },
+      {
+        "text": "la defensa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "581b22ff-bffe-47e4-b8d5-7a76db067108",
+    "data": [
+      {
+        "text": "duración presentación",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "a99d0a64-9414-4fa2-b9ec-bd7cdaadd173",
+    "data": [
+      {
+        "text": "duración defensa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "5f37d235-38cc-42f8-a6d8-923302c6b29e",
+    "data": [
+      {
+        "text": "cuanto tiempo ",
+        "userDefined": false
+      },
+      {
+        "text": "dura",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "la defensa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8d99e8db-3026-4ba7-a6d0-ed5926722477",
+    "data": [
+      {
+        "text": "cuanto tiempo ",
+        "userDefined": false
+      },
+      {
+        "text": "es",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " la presentación",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c3aa5ce8-6123-41e1-bbd0-ccd411667d92",
+    "data": [
+      {
+        "text": "Cuanto ",
+        "userDefined": false
+      },
+      {
+        "text": "duran",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " las presentaciones de TFG ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "id": "c728c70c-faa7-488c-823f-22be21ba8497",
+  "name": "medidas_sanitarias",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Al ser una presentación online, cada asistente tendrá que guardar las reglas sanitarias correspondientes en función de las condiciones particulares de la ubicación en la que se encuentre."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

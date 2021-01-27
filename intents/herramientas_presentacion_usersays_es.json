@@ -1,0 +1,125 @@
+[
+  {
+    "id": "349a9ca2-312e-4dd6-ba18-21c254250de3",
+    "data": [
+      {
+        "text": "no me funciona el micrófono",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3b003489-cc89-4797-9c46-05ac74a7984c",
+    "data": [
+      {
+        "text": "no me funciona ",
+        "userDefined": false
+      },
+      {
+        "text": "la webcam",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "5f115a74-99ae-4cab-ab04-3aee09dcc8bb",
+    "data": [
+      {
+        "text": "necesito ",
+        "userDefined": false
+      },
+      {
+        "text": "webcam",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "b2c27651-30d7-4e01-b61f-e20ac31f2bed",
+    "data": [
+      {
+        "text": "necesito microfono?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "7f8e5bd1-ffce-4a18-a1e8-37830d1321dc",
+    "data": [
+      {
+        "text": "hace falta ",
+        "userDefined": false
+      },
+      {
+        "text": "webcam",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "eca152ca-79b8-4f92-94fc-50af822c0263",
+    "data": [
+      {
+        "text": "hace falta microfono",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8eecdb0a-de37-42e8-b9b1-93250b6c48ba",
+    "data": [
+      {
+        "text": "¿Qué puedo usar en la presentación?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "fc49fda4-fd2f-40ae-8930-f845d49dee2e",
+    "data": [
+      {
+        "text": "herramientas presentacion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

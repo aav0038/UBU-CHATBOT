@@ -1,0 +1,76 @@
+[
+  {
+    "id": "85808695-062d-4a33-b3b8-4179884d726a",
+    "data": [
+      {
+        "text": "¿Qué pasa si suspendo el TFG?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c7d07b8a-eb81-4608-bc35-14fc928475e0",
+    "data": [
+      {
+        "text": "¿Qué pasa si suspendo?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "246ecb3a-a26b-4785-ab3f-6174800a62ec",
+    "data": [
+      {
+        "text": "puedo seguir el mismo tema si suspendo?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "80efbff8-951d-4c45-9b9f-c63a413da86c",
+    "data": [
+      {
+        "text": "puedo repetir el tema?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f28a8575-3e72-4841-8e3c-226e1e9b51fc",
+    "data": [
+      {
+        "text": "¿El tema del TFG me vale de ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " curso para otro si no consigo superarlo?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

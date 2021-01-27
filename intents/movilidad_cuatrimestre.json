@@ -11,13 +11,31 @@
       "parameters": [],
       "messages": [
         {
-          "type": "0",
+          "type": "4",
           "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "Puedes consultar cómo funciona la movilidad de cuatrimestre en el siguiente enlace:"
+                  ]
+                },
+                {
+                  "icon": {
+                    "type": "link",
+                    "color": "#FF9800"
+                  },
+                  "type": "button",
+                  "link": "https://www.ubu.es/grado-oficial-online-en-ingenieria-informatica/informacion-basica/trabajo-fin-de-grado/",
+                  "text": "Información movilidad cuatrimestre"
+                }
+              ]
+            ]
+          },
           "textToSpeech": "",
           "lang": "es",
-          "speech": [
-            "Puedes consultar como funciona la movilidad de cuatrimestre en el siguiente enlace: https://www.ubu.es/grado-oficial-online-en-ingenieria-informatica/informacion-basica/trabajo-fin-de-grado"
-          ],
           "condition": ""
         }
       ],

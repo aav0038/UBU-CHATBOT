@@ -1,0 +1,98 @@
+[
+  {
+    "id": "55a927c3-962b-4e54-97c3-2589a5587017",
+    "data": [
+      {
+        "text": "como hago el anexo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "2eabceaa-a7a1-4c6c-b216-8ce0e52353fe",
+    "data": [
+      {
+        "text": "formato del anexo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "222f9d5e-806c-4b5d-962a-2720ce00def2",
+    "data": [
+      {
+        "text": "formato anexos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "326c5831-20ae-4edf-a209-b2fc03e163cd",
+    "data": [
+      {
+        "text": "como hago los anexos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "41cc0bbf-cbef-4b1f-b972-bb58b82a769a",
+    "data": [
+      {
+        "text": "no se que es ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " anexo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3051a499-e4ef-426b-9f77-3e01a85663ab",
+    "data": [
+      {
+        "text": "que es ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " anexo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

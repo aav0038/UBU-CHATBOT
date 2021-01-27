@@ -1,0 +1,35 @@
+{
+  "id": "533e5a20-d3f2-41fd-ba2d-21c2c7b47960",
+  "name": "como_defensa",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "La defensa se realiza oralmente, apoyándose en medios audiovisuales y demostraciones prácticas, durante un periodo de tiempo de 10 a 15 minutos. Posteriormente se realiza un turno de preguntas por parte del tribunal a responder por el alumnado."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

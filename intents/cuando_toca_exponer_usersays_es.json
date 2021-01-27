@@ -1,0 +1,76 @@
+[
+  {
+    "id": "a0dc2510-f97b-46d9-8c25-b6fb6063b86d",
+    "data": [
+      {
+        "text": "como se que día me toca exponer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e9c67be5-ea40-408a-a4b9-8dbcdccad117",
+    "data": [
+      {
+        "text": "cuando se publica el día de exposición",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "2dd27e67-9824-4fff-b896-bb066c59308c",
+    "data": [
+      {
+        "text": "que dia ",
+        "userDefined": false
+      },
+      {
+        "text": "es",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " la exposicion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "94ad5d8a-9846-4f5d-99a3-95364003f7c1",
+    "data": [
+      {
+        "text": "fecha exposicion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "2b805dfc-1604-4194-a075-af5db9bd1b21",
+    "data": [
+      {
+        "text": "cuando me toca exponer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

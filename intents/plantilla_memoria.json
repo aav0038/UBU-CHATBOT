@@ -1,0 +1,53 @@
+{
+  "id": "bf290be3-97df-4f0f-9c41-1cace02ecdec",
+  "name": "plantilla_memoria",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Existe un modelo de plantilla en LaTeX a seguir lo más fielmente posible en el siguiente enlace: "
+                  ],
+                  "type": "description"
+                },
+                {
+                  "link": "https://github.com/ubutfgm/plantillaLatex",
+                  "text": "Plantilla LaTeX",
+                  "icon": {
+                    "color": "#FF9800",
+                    "type": "link"
+                  },
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

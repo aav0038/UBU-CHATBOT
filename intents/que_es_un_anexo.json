@@ -1,0 +1,53 @@
+{
+  "id": "74c67741-7937-4990-a67b-5db3972dedc6",
+  "name": "que_es_un_anexo",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "Un anexo es un documento explicativo de las características técnicas del TFG a definir por consenso con el tutor/a. Se recomienda seguir la estructura disponible en el siguiente enlace:"
+                  ]
+                },
+                {
+                  "text": "Plantilla Latex",
+                  "type": "button",
+                  "icon": {
+                    "type": "link",
+                    "color": "#FF9800"
+                  },
+                  "link": "https://github.com/ubutfgm/plantillaLatex"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -17,19 +17,19 @@
             "richContent": [
               [
                 {
-                  "type": "description",
                   "text": [
-                    "Al estudiar online puedes hacer la presentación desde casa. Puedes acceder a la lista de distribución de Youtube para ver como lo hicieron otros compañeros  "
-                  ]
+                    "Al estudiar online debes hacer la presentación desde casa. Puedes acceder a la lista de distribución de Youtube para ver como lo hicieron otros compañeros  "
+                  ],
+                  "type": "description"
                 },
                 {
-                  "link": "https://www.youtube.com/channel/UC5S_DwX8JJWV86NNLVQI1dw/playlists/",
                   "type": "button",
-                  "text": "Presentaciones años anteriores",
+                  "link": "https://www.youtube.com/channel/UC5S_DwX8JJWV86NNLVQI1dw/playlists/",
                   "icon": {
-                    "type": "link",
-                    "color": "#FF9800"
-                  }
+                    "color": "#FF9800",
+                    "type": "link"
+                  },
+                  "text": "Presentaciones años anteriores"
                 }
               ]
             ]

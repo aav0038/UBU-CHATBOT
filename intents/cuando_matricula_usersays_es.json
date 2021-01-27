@@ -1,0 +1,76 @@
+[
+  {
+    "id": "166c623a-00f4-4eb2-8808-a5b721d8f171",
+    "data": [
+      {
+        "text": "plazo matricula",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "11e74b49-75aa-4df0-9721-09f2da322fec",
+    "data": [
+      {
+        "text": "cual ",
+        "userDefined": false
+      },
+      {
+        "text": "es",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " el plazo para matricularse",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "795624ce-3ace-450e-949a-7cb0355600f5",
+    "data": [
+      {
+        "text": "¿cuando me puedo matricular para el tfg?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "adeb5f5f-9ff6-432a-911f-a4367d1333e7",
+    "data": [
+      {
+        "text": "¿cuando se hace la matrícula?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "84f2ae0d-4062-4917-93bc-5e6a55614fdc",
+    "data": [
+      {
+        "text": "cuando me matriculo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

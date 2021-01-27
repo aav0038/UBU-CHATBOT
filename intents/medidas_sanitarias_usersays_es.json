@@ -1,0 +1,107 @@
+[
+  {
+    "id": "d6527cbc-c858-44d0-a87a-172f8c66df34",
+    "data": [
+      {
+        "text": "medidas ",
+        "userDefined": false
+      },
+      {
+        "text": "seguridad",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d40f73d2-fda5-4a9f-b9c2-4de260d4acdf",
+    "data": [
+      {
+        "text": "reglas sanitarias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "180d57b9-79e4-4c56-b39b-5900b5149894",
+    "data": [
+      {
+        "text": "llevar puesta mascarilla",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "42c8729f-586f-47ea-8db1-919878442802",
+    "data": [
+      {
+        "text": "necesario mascarilla",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f80c9640-90e5-41f9-afa6-dfd5cdbbceb7",
+    "data": [
+      {
+        "text": "uso mascarilla",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "43e140f1-e446-4955-aaa3-420fbd405f61",
+    "data": [
+      {
+        "text": "¿",
+        "userDefined": false
+      },
+      {
+        "text": "Este año",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " hay que llevar mascarilla en la defensa del TFG?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "221782d2-d511-4891-9f35-3aac09651c04",
+    "data": [
+      {
+        "text": "mascarilla",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

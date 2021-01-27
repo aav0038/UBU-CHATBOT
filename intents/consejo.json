@@ -1,0 +1,35 @@
+{
+  "id": "58e3d523-bbaa-4aea-9694-d4f0ca727604",
+  "name": "consejo",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Realiza una elección de TFG relacionado con asignaturas que te hayan gustado del Grado para estar motivado. Autofórmate y busca bibliografía específicas para resolver los problemas del TFG. Consulta TFG de cursos anteriores, tanto desarrollos en Github, como la memoria descriptiva. Planifícate bien el tiempo de tu TFG. El tiempo para realizar un TFG depende de muchos factores y ahora tú gestionas tu propio proceso de aprendizaje."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
