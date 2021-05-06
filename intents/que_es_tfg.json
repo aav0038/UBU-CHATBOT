@@ -10,7 +10,7 @@
       "affectedContexts": [],
       "parameters": [
         {
-          "id": "42b6b2d6-dfec-4b8f-acd3-5a50532d3092",
+          "id": "58c74483-6b1d-4212-bbd3-8d77473cbda1",
           "name": "tfg",
           "required": false,
           "dataType": "@tfg",
@@ -31,7 +31,7 @@
           "textToSpeech": "",
           "lang": "es",
           "speech": [
-            "Un TFG es aplicación autónoma e integral de algunos conceptos aprendidos en las distintas asignaturas del Grado. El estudiante actúa como gestor del proceso de para resolver los problemas planteados en TFG. Todo TFG tiene un tutor del Grado asignado."
+            "Un TFG es aplicación autónoma e integral de algunos conceptos aprendidos en las distintas asignaturas del Grado. El estudiante actúa como gestor del proceso de para resolver los problemas planteados en TFG. Todo TFG tiene un tutor o tutora del Grado asignado."
           ],
           "condition": ""
         }

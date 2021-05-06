@@ -1,5 +1,18 @@
 [
   {
+    "id": "113ef9c1-d8ed-4f3c-b7a9-dd3ba1d4e0c3",
+    "data": [
+      {
+        "text": "¿Hay alguna medida sanitaria a tener en cuenta?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
     "id": "d6527cbc-c858-44d0-a87a-172f8c66df34",
     "data": [
       {

@@ -1,20 +1,27 @@
 {
-  "id": "2c1c30eb-951c-4a44-b44d-dc9797dd4953",
-  "name": "curso",
+  "id": "b230cfd8-779a-45f9-ac59-be62c498c87e",
+  "name": "finOfensivo",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "finofensivo"
+  ],
   "responses": [
     {
       "resetContexts": false,
       "action": "",
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "finofensivo",
+          "lifespan": 1
+        }
+      ],
       "parameters": [
         {
-          "id": "932048f3-640e-4b85-b94c-dd9c0b82c0bc",
-          "name": "tfg",
+          "id": "cecf089b-8563-48e2-8b3d-a2364c078a23",
+          "name": "any",
           "required": false,
-          "dataType": "@tfg",
-          "value": "$tfg",
+          "dataType": "@sys.any",
+          "value": "$any",
           "defaultValue": "",
           "isList": false,
           "prompts": [],
@@ -31,7 +38,7 @@
           "textToSpeech": "",
           "lang": "es",
           "speech": [
-            "El TFG se realiza en el 4º curso del Grado."
+            "Las faltas de respeto no están permitidas. Prueba a utilizar el Chatbot en otro momento."
           ],
           "condition": ""
         }

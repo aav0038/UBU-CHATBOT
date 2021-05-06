@@ -17,21 +17,21 @@
             "richContent": [
               [
                 {
-                  "type": "description",
                   "text": [
                     "Debes entregar: ",
                     "·2 copias de memoria.pdf y anexos.pdf",
                     "·3 copias en el curso de UBUVirtual (y otras 2 optativas)."
-                  ]
+                  ],
+                  "type": "description"
                 },
                 {
                   "icon": {
-                    "type": "link",
-                    "color": "#FF9800"
+                    "color": "#FF9800",
+                    "type": "link"
                   },
-                  "link": "https://clopezno.github.io/tfg_gii_online//",
                   "text": "Más información en este enlace",
-                  "type": "button"
+                  "type": "button",
+                  "link": "https://clopezno.github.io/tfg_gii_online//"
                 }
               ]
             ]

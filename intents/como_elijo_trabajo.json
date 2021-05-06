@@ -18,6 +18,7 @@
               [
                 {
                   "title": "",
+                  "type": "description",
                   "text": [
                     "•Antes de comenzar la convocatoria los tutores/estudiantes/empresas (consulta modalidades A, B, C de ofertas de TFG) recogen las propuestas de TFG ",
                     "•El tribunal publica la lista con la oferta de trabajos en las primeras semanas del semestre",
@@ -26,8 +27,7 @@
                     "•El alumno notifica la asignación en el foro",
                     "•El tribunal publica la asignación",
                     "•Si pasado un mes del inicio del semestre un alumno no ha notificado la asignación, se le asignará uno de los trabajos disponibles"
-                  ],
-                  "type": "description"
+                  ]
                 }
               ]
             ]

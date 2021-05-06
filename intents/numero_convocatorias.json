@@ -1,6 +1,6 @@
 {
-  "id": "9215efe3-5137-402a-a316-5cbfc5866ad5",
-  "name": "otros_temas",
+  "id": "10391d9c-9c37-45ba-8e92-44583e5c760b",
+  "name": "numero_convocatorias",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -16,7 +16,7 @@
           "textToSpeech": "",
           "lang": "es",
           "speech": [
-            "No se responden cuestiones generales que no sean relativas al TFG."
+            "La EPS ha programado cinco convocatorias de evaluación de los trabajos finales de grado. Cada curso el estudiante que se matricula del TFG tiene derecho a dos convocatorias de evaluación que tienen que realizarse en el mismo cuatrimestre."
           ],
           "condition": ""
         }

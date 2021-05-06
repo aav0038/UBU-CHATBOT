@@ -18,8 +18,8 @@
             "slack": {
               "attachments": [
                 {
-                  "title_link": "https://clopezno.github.io/tfg_gii_online/",
-                  "title": "Calendario de entrega"
+                  "title": "Calendario de entrega",
+                  "title_link": "https://clopezno.github.io/tfg_gii_online/"
                 }
               ],
               "text": "Las fechas de entrega del TFG se aprueban en la Junta de Escuela Politécnica cada curso y se publican en la página oficial del Grado.\n\nEn el siguiente enlace podrás ver el calendario de entrega de los dos semestres y extraordinaria aprobado por Junta de EPS."
@@ -36,20 +36,20 @@
             "richContent": [
               [
                 {
+                  "type": "description",
                   "text": [
                     "Las fechas de entrega del TFG se aprueban en la Junta de Escuela Politécnica cada curso y se publican en la página oficial del Grado",
-                    "En el siguiente enlace podrás ver el calendario de entrega de los dos semestres y extraordinaria aprobado por Junta de Escuela Politécnica Superior."
-                  ],
-                  "type": "description"
+                    "En el siguiente enlace podrás ver el calendario de entrega de los dos cuatrimestres ordinarios y la convocatoria extraordinaria aprobado por Junta de Escuela Politécnica Superior."
+                  ]
                 },
                 {
-                  "type": "button",
-                  "link": "https://www.ubu.es/grado-oficial-online-en-ingenieria-informatica/informacion-basica/trabajo-fin-de-grado/",
-                  "text": "Calendario de entregas",
                   "icon": {
                     "type": "link",
                     "color": "#FF9800"
-                  }
+                  },
+                  "link": "https://www.ubu.es/grado-oficial-online-en-ingenieria-informatica/informacion-basica/trabajo-fin-de-grado/",
+                  "text": "Calendario de entregas",
+                  "type": "button"
                 }
               ]
             ]

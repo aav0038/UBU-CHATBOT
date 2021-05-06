@@ -19,17 +19,17 @@
                 {
                   "type": "description",
                   "text": [
-                    "Se debe exponer a la finalización de la entrega en UBUVirtual, se publica en los días posteriores el calendario y orden de defensas, dentro los días habilitados para la misma según el calendario de la EPS."
+                    "Finalizada la entrega en UBUVirtual, se publica en los días posteriores el calendario y orden de defensas, dentro los días habilitados para la misma según el calendario de la EPS."
                   ]
                 },
                 {
-                  "type": "button",
-                  "text": "Calendario acedémico EPS",
-                  "link": "https://www.ubu.es/escuela-politecnica-superior/informacion-academica/calendario-academico-eps",
                   "icon": {
                     "color": "#FF9800",
                     "type": "link"
-                  }
+                  },
+                  "type": "button",
+                  "text": "Calendario acedémico EPS",
+                  "link": "https://www.ubu.es/escuela-politecnica-superior/informacion-academica/calendario-academico-eps"
                 }
               ]
             ]

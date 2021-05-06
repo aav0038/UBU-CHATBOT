@@ -18,18 +18,18 @@
               [
                 {
                   "text": [
-                    "Ponte en contacto con administración de estudiante de EPS Edf Vena  "
+                    "Ponte en contacto con la Secretaría Administrativa del Campus Vena  "
                   ],
                   "type": "description"
                 },
                 {
-                  "link": "https://www.ubu.es/escuela-politecnica-superior/",
+                  "type": "button",
                   "text": "Administración de Estudiantes",
+                  "link": "https://www.ubu.es/escuela-politecnica-superior/escuela-politecnica-superior/escuela-politecnica-superior-campus-rio-vena/escuela-politecnica-superior-campus-rio-vena-secretaria-administrativa",
                   "icon": {
-                    "color": "#FF9800",
-                    "type": "link"
-                  },
-                  "type": "button"
+                    "type": "link",
+                    "color": "#FF9800"
+                  }
                 }
               ]
             ]

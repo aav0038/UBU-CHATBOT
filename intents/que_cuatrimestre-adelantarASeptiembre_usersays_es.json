@@ -1,5 +1,27 @@
 [
   {
+    "id": "8879a150-88d8-4ffa-b416-228421e97334",
+    "data": [
+      {
+        "text": "puedo adelantar la convocatoria a ",
+        "userDefined": false
+      },
+      {
+        "text": "septiembre",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
     "id": "0e1d6b24-2186-493d-96f3-0fff421ccc70",
     "data": [
       {

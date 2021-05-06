@@ -1,6 +1,6 @@
 {
-  "id": "9215efe3-5137-402a-a316-5cbfc5866ad5",
-  "name": "otros_temas",
+  "id": "e929e328-14b8-4003-970e-10ff863a0ef2",
+  "name": "convocatorias_curso",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -16,7 +16,7 @@
           "textToSpeech": "",
           "lang": "es",
           "speech": [
-            "No se responden cuestiones generales que no sean relativas al TFG."
+            "Cada curso el estudiante que se matricula del TFG tiene derecho a dos convocatorias de evaluación."
           ],
           "condition": ""
         }

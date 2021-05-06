@@ -16,7 +16,7 @@
           "textToSpeech": "",
           "lang": "es",
           "speech": [
-            "Se calificará como No Presentado."
+            "Si no se hace presentación se calificará como No Presentado."
           ],
           "condition": ""
         }

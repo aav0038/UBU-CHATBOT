@@ -1,57 +1,62 @@
 [
   {
-    "id": "525a0e05-39a1-441a-a087-2b27dd4e4e75",
+    "id": "66858e42-72ef-44d0-b495-497b65dd0976",
     "data": [
       {
-        "text": "¿Que pasa si supero el maximo de creditos?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "es",
-    "updated": 0
-  },
-  {
-    "id": "1dddbf61-183a-4e84-81cd-3e826528330d",
-    "data": [
-      {
-        "text": "¿puedo superar el maximo de creditos?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "es",
-    "updated": 0
-  },
-  {
-    "id": "367e5711-d7f4-47e4-8521-cd4e2d18fd12",
-    "data": [
-      {
-        "text": "me paso de creditos",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "es",
-    "updated": 0
-  },
-  {
-    "id": "c75724e4-f50d-4138-aaab-40e1ec5cf0c6",
-    "data": [
-      {
-        "text": "¿Si supero ",
+        "text": "lo puedo hacer con ",
         "userDefined": false
       },
       {
-        "text": "los 30",
+        "text": "un",
         "meta": "@sys.ignore",
         "userDefined": false
       },
       {
-        "text": " créditos puedo cursarlo?",
+        "text": " compañero",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3e0e34f5-366e-4449-9e4a-d5f15ec50cdb",
+    "data": [
+      {
+        "text": "se puede hacer en pareja?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "7a9bc485-6cf4-46f0-b95e-7647b90b51cf",
+    "data": [
+      {
+        "text": "puedo hacerlo con compañero?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1ebbfc5d-dbc2-4ef6-8dce-2e0529c910e1",
+    "data": [
+      {
+        "text": "es",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " individual?",
         "userDefined": false
       }
     ],

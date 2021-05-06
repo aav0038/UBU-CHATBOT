@@ -1,0 +1,17 @@
+[
+  {
+    "id": "c43fe878-9cf8-4e27-966b-5abe2a4d61bf",
+    "data": [
+      {
+        "text": "cualquier cosa",
+        "meta": "@sys.any",
+        "alias": "any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

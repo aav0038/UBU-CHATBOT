@@ -1,16 +1,20 @@
 {
-  "id": "77fcd948-3c95-4ee8-bd0c-2a2ed7b4646e",
-  "name": "conversacion_ofensiva",
+  "id": "c7a7c525-e7de-470f-bab4-91d72fc639d3",
+  "parentId": "77fcd948-3c95-4ee8-bd0c-2a2ed7b4646e",
+  "rootParentId": "77fcd948-3c95-4ee8-bd0c-2a2ed7b4646e",
+  "name": "conversacion_ofensiva - custom",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "conversacion_ofensiva-followup"
+  ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "",
+      "action": "conversacion_ofensiva.conversacion_ofensiva-custom",
       "affectedContexts": [
         {
-          "name": "conversacion_ofensiva-followup",
-          "lifespan": 1
+          "name": "finofensivo",
+          "lifespan": 99
         }
       ],
       "parameters": [],
@@ -21,7 +25,7 @@
           "textToSpeech": "",
           "lang": "es",
           "speech": [
-            "Siento si no te he sido de utilidad. Dame otra oportunidad, estoy aquí para aprender y ayudarte."
+            "Siento no haber sido de ayuda."
           ],
           "condition": ""
         }
@@ -36,5 +40,6 @@
   "events": [],
   "conditionalResponses": [],
   "condition": "",
-  "conditionalFollowupEvents": []
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
 }

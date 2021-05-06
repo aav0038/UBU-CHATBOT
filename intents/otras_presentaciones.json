@@ -23,13 +23,13 @@
                   ]
                 },
                 {
-                  "link": "https://www.youtube.com/channel/UC5S_DwX8JJWV86NNLVQI1dw/playlists/",
-                  "text": "Presentaciones años anteriores",
-                  "type": "button",
                   "icon": {
                     "color": "#FF9800",
                     "type": "link"
-                  }
+                  },
+                  "type": "button",
+                  "link": "https://www.youtube.com/channel/UC5S_DwX8JJWV86NNLVQI1dw/playlists/",
+                  "text": "Presentaciones años anteriores"
                 }
               ]
             ]

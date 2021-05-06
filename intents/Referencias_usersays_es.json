@@ -1,9 +1,9 @@
 [
   {
-    "id": "cf911567-9975-4362-9cdd-b216df8d1cca",
+    "id": "9e87fa8e-40b8-499d-bcd2-eb694f34f6fa",
     "data": [
       {
-        "text": "puede conectarse cualquier persona a la presentación?",
+        "text": "programas para hacer referencias",
         "userDefined": false
       }
     ],
@@ -13,10 +13,10 @@
     "updated": 0
   },
   {
-    "id": "f94ded39-eba3-4860-905d-73baf6e686d3",
+    "id": "e749e4e6-b294-4174-8f2f-3b6679c10e9c",
     "data": [
       {
-        "text": "¿puede ver cualquiera la presentación?",
+        "text": "herramientas que ayuden a hacer referencias",
         "userDefined": false
       }
     ],
@@ -26,10 +26,10 @@
     "updated": 0
   },
   {
-    "id": "c124eb60-0f4e-426b-8ce2-cb23837d97d7",
+    "id": "9e3a5d3c-5d2a-472b-a0db-d19ba6827960",
     "data": [
       {
-        "text": "quien habrá en la presentación",
+        "text": "formato de las referencias",
         "userDefined": false
       }
     ],
@@ -39,10 +39,10 @@
     "updated": 0
   },
   {
-    "id": "8f68bd1d-164f-4a69-a307-5f657642c51b",
+    "id": "a43db62e-1743-4b9b-a084-6baf6fef52a5",
     "data": [
       {
-        "text": "habrá público en la exposición?",
+        "text": "como se hacen las referencias",
         "userDefined": false
       }
     ],
@@ -52,19 +52,23 @@
     "updated": 0
   },
   {
-    "id": "9b0c49da-3233-44e9-b224-9732427fec15",
+    "id": "f63517f8-2f64-47cf-9248-1039a8798ebe",
     "data": [
       {
-        "text": "quienes estarán en ",
+        "text": "como hacer referencias",
         "userDefined": false
-      },
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "baf50c69-b18c-44f9-9e16-12c89bf8da36",
+    "data": [
       {
-        "text": "mi",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": " exposición",
+        "text": "referencias",
         "userDefined": false
       }
     ],

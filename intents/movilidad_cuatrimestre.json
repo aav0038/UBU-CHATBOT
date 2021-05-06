@@ -23,13 +23,13 @@
                   ]
                 },
                 {
+                  "link": "https://www.ubu.es/grado-oficial-online-en-ingenieria-informatica/informacion-basica/trabajo-fin-de-grado/",
                   "icon": {
                     "type": "link",
                     "color": "#FF9800"
                   },
-                  "type": "button",
-                  "link": "https://www.ubu.es/grado-oficial-online-en-ingenieria-informatica/informacion-basica/trabajo-fin-de-grado/",
-                  "text": "Información movilidad cuatrimestre"
+                  "text": "Información movilidad cuatrimestre",
+                  "type": "button"
                 }
               ]
             ]

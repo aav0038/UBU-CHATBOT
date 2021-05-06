@@ -11,14 +11,26 @@
       "parameters": [],
       "messages": [
         {
-          "type": "0",
+          "type": "4",
           "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Perdona, no he entendido, dame más detalles sobre tu pregunta. Sigue las siguientes recomendaciones:",
+                    "1) Escribe una única pregunta por mensaje.",
+                    "2) Tu frase debe contener la pregunta completa.",
+                    "3) Si no he conseguido responder tu pregunta, intenta formularla de otra manera."
+                  ],
+                  "title": "",
+                  "type": "description"
+                }
+              ]
+            ]
+          },
           "textToSpeech": "",
           "lang": "es",
-          "speech": [
-            "No he entendido a qué te refieres, ¿podrías repetirlo, por favor?",
-            "Perdona, no he entendido, dame más detalles sobre tu pregunta"
-          ],
           "condition": ""
         }
       ],
