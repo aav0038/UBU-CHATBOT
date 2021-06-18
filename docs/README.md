@@ -1,3 +1,5 @@
+![logo](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+
 # Plantilla LaTeX
 
 La plantilla se compone de dos documentos maestros: uno para la memoria y otro para los anexos.
