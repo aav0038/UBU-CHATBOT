@@ -1,4 +1,4 @@
-![logo](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![logo](https://raw.githubusercontent.com/aav0038/CHATBOT_TFG/master/Oso36x36.png)
 
 # Plantilla LaTeX
 
