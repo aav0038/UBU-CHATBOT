@@ -10,7 +10,7 @@ Bot conversacional (chatbot) cuyo objetivo es dar respuesta a todas las dudas qu
 
 # Description
 
-Chatbot which pourpose is to give an answer to all the questions that the students could have about how it works the end-of-degree project. It has two versions: for presential and online modalities. UBUChatbot is integrated in the Moodle plataform of the University and Slack. Currently only supports Spanish language
+Chatbot which pourpose is to give an answer to all the questions that the students could have about how it works the end-of-degree project. It has two versions: for presential and online modalities. UBUChatbot is integrated in the Moodle plataform of the University and Slack. Currently only supports Spanish.
 
 # Описание
 
