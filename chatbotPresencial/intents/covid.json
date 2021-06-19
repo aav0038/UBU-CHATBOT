@@ -1,0 +1,50 @@
+{
+  "id": "4e940f07-e6f7-49ea-bfb4-b528189810b3",
+  "name": "covid",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1fd93c24-bc2a-4a53-b80e-15388a05a449",
+          "name": "covid",
+          "required": false,
+          "dataType": "@covid",
+          "value": "$covid",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "El próximo lunes 24 de junio es la fecha límite para la entrega de trabajos de la convocatoria ordinaria del segundo semestre.\nEn esta convocatoria, la entrega y defensa será totalmente presencial como en enero y febrero. Por lo tanto, debéis realizar la entrega en la Secretaría del Centro y en la tarea habilitada en UBUVirtual."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

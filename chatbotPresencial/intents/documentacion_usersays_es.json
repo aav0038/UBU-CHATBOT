@@ -1,0 +1,237 @@
+[
+  {
+    "id": "b0ee9f9c-b8c5-4b5f-babb-6f1bc4e41e21",
+    "data": [
+      {
+        "text": "que documentación tengo que entregar?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "85e25365-41c2-4b23-a500-7694941dbabb",
+    "data": [
+      {
+        "text": "Tengo que dar ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " copia en ",
+        "userDefined": false
+      },
+      {
+        "text": "papel",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "aa570fe5-48c9-4437-86f5-ecc084634673",
+    "data": [
+      {
+        "text": "Tengo que dar ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " copia presencial",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3fd08c6c-8ecc-4530-851d-5e250cf3d3f1",
+    "data": [
+      {
+        "text": "Hay que imprimir la memoria?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d88c42f3-f434-42df-ac08-61c8cf4b40e8",
+    "data": [
+      {
+        "text": "que documentación hay que aportar en la presentacion del TFG ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "52633563-5fdd-42c0-ad85-3a8094f634b6",
+    "data": [
+      {
+        "text": "¿hay que presentar el proyecto impreso?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "2831572f-2019-48d2-a035-082dd58ca056",
+    "data": [
+      {
+        "text": "Tengo que entregar copias impresas de los documentos?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8d6e5d9c-7b75-4c2e-af40-27e77aab2990",
+    "data": [
+      {
+        "text": "cuantas copias hacen falta?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ee3524bd-f633-4047-b2fd-66133d863164",
+    "data": [
+      {
+        "text": "cuantas copias tengo que entregar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "153dd771-1fde-4a1d-9101-8b12cf968a72",
+    "data": [
+      {
+        "text": "que documentación nos piden",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "4f3ed7e2-7367-433a-b817-abb4351dae9c",
+    "data": [
+      {
+        "text": "que documentacion se nos piden",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ae46d9ee-eef0-4e6f-83f1-d7ac4048f6a4",
+    "data": [
+      {
+        "text": "que documentación tengo que entregar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1d6cef68-a872-42b0-9289-a8ad9560e693",
+    "data": [
+      {
+        "text": "que documentación entrego",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c210e464-b81f-4b08-b2f8-79c8f3b15698",
+    "data": [
+      {
+        "text": "¿cuál es la documentación a entregar?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9072ce47-9bca-4b73-8de7-f951b75004f6",
+    "data": [
+      {
+        "text": "¿que tengo que entregar?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "28af2571-bedd-4539-a097-f794a3e4f7f9",
+    "data": [
+      {
+        "text": "¿Cuántas copias de la documentación hay que entregar?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

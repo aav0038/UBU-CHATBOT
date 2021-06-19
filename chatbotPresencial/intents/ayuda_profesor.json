@@ -1,0 +1,35 @@
+{
+  "id": "dd3c3d63-d984-47b6-8cab-5737832e09c5",
+  "name": "ayuda_profesor",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "El principal apoyo para ayudarte con tu TFG será tu tutor o tutora. En caso de que haya algún problema concreto que necesite la consulta a otros profesores él o ella te lo indicará."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "38944421-8e5f-48ec-82f7-967cc5e92fc3",
+    "data": [
+      {
+        "text": "hacerlo sin tutor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9caeeb0e-4997-4aa7-8a5e-dfab6bdfc3e1",
+    "data": [
+      {
+        "text": "no quiero tener tutor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "cea8128f-9d4f-4bd8-a70a-ad63564a589a",
+    "data": [
+      {
+        "text": "hacer ",
+        "userDefined": false
+      },
+      {
+        "text": "tfg",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " sin tutor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

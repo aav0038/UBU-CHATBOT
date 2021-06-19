@@ -1,0 +1,85 @@
+[
+  {
+    "id": "2acc6cae-7405-4561-9ead-c9ab1b3122ed",
+    "data": [
+      {
+        "text": "¿puedo cambiar de tutor?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9e3d10e8-114a-4174-bc39-a6e0ac76e98c",
+    "data": [
+      {
+        "text": "quiero cambiar el tema de ",
+        "userDefined": false
+      },
+      {
+        "text": "mi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tfg",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1a362f4a-2872-4b6a-aa14-5cc751fc92a4",
+    "data": [
+      {
+        "text": "quiero cambiar de tutor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9ed1fa8a-4f9f-4e19-919e-0a0412e95157",
+    "data": [
+      {
+        "text": "quiero cambiar de tema",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "a494d95a-1ea1-4727-a939-c35c26dc8337",
+    "data": [
+      {
+        "text": "¿Puedo cambiar de TFG/tutor si ya tengo ",
+        "userDefined": false
+      },
+      {
+        "text": "uno asignado",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

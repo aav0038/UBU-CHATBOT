@@ -1,0 +1,41 @@
+[
+  {
+    "id": "59dc3a7e-80c3-4329-a416-e79c388b4eec",
+    "data": [
+      {
+        "text": "quiero impugnar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e0b101e6-d4e3-4ffc-a233-49697840b84c",
+    "data": [
+      {
+        "text": "se puede impugnar?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "52ce7506-fb11-46c2-86e5-1b3a6d8ec1e9",
+    "data": [
+      {
+        "text": "impugnar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

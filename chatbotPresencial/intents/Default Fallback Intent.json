@@ -1,0 +1,48 @@
+{
+  "id": "3bf59496-c834-4660-81ed-2654cd0dbdd2",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Perdona, no he entendido, dame más detalles sobre tu pregunta. Sigue las siguientes recomendaciones:",
+                    "1) Escribe una única pregunta por mensaje.",
+                    "2) Tu frase debe contener la pregunta completa.",
+                    "3) Si no he conseguido responder tu pregunta, intenta formularla de otra manera."
+                  ],
+                  "title": "",
+                  "type": "description"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

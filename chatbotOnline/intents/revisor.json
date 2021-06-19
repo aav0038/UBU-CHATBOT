@@ -1,0 +1,50 @@
+{
+  "id": "01fedeb5-7461-42a6-867b-0b2345ac46a6",
+  "name": "revisor",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "60bc72aa-0583-43dc-8be1-441c7af2bdc7",
+          "name": "tfg",
+          "required": false,
+          "dataType": "@tfg",
+          "value": "$tfg",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "El revisor es el tribunal del TFG en el curso actual. Se puede ver su composición en la portada de la asignatura en UBUVirtual."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

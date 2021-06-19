@@ -1,0 +1,50 @@
+{
+  "id": "f25f332f-c219-4cf8-8932-97f33f296ea9",
+  "name": "cualquier_profesor",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a8f9a71f-04ab-4943-baf9-0ab2ece2e80f",
+          "name": "tfg",
+          "required": false,
+          "dataType": "@tfg",
+          "value": "$tfg",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "El TFG se realizará bajo la supervisión de uno o más tutores académicos, donde, al menos uno de ellos, será docente de alguna de las asignaturas de la rama común de grado o de tecnologías específicas. En el caso de los títulos en modalidad On-Line, además al menos uno de los tutores deberá haber impartido docencia on-line en alguna asignatura del título. Es aconsejable que haya un tutor que pertenezca al tribunal para ayudar a gestionar las particularidades del proceso de la modalidad online."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

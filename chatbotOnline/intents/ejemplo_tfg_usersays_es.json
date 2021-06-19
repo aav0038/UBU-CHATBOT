@@ -1,0 +1,56 @@
+[
+  {
+    "id": "8d10e05d-cf32-411f-bb32-1c94664f22fe",
+    "data": [
+      {
+        "text": "algún ejemplo de ",
+        "userDefined": false
+      },
+      {
+        "text": "tfg",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e141d539-a307-40a6-866f-32f9a6344f5d",
+    "data": [
+      {
+        "text": "ver ejemplo ",
+        "userDefined": false
+      },
+      {
+        "text": "tfg",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "25806187-5e86-4a7b-9439-c5fea1e23fc1",
+    "data": [
+      {
+        "text": "ejemplos ",
+        "userDefined": false
+      },
+      {
+        "text": "tfg",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

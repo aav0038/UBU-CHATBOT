@@ -1,0 +1,28 @@
+[
+  {
+    "id": "88b71e5d-d386-4c93-ba1e-6ea323c1424a",
+    "data": [
+      {
+        "text": "acusacion plagio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "990bdb62-ea91-4f09-af63-609fd698f550",
+    "data": [
+      {
+        "text": "plagio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

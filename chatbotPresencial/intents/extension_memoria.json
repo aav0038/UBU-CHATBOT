@@ -1,0 +1,35 @@
+{
+  "id": "09206c75-493d-4fa5-9cfe-c9fa69c422c4",
+  "name": "extension_memoria",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "La memoria no tiene un límite establecido de páginas, pero se recomienda estar en un intervalo de 35 a 75 páginas. En caso de ser necesario extender la documentación, se pueden agregar anexos."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

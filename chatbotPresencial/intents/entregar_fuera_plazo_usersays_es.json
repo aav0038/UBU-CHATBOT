@@ -1,0 +1,94 @@
+[
+  {
+    "id": "2e5a2d0c-1191-489c-b10d-078721412a23",
+    "data": [
+      {
+        "text": "puedo entregarlo si ",
+        "userDefined": false
+      },
+      {
+        "text": "ha",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " pasado la fecha de entrega?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "05d0762b-c07b-4249-b234-2dc45a19abdd",
+    "data": [
+      {
+        "text": "puedo entregarlo con retraso?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3b793a15-8a24-46e6-8811-dd7a291d47dc",
+    "data": [
+      {
+        "text": "puedo entregarlo fuera de plazo?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "2d73e164-ad44-4aaa-98a3-2b6cf8b31c3f",
+    "data": [
+      {
+        "text": "entregar fuera de plazo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "6eecb40a-025b-4eaf-a060-594ae278ba23",
+    "data": [
+      {
+        "text": "puedo entregar ",
+        "userDefined": false
+      },
+      {
+        "text": "mi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " trabajo ",
+        "userDefined": false
+      },
+      {
+        "text": "tarde",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

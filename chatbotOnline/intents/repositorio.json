@@ -1,0 +1,35 @@
+{
+  "id": "5748ce20-536f-4657-846e-5b747316cfb6",
+  "name": "repositorio",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "El uso de repositorios de software y gestores de tareas se explican en la asignatura de gestión de proyectos. Puedes consultar algunos los vídeos de la asignatura en la siguiente lista de reproducción https://www.youtube.com/playlist?list\u003dPLZ9ew3yS01RTLJvA3Ym85ePswWBhNWzNr"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

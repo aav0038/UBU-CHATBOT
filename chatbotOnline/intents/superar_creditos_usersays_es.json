@@ -1,0 +1,89 @@
+[
+  {
+    "id": "8228dfc8-c058-4f61-88cb-044cfb5d762c",
+    "data": [
+      {
+        "text": "supero numero de creditos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "2540343c-34a8-420a-8886-4e9dd4b098a8",
+    "data": [
+      {
+        "text": "superar numero credito",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "525a0e05-39a1-441a-a087-2b27dd4e4e75",
+    "data": [
+      {
+        "text": "¿Que pasa si supero el maximo de creditos?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1dddbf61-183a-4e84-81cd-3e826528330d",
+    "data": [
+      {
+        "text": "¿puedo superar el maximo de creditos?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "367e5711-d7f4-47e4-8521-cd4e2d18fd12",
+    "data": [
+      {
+        "text": "me paso de creditos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c75724e4-f50d-4138-aaab-40e1ec5cf0c6",
+    "data": [
+      {
+        "text": "¿Si supero ",
+        "userDefined": false
+      },
+      {
+        "text": "los 30",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " créditos puedo cursarlo?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

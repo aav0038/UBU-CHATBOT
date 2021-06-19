@@ -1,0 +1,28 @@
+[
+  {
+    "id": "37a831d0-d595-43f2-84cc-78155f681ec5",
+    "data": [
+      {
+        "text": "lo quiero convalidar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "5aaf67ce-d3c4-4df5-ba57-b9bd6ffe267e",
+    "data": [
+      {
+        "text": "se puede convalidar?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

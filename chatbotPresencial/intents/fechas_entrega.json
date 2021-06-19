@@ -1,0 +1,73 @@
+{
+  "id": "6560f849-1e75-4987-ba7f-fc46ad2e1494",
+  "name": "fechas_entrega",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "slack",
+          "title": "",
+          "payload": {
+            "slack": {
+              "attachments": [
+                {
+                  "title": "Calendario de entrega",
+                  "title_link": "https://clopezno.github.io/tfg_gii_online/"
+                }
+              ],
+              "text": "Las fechas de entrega del TFG se aprueban en la Junta de Escuela Politécnica cada curso y se publican en la página oficial del Grado.\n\nEn el siguiente enlace podrás ver el calendario de entrega de los dos semestres y extraordinaria aprobado por Junta de EPS."
+            }
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "El próximo lunes 24 de junio es la fecha límite para la entrega de trabajos de la convocatoria ordinaria del segundo semestre.",
+                    "En el siguiente enlace podrás ver el calendario de entrega de los dos cuatrimestres ordinarios y la convocatoria extraordinaria de septiembre, aprobado por Junta de Escuela Politécnica Superior."
+                  ],
+                  "type": "description"
+                },
+                {
+                  "text": "Calendario de entregas",
+                  "icon": {
+                    "type": "link",
+                    "color": "#FF9800"
+                  },
+                  "link": "https://www.ubu.es/grado-oficial-online-en-ingenieria-informatica/informacion-basica/trabajo-fin-de-grado/",
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "c1bb5a9f-881b-45d2-af17-902c7cd1852c",
+  "name": "que_cuatrimestre-adelantarASeptiembre",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "que_cuatrimestre.que_cuatrimestre-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Si quieres adelantar la convocatoria de enero a septiembre, habiendo elegido previamente la movilidad al primer cuatrimestre, tienes que presentar una instancia al director en la Secretaría Administrativa del Campus Vena de la EPS."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

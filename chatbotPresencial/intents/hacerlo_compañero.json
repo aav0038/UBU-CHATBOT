@@ -1,0 +1,35 @@
+{
+  "id": "a8f17135-a640-40f0-ace1-fcb700207e1f",
+  "name": "hacerlo_compañero",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "No. La normativa ministerial obliga a que sean individuales (más información en https://www.boe.es/diario_boe/txt.php?id\u003dBOE-A-2009-12977)"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

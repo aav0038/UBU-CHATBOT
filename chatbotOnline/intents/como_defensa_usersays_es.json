@@ -1,0 +1,63 @@
+[
+  {
+    "id": "812303dd-f4e8-433f-952d-d2d0c1bfe09e",
+    "data": [
+      {
+        "text": "¿cómo son las defensas?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "aedbc1c5-3a31-4aae-9a84-e5a2ee291b13",
+    "data": [
+      {
+        "text": "¿Cómo se hace la defensa del ",
+        "userDefined": false
+      },
+      {
+        "text": "tfg",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "935e6684-15e0-4358-9f9e-b1d6e97f87d3",
+    "data": [
+      {
+        "text": "defensa del tfg",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "29547b1b-c824-498a-a5d0-758dfd34e895",
+    "data": [
+      {
+        "text": "¿Cómo se hace la defensa del proyecto?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

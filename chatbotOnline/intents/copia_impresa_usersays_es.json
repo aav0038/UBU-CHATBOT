@@ -1,0 +1,50 @@
+[
+  {
+    "id": "930d5558-8dcb-4806-aae2-90bc7f316c88",
+    "data": [
+      {
+        "text": "hace falta copia impresa?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1454018f-5735-4f95-92ba-f4ff5ecce54e",
+    "data": [
+      {
+        "text": "hace falta entregar copia en ",
+        "userDefined": false
+      },
+      {
+        "text": "papel",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f88d3c10-b0ff-4efc-8567-1042e8418a4e",
+    "data": [
+      {
+        "text": "copia impresa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

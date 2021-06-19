@@ -1,0 +1,78 @@
+[
+  {
+    "id": "a4d55eaa-99f9-4654-96b3-5ec4a235e789",
+    "data": [
+      {
+        "text": "mover ",
+        "userDefined": false
+      },
+      {
+        "text": "de junio a septiembre",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1b551a2e-4dd3-467c-8bff-a604dfb12cca",
+    "data": [
+      {
+        "text": "atrasar ",
+        "userDefined": false
+      },
+      {
+        "text": "de junio a septiembre",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "fa2b7337-556c-467e-a250-1c6461f35368",
+    "data": [
+      {
+        "text": "cambiar ",
+        "userDefined": false
+      },
+      {
+        "text": "de junio a septiembre",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f25321ba-649f-4965-83af-b1f60257a7f8",
+    "data": [
+      {
+        "text": "¿Puedo retrasar la convocatoria ",
+        "userDefined": false
+      },
+      {
+        "text": "de junio a septiembre",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

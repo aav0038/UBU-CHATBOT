@@ -1,0 +1,59 @@
+[
+  {
+    "id": "9fe1733a-2592-4674-b1d7-c78b4c965748",
+    "data": [
+      {
+        "text": "eres un bot?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "46f5a6ac-068b-4afe-9277-66c05ef9560f",
+    "data": [
+      {
+        "text": "eres ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " persona?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "4831619a-bdae-4691-bf7d-bd58f526322e",
+    "data": [
+      {
+        "text": "eres ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " robot?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

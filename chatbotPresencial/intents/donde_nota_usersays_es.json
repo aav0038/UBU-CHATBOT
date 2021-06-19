@@ -1,0 +1,129 @@
+[
+  {
+    "id": "7b1bc8bf-0838-46fc-89b9-999f64d6d8c7",
+    "data": [
+      {
+        "text": "donde podré ver ",
+        "userDefined": false
+      },
+      {
+        "text": "mi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " nota",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "6257e796-e469-4010-a4e3-63a78dd6235d",
+    "data": [
+      {
+        "text": "publicación",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " calificaciones",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "07ed77e2-8f04-4d77-bff3-4dd50f0813c8",
+    "data": [
+      {
+        "text": "donde se publican notas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e5402074-83e9-4de1-bd72-6ae39ff9fd81",
+    "data": [
+      {
+        "text": "donde veo la calificación",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9c5b2033-061f-4ff6-8b79-230021b66da3",
+    "data": [
+      {
+        "text": "donde nota",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "28f50510-798f-4298-92f2-f9f3f47711d6",
+    "data": [
+      {
+        "text": "donde esta la nota",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "796dcef8-4c4b-430a-939f-0560b0484d78",
+    "data": [
+      {
+        "text": "¿Dónde se publican las notas del TFG?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "b801c2bc-4ecc-40a1-b06d-2ca571fb7be4",
+    "data": [
+      {
+        "text": "¿Dónde puedo ver ",
+        "userDefined": false
+      },
+      {
+        "text": "mi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " nota de TFG?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

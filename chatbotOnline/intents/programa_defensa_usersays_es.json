@@ -1,0 +1,54 @@
+[
+  {
+    "id": "dabe3568-8cd1-43c8-bb44-6486247b97fb",
+    "data": [
+      {
+        "text": "¿Con qué programa se realiza la defensa?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "fea23f7e-b630-438c-b5de-243135eed099",
+    "data": [
+      {
+        "text": "programa defensa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8da3e79c-79af-4abb-9213-7e09aed48c14",
+    "data": [
+      {
+        "text": "skype o teams?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "cc4ca45a-4a32-48ed-8b1c-b6ebdf56b1e9",
+    "data": [
+      {
+        "text": "programa videoconferencia",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

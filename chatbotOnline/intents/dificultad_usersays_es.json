@@ -1,0 +1,121 @@
+[
+  {
+    "id": "2dd43146-1975-4eef-b80d-20d43dba7af5",
+    "data": [
+      {
+        "text": "cual ",
+        "userDefined": false
+      },
+      {
+        "text": "es",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "la",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tasa de aprobados?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "a68f0b94-3d47-416a-82e2-2384e1e5eb93",
+    "data": [
+      {
+        "text": "que nivel de dificultad tiene?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "43914134-8616-4a51-88e6-8362593aae13",
+    "data": [
+      {
+        "text": "cuanta gente suspende?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "883f022f-92a5-456b-a4d5-ef3a5eb7d7ff",
+    "data": [
+      {
+        "text": "cuanta gente aprueba?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e2d468e7-18c5-4fb2-b204-fae9d34b598e",
+    "data": [
+      {
+        "text": "es",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " fácil aprobar?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f9c7b490-3a49-4a22-b68d-9d083fd89b8c",
+    "data": [
+      {
+        "text": "es",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " dificil aprobar?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d346b605-908e-49ca-8f4b-eeb199a3def8",
+    "data": [
+      {
+        "text": "dificultad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

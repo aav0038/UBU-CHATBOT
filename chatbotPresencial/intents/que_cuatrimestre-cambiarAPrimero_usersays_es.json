@@ -1,0 +1,129 @@
+[
+  {
+    "id": "77560fe3-9eb6-4da5-81ff-c7923c95347f",
+    "data": [
+      {
+        "text": "¿lo puedo hacer en el ",
+        "userDefined": false
+      },
+      {
+        "text": "primer",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " cuatrimestre?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ffbebecb-bc20-433f-8512-8811d41ccdb4",
+    "data": [
+      {
+        "text": "¿lo puedo hacer en ",
+        "userDefined": false
+      },
+      {
+        "text": "febrero",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e39d5b1a-cac8-4341-ae7f-9b517bc22771",
+    "data": [
+      {
+        "text": "¿y si lo quiero hacer en ",
+        "userDefined": false
+      },
+      {
+        "text": "febrero",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c24590e4-a7e6-46a2-b2b8-2709d5e01fec",
+    "data": [
+      {
+        "text": "¿y si lo quiero hacer en ",
+        "userDefined": false
+      },
+      {
+        "text": "enero",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "69d5c7be-9493-47cf-af62-7428d7cf5c70",
+    "data": [
+      {
+        "text": "¿y si lo quiero hacer antes?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "4c4a9446-2b97-4c9c-a3f0-2bf37bc5cf55",
+    "data": [
+      {
+        "text": "¿lo puedo cambiar?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "99c8c600-4a8a-4a7f-a4fe-cc1a91bb376b",
+    "data": [
+      {
+        "text": "¿y no se puede cambiar?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

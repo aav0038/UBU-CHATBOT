@@ -1,0 +1,59 @@
+[
+  {
+    "id": "27a180d9-ec6e-459b-a4d4-bc8368e56475",
+    "data": [
+      {
+        "text": "formato copia en ",
+        "userDefined": false
+      },
+      {
+        "text": "papel",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "34db7eb9-865f-4371-945d-ee46f9397acf",
+    "data": [
+      {
+        "text": "formato de entrega",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "69c8230c-dd06-49e2-a6d7-a87b269aa35e",
+    "data": [
+      {
+        "text": "¿En qué formato tengo que entregarlo?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "099f8e1b-27c7-461e-903c-e91b5786d861",
+    "data": [
+      {
+        "text": "formato",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

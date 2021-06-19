@@ -1,0 +1,35 @@
+{
+  "id": "44fbdca6-1c31-4e30-bde8-605d91b12349",
+  "name": "desde_cuando_entrega",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Se puede entregar desde el momento que las tareas estén abiertas en UBUVirtual, en la convocatoria correspondiente. El tribunal anunciará con varios días de antelación a la fecha límite de entrega la apertura del plazo."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

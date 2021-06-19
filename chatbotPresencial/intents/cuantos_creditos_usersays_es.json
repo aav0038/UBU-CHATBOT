@@ -1,0 +1,50 @@
+[
+  {
+    "id": "322bb866-5dd1-4237-963c-88665215e19d",
+    "data": [
+      {
+        "text": "con cuantos créditos se corresponde el tfg",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "57774943-6f14-4ced-842e-5d1277b4bdeb",
+    "data": [
+      {
+        "text": "cuantos creditos ",
+        "userDefined": false
+      },
+      {
+        "text": "es",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " el tfg",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "abe10604-4ac6-4d06-bb10-a9aa69939286",
+    "data": [
+      {
+        "text": "cuantos créditos otorga el TFG ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

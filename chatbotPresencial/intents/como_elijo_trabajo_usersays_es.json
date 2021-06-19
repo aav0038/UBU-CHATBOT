@@ -1,0 +1,244 @@
+[
+  {
+    "id": "4d536fd5-24e7-4744-9e87-f35a757e2d06",
+    "data": [
+      {
+        "text": "como hago ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tfg",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1c46a481-ca64-49d7-90d8-b98b29f89ecd",
+    "data": [
+      {
+        "text": "busco",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tfg",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f1c10b58-ebe0-47aa-991a-f89473cdd99a",
+    "data": [
+      {
+        "text": "quiero ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tfg",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e5a9039d-8c58-4291-bfbc-8da1a0da964a",
+    "data": [
+      {
+        "text": "por donde empiezo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c4e337db-4a47-4dae-9027-1eb84ee14a61",
+    "data": [
+      {
+        "text": "cómo puedo hacer ",
+        "userDefined": false
+      },
+      {
+        "text": "mi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " trabajo de ",
+        "userDefined": false
+      },
+      {
+        "text": "fin de",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " grado?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e667cbf7-d3d5-434e-b911-140095390708",
+    "data": [
+      {
+        "text": "como elijo ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tema",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "efc8e458-0289-4150-b2cd-ecbd8cb6de49",
+    "data": [
+      {
+        "text": "Como elijo ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tema",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "145acb48-3360-423c-97f9-eae2632b2e75",
+    "data": [
+      {
+        "text": "¿cómo ",
+        "userDefined": false
+      },
+      {
+        "text": "presento",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " la propuesta?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "fe5f8e7c-1649-4173-b478-92a765cffe93",
+    "data": [
+      {
+        "text": "Cómo hago ",
+        "userDefined": false
+      },
+      {
+        "text": "mi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " TFG?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "47ee4900-48a4-4563-81d4-5bb6f2676337",
+    "data": [
+      {
+        "text": "pasos a seguir",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "980ac6a5-fc56-4f5b-8d6b-e3100f3b1535",
+    "data": [
+      {
+        "text": "como elegir trabajo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "af672628-3ec6-419c-ba80-7428635938a1",
+    "data": [
+      {
+        "text": "como elijo trabajo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

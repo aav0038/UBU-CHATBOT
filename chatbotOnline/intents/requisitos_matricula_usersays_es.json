@@ -1,0 +1,41 @@
+[
+  {
+    "id": "14d52b62-4096-41da-8952-399ad5057d1f",
+    "data": [
+      {
+        "text": "¿Cuáles son los requisitos para matricularme?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "5e3042e7-7013-4e51-8c2f-42d7bba0d4ac",
+    "data": [
+      {
+        "text": "requisitos para matricularme",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c440bf03-e424-4897-986c-c873d1c03d60",
+    "data": [
+      {
+        "text": "requisitos matricula",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

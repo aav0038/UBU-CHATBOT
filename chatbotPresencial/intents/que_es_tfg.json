@@ -1,0 +1,50 @@
+{
+  "id": "43a116cf-318b-4ff5-aaae-68f951cb72d7",
+  "name": "que_es_tfg",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "58c74483-6b1d-4212-bbd3-8d77473cbda1",
+          "name": "tfg",
+          "required": false,
+          "dataType": "@tfg",
+          "value": "$tfg",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Un TFG es aplicación autónoma e integral de algunos conceptos aprendidos en las distintas asignaturas del Grado. El estudiante actúa como gestor del proceso de para resolver los problemas planteados en TFG. Todo TFG tiene un tutor o tutora del Grado asignado."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

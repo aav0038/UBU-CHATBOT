@@ -1,0 +1,41 @@
+[
+  {
+    "id": "0346b1ce-06dd-4ef0-b82a-2ae2fd77aa18",
+    "data": [
+      {
+        "text": "¿Qué ocurre si tengo problemas de conexión durante la presentación?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "b2a066fd-c65a-4c55-b679-cf0c1e514775",
+    "data": [
+      {
+        "text": "que pasa si hay problemas de conexion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "02ab0400-88f7-4e4b-afaf-ad1d5dcc685e",
+    "data": [
+      {
+        "text": "problemas conexion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "2c5d4faa-9b90-4a86-aadc-99b96a3f0982",
+    "data": [
+      {
+        "text": "Como se asigna la matrícula de honor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "dba939cc-057c-4b67-804e-f6cc391c33b0",
+    "data": [
+      {
+        "text": "hay matricula de honor?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8eb43198-c595-4274-8912-dd39074f36bf",
+    "data": [
+      {
+        "text": "como se adjudica la matricula de honor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d81d50c3-a6a2-4fc9-8083-677d971d099d",
+    "data": [
+      {
+        "text": "matricula honor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "42624b93-989c-48c1-823c-2b45cec84006",
+    "data": [
+      {
+        "text": "matricula de honor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

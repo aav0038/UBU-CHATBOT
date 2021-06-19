@@ -1,0 +1,53 @@
+{
+  "id": "04d1c2c2-04cb-460e-8f7b-489740fcd4b9",
+  "name": "cuando_toca_exponer",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "Finalizada la entrega en UBUVirtual, se publica en los días posteriores el calendario y orden de defensas, dentro los días habilitados para la misma según el calendario de la EPS."
+                  ]
+                },
+                {
+                  "icon": {
+                    "color": "#FF9800",
+                    "type": "link"
+                  },
+                  "type": "button",
+                  "text": "Calendario acedémico EPS",
+                  "link": "https://www.ubu.es/escuela-politecnica-superior/informacion-academica/calendario-academico-eps"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

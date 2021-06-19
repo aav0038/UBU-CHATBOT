@@ -1,0 +1,50 @@
+[
+  {
+    "id": "668890eb-7f31-442a-9480-d9707e0df75d",
+    "data": [
+      {
+        "text": "memoria de ejemplo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d30c633b-d4ae-4861-a5b9-f1939d2eedef",
+    "data": [
+      {
+        "text": "quiero ver ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ejemplo de memoria",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "788145bd-d8db-47c0-87a0-879a7177cf23",
+    "data": [
+      {
+        "text": "ejemplo memoria",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

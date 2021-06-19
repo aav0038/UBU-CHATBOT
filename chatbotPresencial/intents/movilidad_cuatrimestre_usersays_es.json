@@ -1,0 +1,124 @@
+[
+  {
+    "id": "333dc869-a408-4e84-be74-201e85e62644",
+    "data": [
+      {
+        "text": "quiero retrasar la convocatoria",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "a282d837-fcba-4a6f-991b-30e5061d8f87",
+    "data": [
+      {
+        "text": "como se modifica la convocatoria",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "39f15fd7-2a65-4c00-8e33-c682beffe604",
+    "data": [
+      {
+        "text": "¿cómo puedo adelantar la convocatoria?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "2253bc2d-740e-48d7-88ea-647ae38e892d",
+    "data": [
+      {
+        "text": "¿puedo cambiar de cuatrimestre?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "4eea5d95-ddc4-4ac8-b25d-45da1f51f126",
+    "data": [
+      {
+        "text": "¿Puedo cambiar de semestre?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "4a62f4c1-80de-46bc-9414-21dd17a42ede",
+    "data": [
+      {
+        "text": "¿Puedo hacerlo el ",
+        "userDefined": false
+      },
+      {
+        "text": "primer",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " cuatrimestre?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f3bc1faf-05a6-4064-a520-018d5d45dd0d",
+    "data": [
+      {
+        "text": "¿Puedo adelantar el tfg a ",
+        "userDefined": false
+      },
+      {
+        "text": "enero",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "aedef524-a05e-4f8e-bac5-70bd46f346b6",
+    "data": [
+      {
+        "text": "¿Como puedo solicitar la movilidad de cuatrimestre?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

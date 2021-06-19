@@ -1,0 +1,68 @@
+{
+  "id": "ced250e9-59b5-4a5d-8b4f-6f432f0ce463",
+  "name": "tasas",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "59b8bc71-571f-480d-96e0-9a228e046768",
+          "name": "tfg",
+          "required": false,
+          "dataType": "@tfg",
+          "value": "$tfg",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Las tasas son las habituales en función del número de créditos del TFG. La información está disponible en  el siguiente enlace:"
+                  ],
+                  "type": "description"
+                },
+                {
+                  "link": "https://www.ubu.es/acceso-admision-y-matricula/matricula/matricula-de-grado/precios-publicos/escuela-politecnica-superior/grado-en-ingenieria-informatica",
+                  "icon": {
+                    "type": "link",
+                    "color": "#FF9800"
+                  },
+                  "type": "button",
+                  "text": "Información tasas"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

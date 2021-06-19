@@ -1,0 +1,53 @@
+{
+  "id": "654d8ec8-9852-4bf1-b3a7-a75702c43131",
+  "name": "que_cuatrimestre-cambiarAPrimero",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "que_cuatrimestre.que_cuatrimestre-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "Puedes cambiarlo al primer cuatrimestre, para ello debes presentar una instancia solicitando la movilidad de cuatrimestre en la Secretaría Administrativa del Campus Vena de EPS. Puedes consultar más información aquí: "
+                  ]
+                },
+                {
+                  "type": "button",
+                  "icon": {
+                    "type": "link",
+                    "color": "#FF9800"
+                  },
+                  "text": "Más información",
+                  "link": " https://www.ubu.es/grado-en-ingenieria-informatica/informacion-basica/trabajo-fin-de-grado"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

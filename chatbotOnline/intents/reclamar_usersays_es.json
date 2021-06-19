@@ -1,0 +1,103 @@
+[
+  {
+    "id": "7e6a13f3-aca7-44de-9ace-d0117b8b29d7",
+    "data": [
+      {
+        "text": "Puedo recurrir si no estoy de acuerdo con la nota?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "b876e3b6-9c7c-4aeb-8c86-d16801b33171",
+    "data": [
+      {
+        "text": "como puedo reclamar la nota",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "cc6a055c-66a9-4378-97ec-05fcbe89c629",
+    "data": [
+      {
+        "text": "reclamar nota",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "0db289aa-b589-4538-8b72-44c3309b487d",
+    "data": [
+      {
+        "text": "Como puedo reclamar la nota del ",
+        "userDefined": false
+      },
+      {
+        "text": "TFG",
+        "meta": "@tfg",
+        "alias": "tfg",
+        "userDefined": false
+      },
+      {
+        "text": " si no estoy conforme",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "73c0162b-946b-4b54-b068-660b018b474a",
+    "data": [
+      {
+        "text": "quiero reclamar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "4aaf8c59-df6e-427b-b94f-d02bc87d5d23",
+    "data": [
+      {
+        "text": "como puedo reclamar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "4476cad2-75ac-4df2-8d17-e127958ddb09",
+    "data": [
+      {
+        "text": "como reclamo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "18324c37-9879-4e94-9c53-8423e6be279e",
+    "data": [
+      {
+        "text": "hijo de puta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ba0234c0-c12d-4070-b287-ce9e11c26bd9",
+    "data": [
+      {
+        "text": "eres tontisimo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "7924f2d3-ba31-47cb-a7fe-4e4cf7a0118e",
+    "data": [
+      {
+        "text": "gilipollas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1a3f33f5-9d25-4097-bb39-edc650bd6224",
+    "data": [
+      {
+        "text": "gilipoyas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "a6d52628-53b8-40e6-9e55-6ccc709a1019",
+    "data": [
+      {
+        "text": "muerete",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "18cb4225-e8e2-43cb-8ddf-b39145570772",
+    "data": [
+      {
+        "text": "subnormal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3345f0fc-f0c9-4df7-ac20-150e1fb6162d",
+    "data": [
+      {
+        "text": "eres ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " robot de mierda",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

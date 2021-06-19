@@ -1,0 +1,60 @@
+[
+  {
+    "id": "8f1ff772-78d5-4ea4-81d9-9b402652ba37",
+    "data": [
+      {
+        "text": "quien ",
+        "userDefined": false
+      },
+      {
+        "text": "es",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " el revisor?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "24fec388-3d28-4bc1-9703-a8188464fed2",
+    "data": [
+      {
+        "text": "quien revisa el ",
+        "userDefined": false
+      },
+      {
+        "text": "tfg",
+        "meta": "@tfg",
+        "alias": "tfg",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "b06b67e5-0488-4589-8578-2a4bcb70f483",
+    "data": [
+      {
+        "text": "revisor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

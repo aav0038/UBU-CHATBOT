@@ -1,0 +1,35 @@
+{
+  "id": "772111d1-ef80-448b-bf39-12fc0c37492c",
+  "name": "avisar_no_presentar",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Deberías informar a tu tutor o tutora asignado. No es necesario informar al tribunal, puesto que al igual que en cualquier otra asignatura en la que no te presentas a una prueba , se calificará como “No presentado”."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

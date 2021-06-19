@@ -1,0 +1,108 @@
+{
+  "id": "92efca75-5067-4a2c-b932-be6938790deb",
+  "name": "referencias",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Las referencias tienen que tener el siguiente formato: "
+                  ],
+                  "type": "description"
+                },
+                {
+                  "link": "https://www.ubu.es/aprendizaje-e-investigacion/recursos-aprendizaje-investigacion/referencias-bibliograficas-y-las-citas/",
+                  "type": "button",
+                  "text": "Formato de las referencias",
+                  "icon": {
+                    "color": "#FF9800",
+                    "type": "link"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Para ello puedes ayudarte de las siguientes herramientas: "
+                  ],
+                  "type": "description"
+                },
+                {
+                  "text": "EndNote",
+                  "icon": {
+                    "color": "#05B20B",
+                    "type": "link"
+                  },
+                  "type": "button",
+                  "link": "https://endnote.com/"
+                },
+                {
+                  "icon": {
+                    "type": "link",
+                    "color": "#05B20B"
+                  },
+                  "text": "Mendeley",
+                  "link": "https://www.mendeley.com/",
+                  "type": "button"
+                },
+                {
+                  "text": "Zotero",
+                  "icon": {
+                    "color": "#05B20B",
+                    "type": "link"
+                  },
+                  "type": "button",
+                  "link": "https://www.zotero.org/"
+                },
+                {
+                  "link": "https://www.jabref.org/",
+                  "text": "JabRef",
+                  "type": "button",
+                  "icon": {
+                    "type": "link",
+                    "color": "#05B20B"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "87fd04a4-fb67-4903-a842-d2420765eb28",
+    "data": [
+      {
+        "text": "hace falta avisar de que no me presento?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "7311c156-62c8-4ed4-857f-f10167beb719",
+    "data": [
+      {
+        "text": "avisar si no me presento",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "64083e73-52f8-415e-b764-4617a9b585d4",
+    "data": [
+      {
+        "text": "¿Tengo que avisar si no me presento a la ",
+        "userDefined": false
+      },
+      {
+        "text": "primera",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " convocatoria?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

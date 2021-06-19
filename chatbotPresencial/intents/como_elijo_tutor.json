@@ -1,0 +1,35 @@
+{
+  "id": "c54d2094-f263-4c11-a328-bf27f5a9d5e9",
+  "name": "como_elijo_tutor",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "En la modalidad C de oferta de TFG por el alumno una buena opción es identificar los conceptos teóricos principales que se necesitan en el TFG y buscar a los profesores de las guías docentes de las asignaturas del Grado que te los enseñaron."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "87fe8530-95b6-4c92-b2f4-b7ffd5f5d153",
+  "name": "horas_trabajo",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Al corresponderse con 12 créditos de la titulación, la carga de trabajo estimada es de 300 horas. El tiempo real depende mucho de los conocimientos del concretos del TFG y de las habilidades del estudiante para relacionarlos."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "b41e741b-99d3-4fcb-a13f-a93e799b349f",
+  "name": "tasa_segunda_matricula",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Los créditos de TFG tienen el mismo precio que los créditos del resto de asignaturas en segunda matrícula. Puede consultarse el precio actual en: https://www.ubu.es/acceso-admision-y-matricula/matricula/matricula-de-grado/precios-publicos/escuela-politecnica-superior/grado-en-ingenieria-informatica"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "17da4a9d-debb-4543-b870-530fe05fa98e",
+    "data": [
+      {
+        "text": "tutor que quiera",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "505ab3af-7854-46c4-a211-e7946cb23192",
+    "data": [
+      {
+        "text": "profesor que quiera",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "42e2b748-5987-4797-88a8-f0aa1dec69e3",
+    "data": [
+      {
+        "text": "puedo elegir el profesor que quiera?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1aea0b82-1f65-4acf-a0fd-25b64fe865ea",
+    "data": [
+      {
+        "text": "¿Puedo hacer el ",
+        "userDefined": false
+      },
+      {
+        "text": "TFG",
+        "meta": "@tfg",
+        "alias": "tfg",
+        "userDefined": false
+      },
+      {
+        "text": " con cualquier profesor?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

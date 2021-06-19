@@ -1,0 +1,60 @@
+[
+  {
+    "id": "3045a758-ac57-4a74-b871-3f8f7eab5148",
+    "data": [
+      {
+        "text": "que tasas hay que pagar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "35a428e2-8512-442a-b79c-c9e4288143ed",
+    "data": [
+      {
+        "text": "tasas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9573c169-3fcf-4f5a-bafb-43db8b1d86b5",
+    "data": [
+      {
+        "text": "tasa a pagar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "b6fe6fc2-9ee3-4351-b0b0-919e1ecb65c8",
+    "data": [
+      {
+        "text": "tasas ",
+        "userDefined": false
+      },
+      {
+        "text": "tfg",
+        "meta": "@tfg",
+        "alias": "tfg",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

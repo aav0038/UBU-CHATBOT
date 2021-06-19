@@ -1,0 +1,57 @@
+{
+  "id": "d8088e7c-3844-475a-808c-9c6fa1d5cfd4",
+  "name": "documentacion",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "Debes entregar: ",
+                    "·1 copia completa en papel de la memoria del TFG sin anexos en la Secretaría Administrativa del Campus Vena de la EPS. Impresa a dos caras utilizando la plantilla recomendada.",
+                    "·3 copias completas en soporte digital en la Secretaría Administrativa del Campus Vena de la EPS con la memoria, anexos, fuentes del proyecto, aplicación, otros recursos (vídeos, máquinas virtuales, software open source, etc.).",
+                    "·2 entregas de la memoria y anexos en formato pdf, una  en el curso de UBUVirtual y otra en la Comunidad GII.",
+                    "·Presentación: breve exposición con diapositivas (se entregará el día de la defensa)"
+                  ]
+                },
+                {
+                  "text": "Más información en este enlace",
+                  "type": "button",
+                  "icon": {
+                    "type": "link",
+                    "color": "#FF9800"
+                  },
+                  "link": "https://clopezno.github.io/index.html"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

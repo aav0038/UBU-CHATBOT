@@ -1,0 +1,137 @@
+[
+  {
+    "id": "afa39f87-7699-41b4-90cc-a9b10c2e608a",
+    "data": [
+      {
+        "text": "Cuanto tiene que ocupar ",
+        "userDefined": false
+      },
+      {
+        "text": "la memoria",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f93ab236-3946-4f28-96f1-37e1cb8a5754",
+    "data": [
+      {
+        "text": "hay máximo de páginas para la memoria?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ea5b95d4-8940-44c9-924e-7cf455626f90",
+    "data": [
+      {
+        "text": "cuanto ",
+        "userDefined": false
+      },
+      {
+        "text": "es",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " el mínimo de páginas que hay que hacer en la memoria?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "4783ff3e-53f2-4f38-bc22-e233ad951a69",
+    "data": [
+      {
+        "text": "de cuantas páginas tengo que hacer la memoria",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ae9e93e5-74e5-44ed-a6e1-0955b57f9132",
+    "data": [
+      {
+        "text": "número de páginas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "02fdcf99-93b8-4a53-8fb3-bcf067ba5cc5",
+    "data": [
+      {
+        "text": "que extensión tiene",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9790785c-2b40-4303-9054-fdb3037ca27c",
+    "data": [
+      {
+        "text": "¿cuántas páginas debe tener la memoria?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "a363c4ac-6230-497f-9481-826d66dabe0b",
+    "data": [
+      {
+        "text": "Que extension (número de páginas) debe de tener la memoria del tfg",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "0ba300d3-9b2b-4007-b5f5-7a4112abfe75",
+    "data": [
+      {
+        "text": "Que extension debe de tener la memoria?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

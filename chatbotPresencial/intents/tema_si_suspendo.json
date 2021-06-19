@@ -1,0 +1,35 @@
+{
+  "id": "d70a62f0-6690-4fc0-aa17-6e9eed62c6b9",
+  "name": "tema_si_suspendo",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "La asignación de un tema es válida exclusivamente para la matrícula del curso académico que corresponda. Posteriores matrículas implicarán, en principio, nuevas asignaciones, salvo que excepcionalmente el Tribunal correspondiente autorizase una prórroga por una sola vez."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

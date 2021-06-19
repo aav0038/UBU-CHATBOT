@@ -1,0 +1,33 @@
+[
+  {
+    "id": "c5fcf80c-8134-4454-85bb-26b74147f99e",
+    "data": [
+      {
+        "text": "¿Hacer el ",
+        "userDefined": false
+      },
+      {
+        "text": "TFG",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " en ",
+        "userDefined": false
+      },
+      {
+        "text": "empresa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " cuenta como hacer prácticas?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

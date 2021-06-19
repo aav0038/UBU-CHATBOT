@@ -1,0 +1,35 @@
+{
+  "id": "6393ba7d-f154-4056-bffa-6b34af23ae0f",
+  "name": "problemas_conexion",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Por parte del tribunal se intentará ser lo más comprensible con este tipo de problemas técnicos, pudiendo modificar el orden de presentación hasta la resolución de los problemas."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

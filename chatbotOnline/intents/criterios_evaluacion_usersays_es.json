@@ -1,0 +1,215 @@
+[
+  {
+    "id": "eb4121fd-d767-40e9-99d1-5d9e74fed6ba",
+    "data": [
+      {
+        "text": "Calificación",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "6e5e183b-2312-4f37-adff-5f0f79891074",
+    "data": [
+      {
+        "text": "¿Cómo se calcula la nota?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "853e2929-eae8-4902-b278-c66bd7751a49",
+    "data": [
+      {
+        "text": "¿Qué se ",
+        "userDefined": false
+      },
+      {
+        "text": "valora",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3ba0160e-13c2-49d8-aa13-1aaf1fa02174",
+    "data": [
+      {
+        "text": "cual es el criterio de correccion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "5aecc192-6a1a-4db2-a98c-60dd743e2858",
+    "data": [
+      {
+        "text": "como se puntua",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "065baa97-3eb7-4577-b801-f426e86b0cd7",
+    "data": [
+      {
+        "text": "como se corrige",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "bcde8733-2555-4df3-a59e-a06f227e74dc",
+    "data": [
+      {
+        "text": "Como puntúa el tfg",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "90f084b7-1954-4a92-977a-4a803085c783",
+    "data": [
+      {
+        "text": "cuales son los criterios de calificacion para el tfg ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e3bbc9a3-6699-4ac9-b899-d92d036d574d",
+    "data": [
+      {
+        "text": "como se determina la nota",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "681027b0-f4da-4ecb-ac4d-370bdd07e67d",
+    "data": [
+      {
+        "text": "cuales ",
+        "userDefined": false
+      },
+      {
+        "text": "son",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " los criterios de evaluación?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "6a9aee17-c6f0-48cb-a665-4e587fa0cdc3",
+    "data": [
+      {
+        "text": "como se evalua?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "27d49c46-792b-40de-8da0-405d0cba83a7",
+    "data": [
+      {
+        "text": "quien me calificará",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "a62acb87-24f2-4a1a-92cb-c45d1222a837",
+    "data": [
+      {
+        "text": "quien pone la nota",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e17cf6e1-8eea-48ba-b6c5-62dc2c72f81d",
+    "data": [
+      {
+        "text": "quienes evalúan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1046dfa9-b3fb-44ac-8e09-239ddc9b3275",
+    "data": [
+      {
+        "text": "quien evalua",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

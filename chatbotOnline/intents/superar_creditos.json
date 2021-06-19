@@ -1,0 +1,53 @@
+{
+  "id": "bccbd1d4-2f14-4175-b05a-56cb925f3e6a",
+  "name": "superar_creditos",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "Ponte en contacto con la Secretaría Administrativa del Campus Vena  "
+                  ]
+                },
+                {
+                  "text": "Administración de Estudiantes",
+                  "link": "https://www.ubu.es/escuela-politecnica-superior/escuela-politecnica-superior/escuela-politecnica-superior-campus-rio-vena/escuela-politecnica-superior-campus-rio-vena-secretaria-administrativa",
+                  "type": "button",
+                  "icon": {
+                    "color": "#FF9800",
+                    "type": "link"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

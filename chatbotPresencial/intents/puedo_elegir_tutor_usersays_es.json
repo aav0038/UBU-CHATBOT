@@ -1,0 +1,146 @@
+[
+  {
+    "id": "1d56c465-1a82-4e2b-bd05-3e54f66dbee1",
+    "data": [
+      {
+        "text": "Puedo hacer el tfg con cualquier profesor?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "534054e1-5f64-4846-8188-2c37f75e9618",
+    "data": [
+      {
+        "text": "Cómo puedo elegir a ",
+        "userDefined": false
+      },
+      {
+        "text": "mi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tutor de tfg?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "cad1cd2f-3acf-4f8e-9948-5fa3f462e9f6",
+    "data": [
+      {
+        "text": "Profesores que se pueden elegir como tutor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "bfc80c7b-7ea3-426d-8fa5-994a9f278a2d",
+    "data": [
+      {
+        "text": "Tutores disponibles",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e990fed2-2694-49a3-aa7e-44b7a7a253e9",
+    "data": [
+      {
+        "text": "¿Puede sir ",
+        "userDefined": false
+      },
+      {
+        "text": "mi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tutor cualquier profesor?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d2550e7a-d759-47d5-86c1-73181ce9efe4",
+    "data": [
+      {
+        "text": "¿Quién puede ser ",
+        "userDefined": false
+      },
+      {
+        "text": "mi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tutor?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ba2967ae-5222-4dc0-b072-f91bcd3fc6c6",
+    "data": [
+      {
+        "text": "¿puedo elegir el tutor que quiera?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3929593c-838c-4c45-a7e3-019d21e42cb4",
+    "data": [
+      {
+        "text": "quiero elegir tutor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "5434091b-f6c3-4bce-9e60-6ead3c4c5c1a",
+    "data": [
+      {
+        "text": "puedo elegir tutor?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

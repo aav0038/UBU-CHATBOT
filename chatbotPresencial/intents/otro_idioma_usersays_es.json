@@ -1,0 +1,37 @@
+[
+  {
+    "id": "4df6a802-762e-4ee5-b65a-4d1fc7e61fa4",
+    "data": [
+      {
+        "text": "lo puedo hacer en ",
+        "userDefined": false
+      },
+      {
+        "text": "ingles",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "a3f62c18-9357-435f-9455-74801698b5ef",
+    "data": [
+      {
+        "text": "puedo hacerlo en otro idioma?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

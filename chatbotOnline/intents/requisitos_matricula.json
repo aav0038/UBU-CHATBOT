@@ -1,0 +1,35 @@
+{
+  "id": "49f5627e-213f-4355-a849-99e3555c9a4f",
+  "name": "requisitos_matricula",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Para matricularse del Trabajo Fin de Grado es necesario haber superado un mínimo de 156 créditos y tener matriculados los créditos que restan para completar el plan de estudios."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

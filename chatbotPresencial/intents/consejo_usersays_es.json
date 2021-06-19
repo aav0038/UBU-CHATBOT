@@ -1,0 +1,38 @@
+[
+  {
+    "id": "565fe31d-c764-46fc-8335-be5ca71ef5ae",
+    "data": [
+      {
+        "text": "dame ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " consejo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "22029d38-7ccb-45ed-b4ce-94508fbf98bd",
+    "data": [
+      {
+        "text": "consejo",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

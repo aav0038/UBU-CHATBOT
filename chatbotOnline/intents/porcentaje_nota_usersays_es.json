@@ -1,0 +1,69 @@
+[
+  {
+    "id": "f1e5df0c-eb60-44b2-8e35-84133ad6a34d",
+    "data": [
+      {
+        "text": "¿Qué porcentaje de ",
+        "userDefined": false
+      },
+      {
+        "text": "la",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " nota ",
+        "userDefined": false
+      },
+      {
+        "text": "es",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "la",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " memoria y cuál el trabajo y presentación?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9bbe1605-f8fa-43cd-88ed-1426387765d7",
+    "data": [
+      {
+        "text": "porcentaje nota ",
+        "userDefined": false
+      },
+      {
+        "text": "cada",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "apartado",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

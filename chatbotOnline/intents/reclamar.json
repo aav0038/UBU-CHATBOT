@@ -1,0 +1,68 @@
+{
+  "id": "a8acba2f-d3be-4b8e-bed3-190fd9ade425",
+  "name": "reclamar",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c65aa7af-a204-4b77-aa3c-45d72778d0fe",
+          "name": "tfg",
+          "required": false,
+          "dataType": "@tfg",
+          "value": "$tfg",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "El proceso de reclamación está definido en el Artículo 10 del reglamento de TFG de la EPS:"
+                  ],
+                  "type": "description"
+                },
+                {
+                  "text": "Reglamento del TFG",
+                  "type": "button",
+                  "icon": {
+                    "type": "link",
+                    "color": "#FF9800"
+                  },
+                  "link": "https://www.ubu.es/escuela-politecnica-superior/estructura-del-centro/normativa-y-reglamentos/reglamento-sobre-trabajo-fin-de-grado-y-trabajo-fin-de-master "
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "484b04c4-e1ef-4015-a6e5-467f3cc14e34",
+    "data": [
+      {
+        "text": "de que ",
+        "userDefined": false
+      },
+      {
+        "text": "ha",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " de constar el trabajo?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "2e82bc94-dcea-4619-a9f5-78436be40b25",
+    "data": [
+      {
+        "text": "de que consta el trabajo?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

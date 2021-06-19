@@ -1,0 +1,35 @@
+{
+  "id": "375f7852-5bb9-4342-8416-5e7d59ec50a9",
+  "name": "titulo_memoria",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "El título debe describir clara y brevemente el objetivo del TFG. Junto con una frase descriptiva, se puede añadir un nombre comercial del producto desarrollado. Esto es de elección libre a consensuar entre el tutor/a y el alumno/a."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "6d1f4bd9-4eaf-463e-9526-3560deb8b5f3",
+    "data": [
+      {
+        "text": "tfg",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " en ",
+        "userDefined": false
+      },
+      {
+        "text": "empresas",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " remuneracion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "b28c3e57-2bf3-4bdf-84eb-4350d8c868c0",
+    "data": [
+      {
+        "text": "el ",
+        "userDefined": false
+      },
+      {
+        "text": "tfg",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " en empersas ",
+        "userDefined": false
+      },
+      {
+        "text": "es",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " remunerado?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

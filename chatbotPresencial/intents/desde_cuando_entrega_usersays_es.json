@@ -1,0 +1,89 @@
+[
+  {
+    "id": "3a91293e-a95d-4d41-bb8a-0b38f46815f8",
+    "data": [
+      {
+        "text": "a partir de que fecha lo puedo entregar?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "27da38fb-be54-40bf-8a42-034c42e445b3",
+    "data": [
+      {
+        "text": "a partir de que dia puedo entregarlo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "38a542aa-4e65-45d9-8855-0d3bfe856b7d",
+    "data": [
+      {
+        "text": "cuando se puede entregar?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8cf440c5-cc9f-4277-ac72-c6768ea73384",
+    "data": [
+      {
+        "text": "a partir de que fecha puedo hacer la entrega?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "dedf8d46-5eae-4b0b-b7e4-cbf9078f81ab",
+    "data": [
+      {
+        "text": "cuando puedo entregar?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "34c8e744-10a2-4b8a-a863-7fc26c992f28",
+    "data": [
+      {
+        "text": "puedo entregar ",
+        "userDefined": false
+      },
+      {
+        "text": "mi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " trabajo antes?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

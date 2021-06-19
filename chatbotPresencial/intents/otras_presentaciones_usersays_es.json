@@ -1,0 +1,98 @@
+[
+  {
+    "id": "fbe83cd0-2de9-4fb4-89f9-b1ffb61c470a",
+    "data": [
+      {
+        "text": "video presentaciones otros alumnos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c7bd7197-b156-4a15-8f48-5eadf6c0b6d6",
+    "data": [
+      {
+        "text": "presentaciones años anteriores",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "a566cfc0-55bc-40dc-bcba-a6525813add5",
+    "data": [
+      {
+        "text": "presentaciones ",
+        "userDefined": false
+      },
+      {
+        "text": "año anterior",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "27bc53d9-caff-403a-b7fb-668edd8205ea",
+    "data": [
+      {
+        "text": "ejemplos presentaciones",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "142b45a8-f710-487b-a413-e432328583b7",
+    "data": [
+      {
+        "text": "quiero ver ejemplos de presentaciones",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c113ad92-f8b4-4845-a462-ca7c5e5c1bed",
+    "data": [
+      {
+        "text": "puedo ver las presentaciones de mis compañeros",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8c2ff493-2fe9-4b91-8df7-ee7129b14b23",
+    "data": [
+      {
+        "text": "puedo ver presentaciones de años anteriores",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

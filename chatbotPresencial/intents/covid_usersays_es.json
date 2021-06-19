@@ -1,0 +1,40 @@
+[
+  {
+    "id": "3fe4622f-2c45-471f-bd9b-ae58d1aecffe",
+    "data": [
+      {
+        "text": "covid",
+        "meta": "@covid",
+        "alias": "covid",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "bf5c1f0f-d833-4dd1-9576-1e72c6f3d279",
+    "data": [
+      {
+        "text": "Hay algo a tener en cuenta a raíz del ",
+        "userDefined": false
+      },
+      {
+        "text": "Covid",
+        "meta": "@covid",
+        "alias": "covid",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]
