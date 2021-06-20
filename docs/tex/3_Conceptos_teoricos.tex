@@ -1,83 +1,154 @@
 \capitulo{3}{Conceptos teóricos}
 
-En aquellos proyectos que necesiten para su comprensión y desarrollo de unos conceptos teóricos de una determinada materia o de un determinado dominio de conocimiento, debe existir un apartado que sintetice dichos conceptos.
+Al tratarse de un proyecto innovador en cuanto a la tecnología utilizada, al no haberse realizado previamente ningún otro proyecto que la utilice, son muchos los conceptos a desarrollar para la comprensión general del funcionamiento de los chatbots y, especialmente, del que realizamos con la tecnología de Dialogflow.
 
-Algunos conceptos teóricos de \LaTeX \footnote{Créditos a los proyectos de Álvaro López Cantero: Configurador de Presupuestos y Roberto Izquierdo Amo: PLQuiz}.
+En primer lugar, se da una descripción de conceptos generales comunes a todos los chatbots y posteriormente se profundiza en aspectos propios de la plataforma de Google que estamos utilizando.
 
-\section{Secciones}
+\section{Chatbot}
 
-Las secciones se incluyen con el comando section.
+Un chatbot es una aplicación software que interactúa con el usuario a través de un chat, generalmente de texto, aunque también puede ser de voz, por medio de respuestas automáticas. 
+Fueron creados para simular el modo en que se comportaría un agente humano, un reto de la Inteligencia Artificial que nunca ha sido sencillo, prueba de ello la tenemos en el test de Turing.
 
-\subsection{Subsecciones}
+El test de Turing, establecido en 1950 por el británico Alan Turing, considerado uno de los pilares sobre los que se inició la ciencia de la computación, establece que para determinar que un sistema inteligente diseñado para imitar a un humano supere la prueba, debe conseguir engañar al menos al treinta por ciento de los jueces haciéndoles creer que es un humano.
 
-Además de secciones tenemos subsecciones.
+Turing predijo que esto no se produciría hasta el año 2000, pero no fue hasta 2014 cuando Eugene Goostman -un chatbot creado en San Petersburgo por los programadores Vladimir Veselov (Rusia), Eugene Demchemko (Ucrania) y Sergey Ulasen (Rusia)- superó por primera vez esta prueba tras engañar al 33\% de los jueces.
+Este chatbot se hacía pasar por un niño ucraniano de trece años. Este es uno de los motivos por el que ha recibido muchas críticas: la prueba se realizaba en inglés, por lo que era de suponer que un niño ucraniano cometiese ciertos errores y los jueces los atribuirían a su origen ucraniano. Además, al tratarse de un niño de 13 años se le pasaban por alto muchos errores achacables a su edad. \cite{wiki:eugene}
 
-\subsubsection{Subsubsecciones}
-
-Y subsecciones. 
-
-
-\section{Referencias}
-
-Las referencias se incluyen en el texto usando cite \cite{wiki:latex}. Para citar webs, artículos o libros \cite{koza92}.
-
-
-\section{Imágenes}
-
-Se pueden incluir imágenes con los comandos standard de \LaTeX, pero esta plantilla dispone de comandos propios como por ejemplo el siguiente:
-
-\imagen{escudoInfor}{Autómata para una expresión vacía}
-
-
-
-\section{Listas de items}
-
-Existen tres posibilidades:
+En el mundo real, los chatbots no se están diseñando para superar este test, sino con fines comerciales, ya que con ellos se consiguen una serie de beneficios:
 
 \begin{itemize}
-	\item primer item.
-	\item segundo item.
+	\item Reducir el coste de la mano de obra, al poder prescindir de operarios cuya función pasa a desempeñarla el chatbot.
+	\item Aumentar la capacidad de trabajo, ya que un agente humano solo puede atender a una conversación en cada instante, sin embargo, el chatbot puede atender a miles de potenciales clientes al mismo tiempo.
+	\item Mayor velocidad de respuesta, especialmente si se trata de consultas en bases de datos; un chatbot la realiza de forma automatizada en un tiempo mucho menor que el que tardaría un humano.
 \end{itemize}
 
-\begin{enumerate}
-	\item primer item.
-	\item segundo item.
-\end{enumerate}
+La implementación de la Inteligencia Artificial en el mundo laboral está teniendo un gran impacto. Tal es así, que estudios como el del McKinsey Global Institute \cite{joblosses} afirman que en 2030, los robots e Inteligencia Artificial podrían sustituir el 30\% de los puestos de trabajos realizados por humanos. Esto supone un problema por la desaparición de millones de puestos de trabajo, pero tecnológicamente es un avance muy importante. 
+
+
+
+\newpage
+
+\section{Conversational UI}
+
+Las interfaces de usuario conversacional han ido evolucionando a lo largo de los años. Inicialmente, la única forma posible de interacción entre humanos y computadores era una interfaz textual. 
+
+Esta interfaz primigenia comenzó utilizando comandos con un formato estricto y evolucionó hacia el lenguaje natural. Un ejemplo de interacción textual con lenguaje natural es la búsqueda en Google, donde introducimos una frase en lenguaje natural y obtenemos una serie de resultados. Actualmente este ejemplo ha evolucionado y no es estrictamente textual, ya que tanto para la entrada como salida se pueden incluir archivos multimedia.
+
+\imagenMediana{interfazTextual}{Interfaz textual}
+
+La siguiente evolución en este campo fueron las interfaces gráficas \textit{Graphical user interface}. Esta interfaz imita el modo en que realizamos las acciones en la vida real y reemplaza la interacción textual. 
+
+Con esta interfaz podemos realizar acciones como pulsar un botón de la pantalla o seleccionar una opción en una lista. 
+
+Con la introducción de Windows en la década de los 90 esta interfaz adquirió una gran popularidad. Siguieron evolucionando con la introducción de elementos táctiles, que evitan la necesidad de utilizar un ratón.
+
+\imagenMediana{graphicalUI}{Interfaz de usuario gráfica}
+
+Finalmente, la última evolución de las interfaces conversacionales ha sido la \textit{Conversational UI}, que es sobre la que se diseña este proyecto. Conceptualmente es parecida a la interfaz textual, pero en este caso se produce una interacción de una manera similar a la que realizarían los humanos entre sí. A este computador humanizado se le denomina \textit{bot}. 
+
+\imagenMediana{conversationalUIajeno}{Conversational UI.}
+
+Finalmente, existe otro tipo de \textit{Conversational UI}, cuya entrada son mensajes de audio en lugar de mensajes de texto, y se denomina \textit{Voice-enabled conversational UI}. Este nuevo modelo imita la interacción humana más que ningún otro.
+
+
+Amazon Alexa y Siri son dos de los ejemplos más populares de sistemas que implementan este tipo de interfaz.
+
+
+\newpage
+
+\section{Machine Learning}
+
+El \textit{Machine Learning}, de aquí en adelante Aprendizaje Automático, hace referencia a los sistemas que están basados en algoritmos que permiten al sistema aprender de manera autónoma a partir de la información analizada, sin necesitar la intervención de un operario humano.
+
+El Aprendizaje Automático esta fundamentado en la estadística, por medio del reconocimiento de patrones. Parte de la idea de que un conjunto de reglas podría representarse de una forma menos explícita, en una red de neuronas.
+
+\imagen{redNeuronal}{Red neuronal, que a partir de una serie de entradas obtiene una salida.}
+
+La primera máquina de red neuronal fue diseñada en 1951 por Marvin Minsky y Dean Edmonds, conocida como SNARC (Calculadora de Refuerzo Analógico Neuronal Estocástico). Contenía 40 "neuronas" que permitían aprender a escapar de un laberinto virtual \cite{machineLearning}.
+
+En nuestro proyecto, cuando introducimos los datos de entrenamiento, Dialogflow crea un modelo de Aprendizaje Automático diseñado específicamente para nuestro agente.
+Cada vez que guardemos cambios en nuestro agente, se producirá automáticamente un entrenamiento.
+
+En el caso de nuestro agente, responde FAQs a partir de unas frases de ejemplo que le demos para referirnos a las posibles distintas formulaciones de una misma pregunta que nos puedan hacer. El agente, por medio de un Aprendizaje Automático, generará información sobre el tipo de preguntas que nos puedan hacer similares a las introducidas que busquen obtener la misma información.
+
+Esto es de gran utilidad, ya que una misma pregunta se puede formular de miles de maneras diferentes y sería una tarea prácticamente imposible introducir a mano cada una de ellas.
+
+\newpage
+
+\section{NLP y NLU}
+
+NLP: \textit{Natural language processing} es un campo de las ciencias de la computación, inteligencia artificial y lingüística que estudia la interacción entre el lenguaje de las computadoras y el lenguaje de los humanos. Tiene como propósito analizar la capacidad de una máquina para procesar texto en lenguaje natural, descomponerlo, entender su significado y determinar la acción que debe tomar como respuesta al texto recibido.
+
+
+NLU: \textit{Natural Language Understanding} es una rama dentro de NLP cuyo objetivo es comprender el significado de la entrada de texto recibida como lo harían los humanos. Convierte las entradas no estructuradas en una información estructurada que es capaz de manejar. Esto se refiere a, entre otras labores, que sea capaz de entender una frase con faltas de ortografía, con palabras colocadas en un orden intercambiado, coloquialismos y contextos.
+
+Como ejemplo práctico de aplicación de este concepto en nuestro proyecto, nuestro chatbot debe ser capaz de entender que le están preguntando por la fecha de matriculación independientemente de si se lo preguntan de cualquiera de estas maneras: \textit{Fecha de matriculación}, \textit{¿Cuándo es la fecha de matriculación?} \textit{Fecha para matricularme}. O de cualquiera de las millones de formas diferentes de hacer esa pregunta. El NLU es el que se encarga de cumplir esta tarea.
+
+\imagenMediana{NluNlp}{NLU y NLP \cite{NaturalLenguage}} 
+
+En la imagen se muestra la relación de estos conceptos y las funciones de cada uno de ellos.
+ASR es un sistema de reconocimiento de habla (que queda fuera del marco de este trabajo).
+
+\newpage
+
+\section{Flow-based chatbot vs AI Powered chatbot}
+
+\subsection{\textit{Flow-based chatbot}}
+No tiene componente NLU, por lo que no puede entender los mensajes que escriba el usuario. Consiste en un flujo de conversación que sigue una estructura de árbol, y en la que se le sugiere al usuario una serie de opciones que corresponderán a la operación que quiera hacer el usuario en cada momento, el usuario en ningún momento va a poder introducir texto, únicamente irá eligiendo entre las opciones que el chatbot le ofrezca tras cada elección.
+
+Está diseñado para realizar un número limitado de operaciones y no ofrece margen de maniobra al usuario. Sin embargo, tiene la ventaja de que al ser una conversación inflexible se evitan errores y dar una mala experiencia al usuario, algo muy habitual en un chatbot abierto. Son más sencillos de implementar que un chatbot que siga el modelo de NLU que se explica a continuación.
+
+\subsection{\textit{AI Powered chatbot}}
+Si tiene componente NLU, siendo el elemento principal en torno al cual gira el motor del chatbot. Por medio del NLU procesa y analiza el mensaje que introduce el usuario. Se le brinda al usuario total libertad para introducir el texto que desee. Está basado en el Aprendizaje Automático, lo que significa que va aprendiendo en base a sus ejecuciones.
+
+Aporta mucho más margen de maniobra, más posibilidades de recibir incrementos en sus funcionalidades, ofrece una experiencia más completa y puede detectar patrones de comportamiento. En su contra acostumbra a no detectar correctamente lo que el usuario quiere decir con relativa frecuencia.
+
+Nuestro chatbot se basa en una solución de este tipo, ya que un FAQ que estuviera implementado basado en un flujo de conversación, estaría muy limitado, ya que el abanico de posibles preguntas de los alumnos es muy amplio, y solo se puede cubrir con un motor basado en NLP 
+
+
+\subsection{Solución híbrida}
+Una tercera opción es la unión de las dos soluciones anteriores, siendo un chatbot de texto abierto del usuario que en ocasiones tenga un flujo de conversación guiado.
+
+\newpage
+
+\section{Intent, Entity, Context, Fallback y Event}
 
 \begin{description}
-	\item[Primer item] más información sobre el primer item.
-	\item[Segundo item] más información sobre el segundo item.
+	\item[Intent:] es el objetivo que tiene un cliente cuando formula una pregunta. Se implementan asociando a cada \textit{intent} varias frases de entrenamiento cuyo objetivo sea el de realizar la misma pregunta que la del propósito de dicho \textit{intent}. Cada vez que un usuario hace una pregunta el NLU determina cuál es el \textit{intent} que más se aproxima a ella y será la respuesta asociada a dicho \textit{intent} la que responda, por lo que los \textit{intents} son un factor crítico para el correcto flujo de la conversación.
+	Debe generarse un buen modelo con muchos datos de entrenamiento. \cite{Intents}
+	\item[Entity:] es una clase de dato que puede extraerse del mensaje del usuario. El NER (\textit{Named Entity Recognition}) es la parte del NLP encargada de extraer entidades del texto. Ejemplos de entidades: teléfono, email, ciudad y números.
+	\item[Context:] similar a los contextos de una conversación real. Son variables que sirven para determinar el estado de la conversación, utilizándose para establecer cuál es el camino que debe seguir la conversación. \cite{DialogflowDocs}
+	\item[Fallback:] caso en el que el chatbot no ha sido capaz de reconocer la entrada del usuario y asociarla a un \textit{intent}. Se pueden generar \textit{intents} de tipo \textit{fallback} para gestionar el flujo de la conversación en caso de que se produzcan.
+	\item[Event:] los eventos sirven para disparar \textit{intents} sin necesidad de recibir una entrada por parte del usuario. Un ejemplo de evento es cuando el usuario abre el chatbot.
 \end{description}
-	
-\begin{itemize}
-\item 
-\end{itemize}
 
-\section{Tablas}
+\newpage
 
-Igualmente se pueden usar los comandos específicos de \LaTeX o bien usar alguno de los comandos de la plantilla.
+\section{Rich responses}
 
-\tablaSmall{Herramientas y tecnologías utilizadas en cada parte del proyecto}{l c c c c}{herramientasportipodeuso}
-{ \multicolumn{1}{l}{Herramientas} & App AngularJS & API REST & BD & Memoria \\}{ 
-HTML5 & X & & &\\
-CSS3 & X & & &\\
-BOOTSTRAP & X & & &\\
-JavaScript & X & & &\\
-AngularJS & X & & &\\
-Bower & X & & &\\
-PHP & & X & &\\
-Karma + Jasmine & X & & &\\
-Slim framework & & X & &\\
-Idiorm & & X & &\\
-Composer & & X & &\\
-JSON & X & X & &\\
-PhpStorm & X & X & &\\
-MySQL & & & X &\\
-PhpMyAdmin & & & X &\\
-Git + BitBucket & X & X & X & X\\
-Mik\TeX{} & & & & X\\
-\TeX{}Maker & & & & X\\
-Astah & & & & X\\
-Balsamiq Mockups & X & & &\\
-VersionOne & X & X & X & X\\
-} 
+Son respuestas que incorporan más elementos que el texto plano.\\ 
+Existen muchos tipos: botones de sugerencia, imágenes, mensajes de audio, enlaces personalizados, etc.
+
+\imagenMediana{richResponse}{Rich response \cite{RichResponse}} 
+
+En la imagen se muestra una respuesta con botones de sugerencia (\textit{suggestion chips}). Por medio de este tipo de respuestas se facilita mucho el diseño guiado por flujos.\\
+Las \textit{rich responses} disponibles dependen de la integración que se utilice.
+
+
+\newpage
+
+\section{Webhook}
+
+Un \textit{webhook} es un mecanismo para enviar información al sistema sobre la información generada por eventos de usuario mediante una petición HTTP. \cite{Webhooks} \\
+
+Dialogflow utiliza \textit{fulfillment} que es el código que se despliega y permite al agente ejecutar la lógica del programa como respuesta a un \textit{webhook} que puede ser desencadenado tras el reconocimiento de un \textit{intent}. Esto permite utilizar la información obtenida por el NLP para generar respuestas dinámicas en el \textit{back-end}. 
+
+
+\imagen{fulfillment-flow}{Fulfillment flow \cite{FulfillmentFlow}} 
+
+En la imagen se muestra el flujo por el que Dialogflow manda una petición al \textit{webhook} con la información asociada al \textit{intent}. El sistema por medio del \textit{fulfillment} puede realizar cualquier acción sobre ella, como consultas a APIs externas o a base de datos.
+
+Un ejemplo de uso podría ser que un usuario preguntase al chatbot el horario de tutorías de un profesor. En primer lugar, se detectaría un intent de consulta de horarios de tutoría que activaría una petición webhook por la que se ejecutaría en nuestro fulfillment un código que haría una consulta a una API externa en la que estaría la información de los horarios de cada profesor, para devolver esa información como un mensaje de texto en el chatbot a nuestro usuario.
+
+
+\newpage

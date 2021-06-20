@@ -1,6 +1,123 @@
 \capitulo{4}{Técnicas y herramientas}
 
-Esta parte de la memoria tiene como objetivo presentar las técnicas metodológicas y las herramientas de desarrollo que se han utilizado para llevar a cabo el proyecto. Si se han estudiado diferentes alternativas de metodologías, herramientas, bibliotecas se puede hacer un resumen de los aspectos más destacados de cada alternativa, incluyendo comparativas entre las distintas opciones y una justificación de las elecciones realizadas. 
-No se pretende que este apartado se convierta en un capítulo de un libro dedicado a cada una de las alternativas, sino comentar los aspectos más destacados de cada opción, con un repaso somero a los fundamentos esenciales y referencias bibliográficas para que el lector pueda ampliar su conocimiento sobre el tema.
+\section{Plataformas para la construcción de Chatbots}
+
+En esta sección vamos a analizar algunas de las herramientas más extendidas para el desarrollo de chatbots. Dialogflow queda exento de esta sección ya que al ser la plataforma elegida será desarrollada más ampliamente en el siguiente apartado. \\
+
+\imagenMediana{logosPlataformas}{Logos plataformas analizadas.}
+
+\newpage
+\subsection{Rasa \cite{RasaWeb}} 
+
+Rasa es un framework de aprendizaje automático y código abierto para la creación de chatbots. Está escrito en Python y sirve para desarrollar los chatbots basados tanto en texto como voz. \cite{rasa}
+
+Está compuesto por:
+\begin{itemize}
+	\item 
+	NLU - Comprensión del lenguaje natural. Es el componente que se encarga de procesar la entrada de texto o voz recibida y convertirla en un valor que la máquina pueda entender. 
+	\item 
+	Core - Es el componente que en base a unos algoritmos y una entrada recibida, decide la acción que el agente debe tomar para continuar la conversación de manera más adecuada. Para ello asigna un valor a cada posible respuesta que se corresponde a la similitud encontrada entre el mensaje que dispara esa respuesta y la entrada recibida. 
+\end{itemize}
+
+Por medio de librerías, se puede adaptar el NLU a cualquier idioma.
+
+Las desventajas de esta herramienta son su curva de aprendizaje, la carencia de \textit{hosting} en la nube, no dispone de integraciones \textit{out of box} (que no requieren de instalación) y no dispone en su versión de gratuita de interfaz gráfica para la construcción del chatbot.
+\newpage
+
+\subsection{Amazon Lex \cite{AmazonLexWeb}}
+
+Amazon Lex es un servicio de Amazon para la creación de chatbots, basados tanto en texto como voz.
+Utiliza el mismo motor que Amazon Alexa, un potente asistente virtual lanzado por Amazon en 2013, y actualmente el más popular del mundo con un 62\% de la cuota de mercado en 2017.\cite{alexa}
+
+Ofrece NLU para la comprensión del lenguaje natural y ASR para el reconocimiento de voz. \\
+
+Sus principales características son:
+\begin{itemize}
+	\item Dispone de una interfaz gráfica web para el desarrollo, lo que reduce la curva de aprendizaje.
+	\item Permite integraciones con servicios de la plataforma AWS.
+	\item Soporte para diez idiomas, castellano incluido.
+	\item Integraciones \textit{out of box} con Slack y Facebook, entre otras.
+\end{itemize}  
+
+Como principal desventaja, a partir del segundo año pasa a ser de pago, por lo que no cumple la principal restricción del proyecto. 
+\newpage
+
+\subsection{Watson Assistant \cite{WatsonAssistant}} 
+
+Watson Assistant es un producto de IBM para el desarrollo de chatbots conversacionales.
+Permite el salto de un nodo de la conversación a otro, lo cual en nuestra herramienta elegida (Dialogflow) no es posible, teniendo que duplicar diálogos en ocasiones.
+
+Sus principales características son:
+\begin{itemize}
+	\item Interfaz gráfica web para el desarrollo, sencilla e intuitiva.
+	\item Soporte para trece idiomas, castellano incluido.
+	\item Genera un \textit{script} para una sencilla integración web.
+	\item Fácil integración con Slack, Whatsapp y Facebook, entre otras.
+\end{itemize}
+
+Dispone de una versión gratuita, la cual podría cubrir todas las necesidades de nuestro proyecto. Esta versión limita a mil usuarios al mes, lo cual no supone un problema para el espectro de este proyecto; ante una posible futura expansión del asistente a un mayor número de asignaturas o incluso la página oficial de la UBU, podría llegar a suponer un problema. \\
+
+Siendo esta una herramienta que cumple todos los requisitos de nuestro proyecto, se ha realizado una comparativa con Dialogflow para determinar qué plataforma era más recomendable utilizar.
+A favor de Watson se ha detectado la ventaja del salto de nodos comentada anteriormente, pero en su contra, todas estas desventajas:
+\begin{itemize}
+	\item Menos idiomas e integraciones que Dialogflow.
+	\item No permite diálogos multidioma, lo cual en una futura actualización inclusiva para los estudiantes Erasmus podría ser beneficioso; ya que junto al punto anterior se podría dar respuesta en mayor número de idiomas.
+	\item Está enfocado para desarrollos más complejos que el de nuestro Q/A, para lo cual Dialogflow está mejor preparado.
+\end{itemize}
+ 
+ 
+\newpage
+
+\subsection{Chatcompose \cite{ChatCompose}} 
+
+Chatcompose es una plataforma web para el desarrollo de chatbots.
+Es una herramienta muy potente por su rápida personalización, implementación y despliegue en múltiples plataformas.  
+Permite añadir \textit{rich responses} de manera automática, sin necesidad de ningún tipo de código o lenguaje especial, simplemente con las herramientas que nos proporciona su interfaz gráfica.
+
+A diferencia del resto de herramientas, proporciona \textit{live chat}, en el que un agente humano puede tomar parte de la conversación. Esta funcionalidad no resulta interesante para nuestra aplicación, ya que no se pretende que ningún miembro de la UBU responda las preguntas, sino que se delega todo en el chatbot.
+
+Sus principales ventajas son:
+\begin{itemize}
+	\item Soporte para 32 idiomas, castellano incluido.
+	\item Única herramienta estudiada con soporte propio para catalán.
+	\item Integración con Slack, Telegram, Facebook, Whatsapp, SMS y Line entre otras.
+	\item Sencilla y ampliamente personalizable. 
+	
+\end{itemize}
+
+Es una herramienta muy interesante, pero en su contra tiene que la versión gratuita tiene muchísimas limitaciones, la principal es que únicamente permite desarrollar un chatbot.
+Para poder hacer un uso efectivo de la plataforma deberíamos recurrir a la versión de pago.\\
+
+Además, Dialogflow está mejor preparado para conversaciones abiertas, por su fácil y rápida implementación de preguntas y respuestas. Chatcompose sería más eficaz si se guiase al usuario a través de un flujo de conversación, ya que permite implementar las \textit{chip response} sin necesidad de enviar la información en formato JSON como requiere Dialogflow. 
+\newpage
+
+\subsection{Otras plataformas}
+
+Las plataformas analizadas representan un pequeño número de la inmensa cantidad de plataformas para el desarrollo de chatbots que existen en la actualidad. Se han seleccionado esas plataformas debido a que en la fecha de inicio del proyecto contaban con soporte nativo para castellano y eran algunas de las soluciones más populares. No obstante, cabe aclarar que existen diversas alternativas que también cumplen dicho criterio y han quedado fuera porque el objetivo de este trabajo no es el de analizar todas las posibles soluciones -que serían muchas-, sino realizar un estudio más exhaustivo de cinco de ellas. 
+
+A continuación se resumen otras alternativas:
+
+\begin{itemize}
+	\item \textbf{Microsoft Bot Framework}: también llamado Azure Bot Service, es una solución de Microsoft. Su principal fortaleza es la integración en el ecosistema tecnológico de Microsoft, incluyendo Office y Teams como principales integraciones de las que carecen otras plataformas. Cuenta con soporte para castellano, pero la versión gratuita está limitada a 10000 mensajes mensuales. \cite{MicrosoftBotFramework}
+	\item \textbf{Chatfuel}: Es una herramienta muy popular, pero únicamente dispone de integración con Facebook Messenger e Instagram. \cite{ChatFuel}
+	\item \textbf{Wit.Ai}: Cuenta con soporte para castellano y es gratuita, aunque con limitaciones. Su punto flojo es la poca documentación e información de la que se dispone. \cite{Wit.Ai}
+	\item \textbf{Flow XO}: Ofrece más de 100 integraciones, incluyendo YouTube, GitHub, LinkedIn, Office y MySQL entre otras. No dispone de versión gratuita. \cite{FlowXO}
+	
+\end{itemize}
 
 
+\newpage
+
+\subsection{Tabla comparativa}
+
+A continuación se muestra la comparativa entre las distintas plataformas estudiadas en los aspectos que resultan más relevantes para el proyecto.
+
+
+\tablaSmall{Plataformas de desarrollo de Chatbots.}{l l l l l l}{comparativaplataformas}
+{ Plataforma & Castellano & UI Based & Slack Integration & Hosting & Gratuita \\}{ 
+	Dialogflow & X & X & X & X & X\\
+	Rasa & X &  &  &  & X\\
+	Amazon Lex & X & X & X & X & \\
+	IBM Watson & X & X & X & X & X\\
+	Chatcompose & X & X & X & X & \\
+} 

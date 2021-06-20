@@ -1,4 +1,62 @@
 \capitulo{7}{Conclusiones y Líneas de trabajo futuras}
 
-Todo proyecto debe incluir las conclusiones que se derivan de su desarrollo. Éstas pueden ser de diferente índole, dependiendo de la tipología del proyecto, pero normalmente van a estar presentes un conjunto de conclusiones relacionadas con los resultados del proyecto y un conjunto de conclusiones técnicas. 
-Además, resulta muy útil realizar un informe crítico indicando cómo se puede mejorar el proyecto, o cómo se puede continuar trabajando en la línea del proyecto realizado. 
+En este apartado se reflejan las conclusiones sacadas de la realización del proyecto así como una serie de líneas de trabajo extraídas a partir de ellas y que pueden servir como directrices para futuras mejoras y continuidad de la explotación del chatbot.
+
+\section{Conclusiones}
+\begin{itemize}
+	\tightlist
+	\item
+	El objetivo del proyecto se ha cumplido, el chatbot resuelve con éxito más del 50\% de las preguntas planteadas por los alumnos, reduciendo con esto de una manera notable el número de consultas realizadas por otros medios al personal docente de la asignatura.
+	Además, no se ha incurrido en ningún coste ni introducido ninguna cuenta de facturación en ninguna de las herramientas ni plataformas utilizadas.
+	\newline
+	\item
+	La integración con una plataforma distinta al portal de UBUVirtual se ha realizado correctamente. La plataforma elegida ha sido Slack, aunque también se podía haber realizado con Whatsapp (aunque no de manera gratuita), Facebook Messenger o Telegram, entre otras. 
+	
+	Esta integración por si misma no aporta valor al proyecto por el momento, pero en futuras versiones del chatbot que implementen nuevas funcionalidades sí podría ser de utilidad.
+	\newline
+	\item
+	Dialogflow ha resultado ser una solución óptima para este proyecto: un NLP potente, gratuita y con una curva de aprendizaje muy pequeña que facilitará la continuidad del chatbot en manos de futuros estudiantes.
+	\newline
+	\item
+	El éxito de la conversación depende en gran medida del correcto uso por parte del estudiante, si sabe formular las preguntas de manera precisa y concisa va a obtener muchos mejores resultados que alguien que formula largas preguntas con un lenguaje similar al que utilizaría si estuviese hablando con un humano. Por esta parte, al tratarse los usuarios de estudiantes de Ingeniería Informática con ciertos conocimientos sobre la limitación de la Inteligencia Artificial, en la mayoría de casos no se da este problema. 
+	 
+	Además, con la adición de indicaciones de cómo formular las preguntas por parte de nuestro chatbot en caso de mensajes no reconocidos, se ha mejorado en este aspecto.
+	\newline
+	\item
+	Los chatbots son una herramienta en auge, los NLP son cada vez más potentes y sin duda es una tecnología que ha venido para quedarse. Cada vez son más las webs que cuentan con un chatbot y la Universidad de Burgos no puede quedarse atrás en este aspecto. 
+	
+\end{itemize}
+
+\newpage
+\section{Líneas de trabajo futuras}
+\begin{itemize}
+	\tightlist
+	\item
+	Integración del chatbot en la página principal de la asignatura. Con esto se obtendrá una mayor visibilidad por parte de los potenciales usuarios, lo que elevará el número de interacciones, reduciendo el número de preguntas que realicen a los profesores. Además, esto nos proporcionará mayor número de \textit{logs}. 
+	\newline
+	\item
+	Actualización y mejora de nuestro NLP con nuevas preguntas y frases de entrenamiento obtenidas a partir de los nuevos \textit{logs} recibidos. El objetivo debe ser continuar mejorando la tasa de éxito de respuesta. 
+	\newline
+	\item
+	Añadir una encuesta al finalizar la conversación en la que se reciba feedback por parte del usuario. Se implementará en forma de preguntas sobre la satisfacción y sugerencias de mejora.\\
+	Con esto se obtendrá información más objetiva sobre el grado de satisfacción y mejoras deseadas por parte de nuestros usuarios.
+	\newline
+	\item
+	Actualización a proyecto con cuenta de pago asociada que permita la implementación de código para nuestros \textit{webhooks}. Implementar por código un control de \textit{fallbacks} que permita redirigir la conversación a otro medio una vez se produzcan errores como tres mensajes seguidos sin contestación o la entrada reiterada a un mismo \textit{intent}.
+	\newline
+	\item 
+	Estudiar el posible interés en realizar consultas por código a fuentes externas.
+	\newline
+	\item
+	Analizador léxico para extraer información que permita reconocer patrones de comportamiento.
+	\newline
+	\item 
+	Agente multilingüe para responder preguntas a estudiantes Erasmus o de otros programas de intercambio.
+	\newline
+	\item
+	Implementación de chatbot para la página web principal de la Universidad de Burgos y otras asignaturas.
+	\newline
+	\item
+	Estudiar los posibles beneficios de continuar la implementación en Slack y/o otras plataformas distintas a UBUVirtual.
+	
+\end{itemize}

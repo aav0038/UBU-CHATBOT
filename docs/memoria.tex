@@ -52,6 +52,24 @@
 	\end{figure}
 }
 
+\newcommand{\imagenMediana}[2]{
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[width=0.6\textwidth]{#1}
+		\caption{#2}\label{fig:#1}
+	\end{figure}
+	\FloatBarrier
+}
+
+\newcommand{\imagenPequena}[2]{
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[width=0.2\textwidth]{#1}
+		\caption{#2}\label{fig:#1}
+	\end{figure}
+	\FloatBarrier
+}
+
 
 
 % El comando \figura nos permite insertar figuras comodamente, y utilizando
@@ -298,6 +316,8 @@
 \newcommand{\capitulo}[2]{
 	\setcounter{chapter}{#1}
 	\setcounter{section}{0}
+	\setcounter{figure}{0}
+	\setcounter{table}{0}
 	\chapter*{#2}
 	\addcontentsline{toc}{chapter}{#2}
 	\markboth{#2}{#2}
@@ -332,7 +352,8 @@
       \vspace{.5cm}\Large
       \begin{center}
       \textbf{TFG del Grado en Ingeniería Informática}\vspace{.6cm}\\
-      \textbf{\LARGE\@title{}}
+      \textbf{\LARGE\@title{}}\vspace{.6cm}\\
+      \textbf{UBU-Chatbot}
       \end{center}
       \vspace{.2cm}
     \end{minipage}
@@ -347,7 +368,7 @@
   {%
     \noindent\LARGE
     Presentado por \@author{}\\ 
-    en Universidad de Burgos --- \@date{}\\
+    en Universidad de Burgos --- julio de 2021\\
     Tutor: \@tutor{}\\
   }%
   \end{center}%
@@ -359,9 +380,9 @@
 \newcommand{\nombre}{Nombre del alumno} %%% cambio de comando
 
 % Datos de portada
-\title{título del TFG}
-\author{\nombre}
-\tutor{nombre tutor}
+\title{Desarrollo y explotación de un chatbot de FAQs sobre una asignatura de Trabajo Fin de Grado}
+\author{Alfredo Asensio Vázquez}
+\tutor{Dr. Raúl Marticorena Sánchez}
 \date{\today}
 
 \begin{document}
@@ -378,11 +399,12 @@
 
 \noindent\includegraphics[width=\textwidth]{cabecera}\vspace{1cm}
 
-\noindent D. nombre tutor, profesor del departamento de nombre departamento, área de nombre área.
+\noindent D. Raúl Marticorena Sánchez, profesor del departamento de Ingeniería Informática, área de Lenguajes y Sistemas Informáticos.
 
 \noindent Expone:
 
-\noindent Que el alumno D. \nombre, con DNI dni, ha realizado el Trabajo final de Grado en Ingeniería Informática titulado título de TFG. 
+\noindent Que el alumno D. Alfredo Asensio Vázquez, con DNI 73007684A, ha realizado el Trabajo final de Grado en Ingeniería Informática titulado "Desarrollo y explotación de un chatbot de FAQs sobre una asignatura de Trabajo Fin de Grado
+". 
 
 \noindent Y que dicho trabajo ha sido realizado por el alumno bajo la dirección del que suscribe, en virtud de lo cual se autoriza su presentación y defensa.
 
@@ -396,17 +418,17 @@ En Burgos, {\large \today}
 \begin{minipage}{0.45\textwidth}
 \begin{flushleft} %\large
 Vº. Bº. del Tutor:\\[2cm]
-D. nombre tutor
+D. Raúl Marticorena Sánchez
 \end{flushleft}
 \end{minipage}
 \hfill
-\begin{minipage}{0.45\textwidth}
-\begin{flushleft} %\large
-Vº. Bº. del co-tutor:\\[2cm]
-D. nombre co-tutor
-\end{flushleft}
-\end{minipage}
-\hfill
+%\begin{minipage}{0.45\textwidth}
+%\begin{flushleft} %\large
+%Vº. Bº. del co-tutor:\\[2cm]
+%D. nombre co-tutor
+%\end{flushleft}
+%\end{minipage}
+%\hfill
 
 \vfill
 
@@ -426,12 +448,20 @@ D. nombre co-tutor
 % Abstract en castellano
 \renewcommand*\abstractname{Resumen}
 \begin{abstract}
-En este primer apartado se hace una \textbf{breve} presentación del tema que se aborda en el proyecto.
+Los estudiantes que realizan el TFG a menudo tienen dudas acerca de su organización y funcionamiento. Muchas de estas dudas están ya recogidas en la documentación de la plataforma Moodle UBUVirtual o en los distintos documentos relacionados del portal web de la Universidad.
+
+En este trabajo, se desarrolla un bot conversacional (chatbot) cuyo objetivo es dar respuesta a todas estas dudas que los alumnos puedan tener sobre el funcionamiento de la asignatura  Trabajo de Fin de Grado, reduciendo así también la carga de trabajo de los docentes.
+
+Es también una primera aproximación de la UBU a la implementación de una herramienta en auge como son los chatbots, que pueden aportar mucho valor en una futura explotación y expansión en las distintas plataformas que utiliza la Universidad. 
+
+El ámbito del trabajo se centra principalmente en la integración del chatbot en la plataforma Moodle de la Universidad, llamada UBUVirtual, aunque no se limita a esta única plataforma, ya que también se realizará una integración con la plataforma Slack. También se estudiarán otras posibles integraciones.
+
+
 \end{abstract}
 
 \renewcommand*\abstractname{Descriptores}
 \begin{abstract}
-Palabras separadas por comas que identifiquen el contenido del proyecto Ej: servidor web, buscador de vuelos, android \ldots
+Chatbot, bot conversacional, agente inteligente, Dialogflow, Trabajo Fin de Grado, Moodle, Slack.
 \end{abstract}
 
 \clearpage
@@ -471,7 +501,7 @@ keywords separated by commas.
 \include{./tex/7_Conclusiones_Lineas_de_trabajo_futuras}
 
 
-\bibliographystyle{plain}
+\bibliographystyle{ieeetr}
 \bibliography{bibliografia}
 
 \end{document}

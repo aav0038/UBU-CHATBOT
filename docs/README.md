@@ -1,5 +1,3 @@
-![logo](https://raw.githubusercontent.com/aav0038/CHATBOT_TFG/master/LogoFinalTransparenteGranate.png)
-
 # Plantilla LaTeX
 
 La plantilla se compone de dos documentos maestros: uno para la memoria y otro para los anexos.
