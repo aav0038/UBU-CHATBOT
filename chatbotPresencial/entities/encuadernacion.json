@@ -1,0 +1,9 @@
+{
+  "id": "6be44836-7ec6-4095-9063-5d348af7567c",
+  "name": "encuadernacion",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

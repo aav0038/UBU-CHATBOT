@@ -1,0 +1,50 @@
+{
+  "id": "291669d0-1ae4-4a08-8702-3af7422b3eab",
+  "name": "ejemplo_tfg",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "fabad959-653b-45b1-9731-e907d1426548",
+          "name": "tfg",
+          "required": false,
+          "dataType": "@tfg",
+          "value": "$tfg",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Puedes consultar algunos buenos ejemplos de TFG en: \nhttps://github.com/davidmigloz/go-bees,  \nhttps://github.com/EduardoRisco/SurveyingPointCode, \nhttps://github.com/MarioBartolome/GII_0_17.02_SNSI \nhttps://github.com/dsr0018/olivia"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

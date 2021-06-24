@@ -4,7 +4,7 @@
   "shortDescription": "",
   "examples": "",
   "linkToDocs": "",
-  "displayName": "AsistenteUBUVirtual-PRESENCIAL",
+  "displayName": "UBUChatbot-Presencial",
   "disableInteractionLogs": false,
   "disableStackdriverLogs": true,
   "googleAssistant": {

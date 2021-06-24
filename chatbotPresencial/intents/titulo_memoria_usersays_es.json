@@ -1,0 +1,125 @@
+[
+  {
+    "id": "d77637fe-83f2-4cab-9a3f-2c7edb525b33",
+    "data": [
+      {
+        "text": "como titular ",
+        "userDefined": false
+      },
+      {
+        "text": "tfg",
+        "meta": "@tfg",
+        "alias": "tfg",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "230712db-ea5f-40e4-86d5-cacd75489751",
+    "data": [
+      {
+        "text": "como debo titular el tfg",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ec6ae4bc-e35b-4fbc-ab4d-de048d9c396c",
+    "data": [
+      {
+        "text": "¿como debo titularlo?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "32fb1490-db2c-4d2c-a100-fc137d0a521b",
+    "data": [
+      {
+        "text": "nombre del titulo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1d2f5fff-a4ca-446e-bcea-8eafe10c0913",
+    "data": [
+      {
+        "text": "nombre del tfg",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "adaed917-985a-4458-b791-65e9c547864a",
+    "data": [
+      {
+        "text": "titulo tfg",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "0713774f-a38e-4891-b15b-d2cae92967cf",
+    "data": [
+      {
+        "text": "titulo memoria",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "754a1de3-bbed-4b0a-afbc-aeb5761c73fa",
+    "data": [
+      {
+        "text": "nombre pdf de la memoria",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "49c26735-cd05-4ddb-960a-825fa8b43715",
+    "data": [
+      {
+        "text": "nombre memoria",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

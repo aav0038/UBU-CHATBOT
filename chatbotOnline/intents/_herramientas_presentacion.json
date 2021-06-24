@@ -1,0 +1,60 @@
+{
+  "id": "d0ea20c2-a609-4027-a443-934d82864f39",
+  "name": "_herramientas_presentacion",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "slack",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "En la presentación puedes utilizar cualquier medio audiovisual (presentación tipo Power Point o Impress, documento pdf, etc.), y demostraciones en vivo del funcionamiento correcto del desarrollo software del TFG.\nNecesitarás un micrófono y una Webcam."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "En la presentación puedes utilizar cualquier medio audiovisual (presentación tipo Power Point o Impress, documento pdf, etc.), y demostraciones en vivo del funcionamiento correcto del desarrollo software del TFG.",
+                    "Necesitarás un micrófono y una Webcam."
+                  ],
+                  "type": "description",
+                  "title": ""
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

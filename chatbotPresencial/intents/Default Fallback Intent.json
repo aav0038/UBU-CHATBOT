@@ -19,9 +19,10 @@
                 {
                   "text": [
                     "Perdona, no he entendido, dame más detalles sobre tu pregunta. Sigue las siguientes recomendaciones:",
-                    "1) Escribe una única pregunta por mensaje.",
-                    "2) Tu frase debe contener la pregunta completa.",
-                    "3) Si no he conseguido responder tu pregunta, intenta formularla de otra manera."
+                    "- Escribe una única pregunta por mensaje.",
+                    "- Tu frase debe contener la pregunta completa.",
+                    "- Si no he conseguido responder tu pregunta, intenta formularla de otra manera.",
+                    "- Solo respondo dudas generales de los estudiantes sobre la asignatura Trabajo Fin de Grado."
                   ],
                   "title": "",
                   "type": "description"

@@ -1,0 +1,53 @@
+{
+  "id": "27f8e4bc-899d-45ac-a7b1-10a821386151",
+  "name": "historico_trabajos",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "Puedes consultar el histórico de trabajos presentados (solo desde la red de la UBU) en:"
+                  ]
+                },
+                {
+                  "text": "Histórico trabajos",
+                  "type": "button",
+                  "link": "https://tfg-itig.ubu.es:8443/sistinf-0.4_OpenOffice/#!active-project",
+                  "icon": {
+                    "type": "link",
+                    "color": "#FF9800"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

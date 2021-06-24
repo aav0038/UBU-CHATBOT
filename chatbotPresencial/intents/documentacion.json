@@ -20,20 +20,11 @@
                   "type": "description",
                   "text": [
                     "Debes entregar: ",
-                    "·1 copia completa en papel de la memoria del TFG sin anexos en la Secretaría Administrativa del Campus Vena de la EPS. Impresa a dos caras utilizando la plantilla recomendada.",
-                    "·3 copias completas en soporte digital en la Secretaría Administrativa del Campus Vena de la EPS con la memoria, anexos, fuentes del proyecto, aplicación, otros recursos (vídeos, máquinas virtuales, software open source, etc.).",
-                    "·2 entregas de la memoria y anexos en formato pdf, una  en el curso de UBUVirtual y otra en la Comunidad GII.",
+                    "·Entrega en secretaria EPS: 1 copia completa en papel de la memoria del TFG  sin anexos: impresa a dos caras utilizando las plantillas OpenOffice  o LaTeX disponibles en UBUVirtual.",
+                    "·Entrega en secretaria EPS: 3 copias completas del proyecto en soporte digital con el siguiente contenido: memoria, anexos, fuentes del proyecto, aplicación, otros recursos (videos, máquinas virtuales, software open source de terceros...).",
+                    "·Entrega en UBUVirtual: 2 entregas de  la memoria.pdf y anexos.pdf en el curso TFG y en Comunidad GII.",
                     "·Presentación: breve exposición con diapositivas (se entregará el día de la defensa)"
                   ]
-                },
-                {
-                  "text": "Más información en este enlace",
-                  "type": "button",
-                  "icon": {
-                    "type": "link",
-                    "color": "#FF9800"
-                  },
-                  "link": "https://clopezno.github.io/index.html"
                 }
               ]
             ]

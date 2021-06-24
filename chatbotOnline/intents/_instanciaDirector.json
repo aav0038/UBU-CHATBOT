@@ -1,0 +1,67 @@
+{
+  "id": "32b46f07-620a-43df-9d44-22c9d893857d",
+  "name": "_instanciaDirector",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "slack",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "En el siguiente enlace encontrarás la instancia que deberás enviar al director\nhttps://www.ubu.es/escuela-politecnica-superior/informacion-general/impresos-solicitudes-peticiones/modelos-de-solicitudes-para-dirigirse-organos-de-gobierno-de-la-eps-y-de-la-ubu/"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "En el siguiente enlace encontrarás la instancia que deberás enviar al director "
+                  ]
+                },
+                {
+                  "type": "button",
+                  "link": "https://www.ubu.es/escuela-politecnica-superior/informacion-general/impresos-solicitudes-peticiones/modelos-de-solicitudes-para-dirigirse-organos-de-gobierno-de-la-eps-y-de-la-ubu/",
+                  "text": "Instancia a presentar al Director EPS",
+                  "icon": {
+                    "type": "link",
+                    "color": "#FF9800"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

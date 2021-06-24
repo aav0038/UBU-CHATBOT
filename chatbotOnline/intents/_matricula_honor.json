@@ -1,0 +1,67 @@
+{
+  "id": "3247b83d-0e98-4310-910e-f1be4cadbf76",
+  "name": "_matricula_honor",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "slack",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "El tribunal seguirá lo estipulado en el Reglamento de Evaluación de la UBU en cuanto a la asignación de la calificación de Matrícula de Honor:\nhttps://www.ubu.es/servicio-de-gestion-academica-0/normativa-en-gestion-academica/normativa-con-caracter-general/reglamento-de-evaluacion-de-la-universidad-de-burgos"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "El tribunal seguirá lo estipulado en el Reglamento de Evaluación de la UBU en cuanto a la asignación de la calificación de Matrícula de Honor:"
+                  ]
+                },
+                {
+                  "icon": {
+                    "color": "#FF9800",
+                    "type": "link"
+                  },
+                  "link": "https://www.ubu.es/servicio-de-gestion-academica-0/normativa-en-gestion-academica/normativa-con-caracter-general/reglamento-de-evaluacion-de-la-universidad-de-burgos",
+                  "type": "button",
+                  "text": "Reglamento de Evalación de la UBU"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

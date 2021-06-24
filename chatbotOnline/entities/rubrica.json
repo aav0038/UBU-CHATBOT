@@ -1,0 +1,9 @@
+{
+  "id": "3517edb4-34ce-4620-b2c9-33a0cb5c5ada",
+  "name": "rubrica",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

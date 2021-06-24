@@ -1,0 +1,51 @@
+[
+  {
+    "id": "cace5f60-0f49-4a05-999d-14db466b403e",
+    "data": [
+      {
+        "text": "Donde puedo encontrar la portada de los CDs??",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "7fe00fae-7d61-4944-ae97-1ab6a517991a",
+    "data": [
+      {
+        "text": "portada ",
+        "userDefined": false
+      },
+      {
+        "text": "CD",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d7c276da-149e-4986-b5f8-ecb8ed04b091",
+    "data": [
+      {
+        "text": "caratula ",
+        "userDefined": false
+      },
+      {
+        "text": "CD",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

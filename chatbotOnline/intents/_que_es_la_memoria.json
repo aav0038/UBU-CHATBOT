@@ -1,0 +1,67 @@
+{
+  "id": "5d37fc1c-bc1b-4d55-bacd-62dc3d72f607",
+  "name": "_que_es_la_memoria",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "slack",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "La memoria es un documento explicativo de las características generales del TFG a definir por consenso con el tutor/a. Se recomienda seguir la estructura disponible en el siguiente enlace:\nhttps://github.com/ubutfgm/plantillaLatex"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "La memoria es un documento explicativo de las características generales del TFG a definir por consenso con el tutor/a.  Se recomienda seguir la estructura disponible en el siguiente enlace:"
+                  ]
+                },
+                {
+                  "link": "https://github.com/ubutfgm/plantillaLatex",
+                  "text": "Plantilla LaTeX",
+                  "icon": {
+                    "color": "#FF9800",
+                    "type": "link"
+                  },
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

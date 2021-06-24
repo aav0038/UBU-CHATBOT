@@ -1,0 +1,67 @@
+{
+  "id": "0a9217b5-3f80-43f2-a82b-b50ebb8da275",
+  "name": "_ir_a_burgos",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "slack",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Al estudiar online debes hacer la presentación desde casa. Puedes acceder a la lista de distribución de Youtube para ver como lo hicieron otros compañeros.\nhttps://www.youtube.com/channel/UC5S_DwX8JJWV86NNLVQI1dw/playlists"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "Al estudiar online debes hacer la presentación desde casa. Puedes acceder a la lista de distribución de Youtube para ver como lo hicieron otros compañeros  "
+                  ]
+                },
+                {
+                  "text": "Presentaciones años anteriores",
+                  "link": "https://www.youtube.com/channel/UC5S_DwX8JJWV86NNLVQI1dw/playlists/",
+                  "icon": {
+                    "type": "link",
+                    "color": "#FF9800"
+                  },
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

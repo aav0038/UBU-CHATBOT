@@ -1,0 +1,55 @@
+[
+  {
+    "id": "7387b3ac-9d30-41a1-bb98-ef08634b7731",
+    "data": [
+      {
+        "text": "se va a grabar la defensa?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "5a0115ad-9f7d-4a61-b68a-065946fed73f",
+    "data": [
+      {
+        "text": "grabación ",
+        "userDefined": false
+      },
+      {
+        "text": "defensa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "6670e257-2038-4440-b698-8a169b6d8b3a",
+    "data": [
+      {
+        "text": "se ",
+        "userDefined": false
+      },
+      {
+        "text": "graba",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " la defensa?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

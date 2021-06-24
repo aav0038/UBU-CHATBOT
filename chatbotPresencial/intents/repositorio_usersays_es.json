@@ -1,0 +1,50 @@
+[
+  {
+    "id": "d04925a7-c2cc-40f0-bf17-27b0e5f0364f",
+    "data": [
+      {
+        "text": "instrucciones uso repositorio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c6a2cfb7-d32a-4d35-a87e-0d93339dba30",
+    "data": [
+      {
+        "text": "como se ",
+        "userDefined": false
+      },
+      {
+        "text": "usa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " el repositorio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "37fcebc2-d06f-46af-af8e-4f3f670168be",
+    "data": [
+      {
+        "text": "como usar el repositorio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

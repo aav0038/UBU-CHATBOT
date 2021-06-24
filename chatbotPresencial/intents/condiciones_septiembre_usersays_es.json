@@ -1,0 +1,78 @@
+[
+  {
+    "id": "6f401836-761d-4e2c-8e0a-8bb111a23590",
+    "data": [
+      {
+        "text": "requisitos para defender en ",
+        "userDefined": false
+      },
+      {
+        "text": "septiembre",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "93a4a1d2-192f-4701-8c36-72d5f871b1e3",
+    "data": [
+      {
+        "text": "requisitos para presentarme en ",
+        "userDefined": false
+      },
+      {
+        "text": "septiembre",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "4286bced-0af0-484e-8ee1-b4dab54464b8",
+    "data": [
+      {
+        "text": "condiciones presentar ",
+        "userDefined": false
+      },
+      {
+        "text": "septiembre",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "70540dfc-0855-427c-9eb7-79f13389877f",
+    "data": [
+      {
+        "text": "¿Qué condiciones tengo que cumplir para presentarme en ",
+        "userDefined": false
+      },
+      {
+        "text": "septiembre",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

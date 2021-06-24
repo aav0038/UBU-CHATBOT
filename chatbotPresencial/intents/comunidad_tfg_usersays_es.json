@@ -1,0 +1,76 @@
+[
+  {
+    "id": "cb52a03b-8d02-4f8c-a5fd-7532bf6e6058",
+    "data": [
+      {
+        "text": "comunidad de ",
+        "userDefined": false
+      },
+      {
+        "text": "tfg",
+        "meta": "@tfg",
+        "alias": "tfg",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "4afb7b0c-1db7-4c1e-956e-eeefec94740f",
+    "data": [
+      {
+        "text": "¿Dónde está la comunidad de ",
+        "userDefined": false
+      },
+      {
+        "text": "tfgs",
+        "meta": "@tfg",
+        "alias": "tfg",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1f6b618b-14db-4736-9cbd-21252a78142c",
+    "data": [
+      {
+        "text": "comunidad ",
+        "userDefined": false
+      },
+      {
+        "text": "tfgs",
+        "meta": "@tfg",
+        "alias": "tfg",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d7ecf53e-8b26-420b-a743-f818a83316eb",
+    "data": [
+      {
+        "text": "comunidad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

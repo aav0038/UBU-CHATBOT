@@ -1,0 +1,67 @@
+{
+  "id": "654d8ec8-9852-4bf1-b3a7-a75702c43131",
+  "name": "_que_cuatrimestre-cambiarAPrimero",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "que_cuatrimestre.que_cuatrimestre-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "slack",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Puedes cambiarlo al primer cuatrimestre, para ello debes presentar una instancia solicitando la movilidad de cuatrimestre en la Secretaría Administrativa del Campus Vena de EPS. Puedes consultar más información aquí:\nhttps://www.ubu.es/grado-oficial-online-en-ingenieria-informatica/informacion-basica/trabajo-fin-de-grado"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Puedes cambiarlo al primer cuatrimestre, para ello debes presentar una instancia solicitando la movilidad de cuatrimestre en la Secretaría Administrativa del Campus Vena de EPS. Puedes consultar más información aquí: "
+                  ],
+                  "type": "description"
+                },
+                {
+                  "icon": {
+                    "color": "#FF9800",
+                    "type": "link"
+                  },
+                  "text": "Más información",
+                  "type": "button",
+                  "link": " https://www.ubu.es/grado-oficial-online-en-ingenieria-informatica/informacion-basica/trabajo-fin-de-grado"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

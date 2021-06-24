@@ -1,0 +1,46 @@
+[
+  {
+    "id": "c0148ba2-8e8b-4860-805c-bd43d9f010b1",
+    "data": [
+      {
+        "text": "me paso de tiempo en ",
+        "userDefined": false
+      },
+      {
+        "text": "la",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " presentacion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "56725a04-d780-4762-b9b9-5805f81c7e1b",
+    "data": [
+      {
+        "text": "¿Qué ocurre si hago ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " presentación demasiado corta o larga?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

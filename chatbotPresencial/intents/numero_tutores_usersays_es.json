@@ -1,0 +1,103 @@
+[
+  {
+    "id": "d66a00c8-85ef-4572-9852-089dc72768aa",
+    "data": [
+      {
+        "text": "maximo tutores posibles",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9f41906c-3391-4893-abf9-47ea374602a0",
+    "data": [
+      {
+        "text": "¿Cuántos tutores puedo tener?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1d41e710-b354-46a3-8be5-b300b0f9f3bd",
+    "data": [
+      {
+        "text": "mas de ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tutor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "0fa02908-d9cb-4ee8-b4be-8d87c6c05c6d",
+    "data": [
+      {
+        "text": "dos",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tutores",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3f0b24d4-6139-4e14-b2ee-926542d8774b",
+    "data": [
+      {
+        "text": "puedo tener más de ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tutor?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "6b941c20-0618-44d3-b702-8a839836edd1",
+    "data": [
+      {
+        "text": "numero tutores",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

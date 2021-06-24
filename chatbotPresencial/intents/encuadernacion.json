@@ -1,0 +1,50 @@
+{
+  "id": "ee03487c-9f2b-41c9-a82b-9f5a6cc56e29",
+  "name": "encuadernacion",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "70ad18e3-8834-4ebc-b092-5100328219ec",
+          "name": "encuadernacion",
+          "required": false,
+          "dataType": "@encuadernacion",
+          "value": "$encuadernacion",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "La copia impresa de la memoria ha de estar encuadernada en alguno de los siguientes formatos:  libro cosido, libro pegado, libro con grapa de canto metálico prensada o  revista de tapa dura y grapa."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

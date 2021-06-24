@@ -1,5 +1,18 @@
 [
   {
+    "id": "330af891-a430-4316-9aa4-e22f05cf879c",
+    "data": [
+      {
+        "text": "cuando suben las notas?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
     "id": "706d5653-01a0-4f63-bad4-5285cf309594",
     "data": [
       {
@@ -42,7 +55,7 @@
     "id": "cfb1b359-14ac-4680-9dc0-1da70636cd60",
     "data": [
       {
-        "text": "\n ¿Cuándo se publican las notas?",
+        "text": " ¿Cuándo se publican las notas?",
         "userDefined": false
       }
     ],

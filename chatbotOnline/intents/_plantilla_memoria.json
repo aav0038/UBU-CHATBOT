@@ -1,0 +1,67 @@
+{
+  "id": "bf290be3-97df-4f0f-9c41-1cace02ecdec",
+  "name": "_plantilla_memoria",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "slack",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Existe un modelo de plantilla en LaTeX a seguir lo más fielmente posible en el siguiente enlace:\nhttps://github.com/ubutfgm/plantillaLatex"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "Existe un modelo de plantilla en LaTeX a seguir lo más fielmente posible en el siguiente enlace: "
+                  ]
+                },
+                {
+                  "icon": {
+                    "color": "#FF9800",
+                    "type": "link"
+                  },
+                  "text": "Plantilla LaTeX",
+                  "type": "button",
+                  "link": "https://github.com/ubutfgm/plantillaLatex"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

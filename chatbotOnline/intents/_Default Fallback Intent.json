@@ -1,0 +1,60 @@
+{
+  "id": "b8885457-24a6-4f60-aa3f-57909c000fed",
+  "name": "_Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "slack",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Perdona, no he entendido, dame más detalles sobre tu pregunta. Sigue las siguientes recomendaciones:\n- Escribe una única pregunta por mensaje.\n- Tu frase debe contener la pregunta completa.\n- Si no he conseguido responder tu pregunta, intenta formularla de otra manera.\n- Solo respondo dudas generales de los estudiantes sobre la asignatura Trabajo Fin de Grado."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Perdona, no he entendido, dame más detalles sobre tu pregunta. Sigue las siguientes recomendaciones:",
+                    "- Escribe una única pregunta por mensaje.",
+                    "- Tu frase debe contener la pregunta completa.",
+                    "- Si no he conseguido responder tu pregunta, intenta formularla de otra manera.",
+                    "- Solo respondo dudas generales de los estudiantes sobre la asignatura Trabajo Fin de Grado."
+                  ],
+                  "type": "description",
+                  "title": ""
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

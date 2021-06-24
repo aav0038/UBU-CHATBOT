@@ -1,0 +1,35 @@
+{
+  "id": "4a77756f-969d-41ed-a3ad-d64cf6a3eb42",
+  "name": "ejemplo_memoria",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "En los siguientes repositorios tienes algunos buenos ejemplos de memorias:  https://github.com/davidmigloz/go-bees,  https://github.com/EduardoRisco/SurveyingPointCode, https://github.com/MarioBartolome/GII_0_17.02_SNSI\nhttps://github.com/dsr0018/olivia"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

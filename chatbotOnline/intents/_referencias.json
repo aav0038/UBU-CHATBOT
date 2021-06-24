@@ -1,0 +1,133 @@
+{
+  "id": "d69f5d29-a736-4061-af7e-d5303ca6556a",
+  "name": "_referencias",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "slack",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Las referencias tienen que tener el siguiente formato:\nhttps://www.ubu.es/aprendizaje-e-investigacion/recursos-aprendizaje-investigacion/referencias-bibliograficas-y-las-citas/"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "slack",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Para ello puedes ayudarte de las siguientes herramientas:\nhttps://endnote.com/\nhttps://www.mendeley.com/?interaction_required\u003dtrue\nhttps://www.zotero.org/\nhttps://www.jabref.org/"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Las referencias tienen que tener el siguiente formato: "
+                  ],
+                  "type": "description"
+                },
+                {
+                  "type": "button",
+                  "icon": {
+                    "color": "#FF9800",
+                    "type": "link"
+                  },
+                  "link": "https://www.ubu.es/aprendizaje-e-investigacion/recursos-aprendizaje-investigacion/referencias-bibliograficas-y-las-citas/",
+                  "text": "Formato de las referencias"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "Para ello puedes ayudarte de las siguientes herramientas: "
+                  ]
+                },
+                {
+                  "icon": {
+                    "color": "#05B20B",
+                    "type": "link"
+                  },
+                  "text": "EndNote",
+                  "type": "button",
+                  "link": "https://endnote.com/"
+                },
+                {
+                  "icon": {
+                    "type": "link",
+                    "color": "#05B20B"
+                  },
+                  "type": "button",
+                  "text": "Mendeley",
+                  "link": "https://www.mendeley.com/"
+                },
+                {
+                  "link": "https://www.zotero.org/",
+                  "type": "button",
+                  "text": "Zotero",
+                  "icon": {
+                    "type": "link",
+                    "color": "#05B20B"
+                  }
+                },
+                {
+                  "icon": {
+                    "color": "#05B20B",
+                    "type": "link"
+                  },
+                  "type": "button",
+                  "text": "JabRef",
+                  "link": "https://www.jabref.org/"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

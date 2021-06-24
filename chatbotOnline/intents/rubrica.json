@@ -1,0 +1,50 @@
+{
+  "id": "5c42383f-23a3-43cb-9a24-df7d182714a8",
+  "name": "rubrica",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9f71f50a-324c-4553-85dd-c6a1853dd976",
+          "name": "rubrica",
+          "required": false,
+          "dataType": "@rubrica",
+          "value": "$rubrica",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "No existe una rúbrica como tal, dada la diversidad de TFGs, sino un procedimiento de evaluación general indicado en la guía docente de la asignatura."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

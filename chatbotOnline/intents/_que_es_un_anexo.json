@@ -1,0 +1,67 @@
+{
+  "id": "74c67741-7937-4990-a67b-5db3972dedc6",
+  "name": "_que_es_un_anexo",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "slack",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Un anexo es un documento explicativo de las características técnicas del TFG a definir por consenso con el tutor/a. Se recomienda seguir la estructura disponible en el siguiente enlace:\nhttps://github.com/ubutfgm/plantillaLatex"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "Un anexo es un documento explicativo de las características técnicas del TFG a definir por consenso con el tutor/a. Se recomienda seguir la estructura disponible en el siguiente enlace:"
+                  ]
+                },
+                {
+                  "type": "button",
+                  "icon": {
+                    "color": "#FF9800",
+                    "type": "link"
+                  },
+                  "text": "Plantilla Latex",
+                  "link": "https://github.com/ubutfgm/plantillaLatex"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

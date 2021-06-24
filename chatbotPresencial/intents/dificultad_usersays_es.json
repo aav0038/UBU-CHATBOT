@@ -1,0 +1,116 @@
+[
+  {
+    "id": "86ce2403-42f2-42ce-8f8a-39752c33f8d8",
+    "data": [
+      {
+        "text": "cuanta gente aprueba?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "04934973-8afc-436a-8642-ba4e5f22890a",
+    "data": [
+      {
+        "text": "cuanta gente suspende?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ea0a270c-3885-4051-9619-d382306e4a0a",
+    "data": [
+      {
+        "text": "que nivel de dificultad tiene?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9734dbee-5265-4f14-8eac-5879760f576f",
+    "data": [
+      {
+        "text": "cual ",
+        "userDefined": false
+      },
+      {
+        "text": "es",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "la",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tasa de aprobados?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "4e5c3309-1fa2-45bf-8edd-d958d770be84",
+    "data": [
+      {
+        "text": "suspende mucha gente?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "0ce6df94-88e3-43e8-a36d-5a8abf8ca385",
+    "data": [
+      {
+        "text": "es",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " facil aprobar?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "eb9d972c-c825-47b3-b5a5-f2cd00479fa2",
+    "data": [
+      {
+        "text": "dificultad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  }
+]

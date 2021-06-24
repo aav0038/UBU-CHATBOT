@@ -1,5 +1,27 @@
 [
   {
+    "id": "bdaf81da-9c00-47e8-b97f-7eccaed9c016",
+    "data": [
+      {
+        "text": "¿Cómo se entrega la copia en ",
+        "userDefined": false
+      },
+      {
+        "text": "papel",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " de la memoria?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
     "id": "930d5558-8dcb-4806-aae2-90bc7f316c88",
     "data": [
       {

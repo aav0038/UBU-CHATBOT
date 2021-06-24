@@ -17,7 +17,7 @@
       ],
       "parameters": [
         {
-          "id": "cecf089b-8563-48e2-8b3d-a2364c078a23",
+          "id": "61b745f6-e3a8-4927-a000-a4c29254ea61",
           "name": "any",
           "required": false,
           "dataType": "@sys.any",
@@ -46,7 +46,7 @@
       "speech": []
     }
   ],
-  "priority": 500000,
+  "priority": -1,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,

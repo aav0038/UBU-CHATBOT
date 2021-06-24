@@ -1,0 +1,35 @@
+{
+  "id": "532b5c71-015d-4de0-ba87-5c792638c613",
+  "name": "impugnar",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "El reglamento de Trabajo Fin de Grado en su Artículo 10 recoge el proceso de reclamación (https://www.ubu.es/escuela-politecnica-superior/estructura-del-centro/normativa-y-reglamentos/reglamento-sobre-trabajo-fin-de-grado-y-trabajo-fin-de-master)."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

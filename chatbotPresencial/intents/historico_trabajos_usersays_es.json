@@ -1,0 +1,41 @@
+[
+  {
+    "id": "a863c39f-1780-4cac-9787-52b4a6099e39",
+    "data": [
+      {
+        "text": "historico de trabajos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "7ea18234-ba0c-4de1-bde9-fc747952db6c",
+    "data": [
+      {
+        "text": "histórico trabajos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "53bfe45e-b484-4f44-bf94-da6316f23823",
+    "data": [
+      {
+        "text": "trabajos años anteriores",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

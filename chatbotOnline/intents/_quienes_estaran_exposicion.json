@@ -1,0 +1,59 @@
+{
+  "id": "b97309cc-a491-4ceb-8ac4-7abf246895b2",
+  "name": "_quienes_estaran_exposicion",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "slack",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "La presentación/exposición de los TFG es un acto social y público donde exponer los trabajos a los asistentes que se lo soliciten al tribunal.\nLa defensa, es la parte de la presentación de los trabajos a los miembros del tribunal. Se hará conforme al orden mostrado en un listado generado después de la fecha de entrega. Los estudiantes defenderán sus TFG en una sesión pública por MS Teams con sus identidades de estudiante en la Universidad de Burgos"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "La presentación/exposición de los TFG es un acto social y público donde exponer los trabajos a los asistentes que se lo soliciten al tribunal.",
+                    "La defensa, es la parte de la presentación de los trabajos a los miembros del tribunal. Se hará conforme al orden mostrado en un listado generado después de la fecha de entrega. Los estudiantes defenderán sus TFG en una sesión pública por MS Teams con sus identidades de estudiante en la Universidad de Burgos."
+                  ],
+                  "type": "description"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,67 @@
+{
+  "id": "b16ca576-6830-4d38-935b-ffd93e4b6045",
+  "name": "_matricularme_cuando_quiera",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "slack",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Ponte en contacto con administración de estudiante de EPS Edf Vena\nhttps://www.ubu.es/escuela-politecnica-superior/"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "Ponte en contacto con administración de estudiante de EPS Edf Vena"
+                  ]
+                },
+                {
+                  "type": "button",
+                  "link": "https://www.ubu.es/escuela-politecnica-superior/",
+                  "text": "Administración de Estudiantes",
+                  "icon": {
+                    "type": "link",
+                    "color": "#FF9800"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

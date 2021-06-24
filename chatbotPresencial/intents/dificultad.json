@@ -1,0 +1,35 @@
+{
+  "id": "ece9cd84-51c7-430b-81c9-7436fc35f6cb",
+  "name": "dificultad",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "La asignatura tiene una alta tasa de aprobados sobre presentados, pero también existe una alta tasa de no presentados, al no llegar a completarse en plazos todos los requisitos necesarios en la entrega. Consulta con alumnos egresados sobre su opinión personal sobre la dificultad o no de la asignatura. Se puede consultar un histórico de las calificaciones medias por cursos en https://clopezno.github.io/tfg_gii_online/HistoricoSist.html"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

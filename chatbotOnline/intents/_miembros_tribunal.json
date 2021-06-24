@@ -1,0 +1,65 @@
+{
+  "id": "dbfe13ad-4696-4d52-9975-0071924fc084",
+  "name": "_miembros_tribunal",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "slack",
+          "title": "",
+          "payload": {
+            "slack": {
+              "text": "*Presidente: Carlos López Nozal*\nSecretario: Alejandro Merino Gómez\nVocal: José Ignacio Santos Martín\nVocal: Raúl Marticorena Sánchez\nVocal: Pedro Renedo Fernández",
+              "attachments": []
+            }
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Presidente: Dr. D. Carlos López Nozal",
+                  "type": "description",
+                  "text": [
+                    "Secretario: Dr. D. Alejandro Merino Gómez",
+                    "Vocal: Dr. D. José Ignacio Santos Martín",
+                    "Vocal: Dr. D. Raúl Marticorena Sánchez",
+                    "Vocal: D. Pedro Renedo Fernández"
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

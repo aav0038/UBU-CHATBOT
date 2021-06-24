@@ -1,0 +1,82 @@
+{
+  "id": "a8acba2f-d3be-4b8e-bed3-190fd9ade425",
+  "name": "_reclamar",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f975b949-8f1d-4c3d-8835-130d7f97bb1e",
+          "name": "tfg",
+          "required": false,
+          "dataType": "@tfg",
+          "value": "$tfg",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "slack",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "El proceso de reclamación está definido en el Artículo 10 del reglamento de TFG de la EPS:\nhttps://www.ubu.es/escuela-politecnica-superior/estructura-del-centro/normativa-y-reglamentos/reglamento-sobre-trabajo-fin-de-grado-y-trabajo-fin-de-master"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "El proceso de reclamación está definido en el Artículo 10 del reglamento de TFG de la EPS:"
+                  ],
+                  "type": "description"
+                },
+                {
+                  "type": "button",
+                  "icon": {
+                    "type": "link",
+                    "color": "#FF9800"
+                  },
+                  "text": "Reglamento del TFG",
+                  "link": "https://www.ubu.es/escuela-politecnica-superior/estructura-del-centro/normativa-y-reglamentos/reglamento-sobre-trabajo-fin-de-grado-y-trabajo-fin-de-master "
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,67 @@
+{
+  "id": "04d1c2c2-04cb-460e-8f7b-489740fcd4b9",
+  "name": "_cuando_toca_exponer",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "slack",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Las fechas de entrega del TFG se aprueban en la Junta de Escuela Politécnica cada curso y se publican en la página oficial del Grado.\nEn el siguiente enlace podrás ver el calendario de entrega de los dos cuatrimestres ordinarios y la convocatoria extraordinaria aprobado por Junta de Escuela Politécnica Superior.\nhttps://www.ubu.es/escuela-politecnica-superior/informacion-academica/calendario-academico-eps"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Finalizada la entrega en UBUVirtual, se publica en los días posteriores el calendario y orden de defensas, dentro los días habilitados para la misma según el calendario de la EPS."
+                  ],
+                  "type": "description"
+                },
+                {
+                  "type": "button",
+                  "icon": {
+                    "color": "#FF9800",
+                    "type": "link"
+                  },
+                  "link": "https://www.ubu.es/escuela-politecnica-superior/informacion-academica/calendario-academico-eps",
+                  "text": "Calendario acedémico EPS"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

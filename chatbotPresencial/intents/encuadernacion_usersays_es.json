@@ -1,0 +1,39 @@
+[
+  {
+    "id": "609dd3bc-309c-4749-9698-e7b2fa3bf74f",
+    "data": [
+      {
+        "text": "¿",
+        "userDefined": false
+      },
+      {
+        "text": "La encuadernación",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " debe realizarse en tapa dura o se puede hacer en espirales?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e9b7f986-2a7f-4cca-b921-c24d1fc1f332",
+    "data": [
+      {
+        "text": "encuadernacion",
+        "meta": "@encuadernacion",
+        "alias": "encuadernacion",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

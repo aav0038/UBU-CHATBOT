@@ -1,0 +1,139 @@
+[
+  {
+    "id": "d8d37942-f59c-4341-b8f2-04681b8d2e3d",
+    "data": [
+      {
+        "text": "precio ",
+        "userDefined": false
+      },
+      {
+        "text": "segunda",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " matriculacion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "1a95914a-fa21-42ff-880b-de1067d0db55",
+    "data": [
+      {
+        "text": "precio ",
+        "userDefined": false
+      },
+      {
+        "text": "segunda",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " matricula",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e1d354d6-5de6-41d5-825a-f3acb55d0c11",
+    "data": [
+      {
+        "text": "cuanto vale ",
+        "userDefined": false
+      },
+      {
+        "text": "la",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "segunda",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " matricula?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "816df2ee-51d7-47e7-a85d-a8699c85eb9f",
+    "data": [
+      {
+        "text": "¿cuánto ",
+        "userDefined": false
+      },
+      {
+        "text": "cuesta",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "la",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "segunda",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " matricula?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e937807a-7831-42e9-be9a-e1f7f4cb793d",
+    "data": [
+      {
+        "text": "tasa ",
+        "userDefined": false
+      },
+      {
+        "text": "segunda",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " matricula",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]
