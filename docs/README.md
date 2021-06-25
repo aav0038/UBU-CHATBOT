@@ -16,3 +16,10 @@ Chatbot, the pourpose of which is to give an answer to all the questions that st
 
 Виртуальный собеседник (чат-бот), цель которого – отвечать на все вопросы, которые могут задать студенты о том, как функционирует предмет «Дипломная работа бакалавра».
 Доступны две версии, для онлайн-обучения, и для очного обучения. UBUчат-бот интегрирован с платформой Moodle университета и с Slack. В настоящее время поддерживает только испанский язык.
+
+# License
+   UBUChatbot Copyright (C) 2020-2021  Alfredo Asensio Vázquez  
+   
+ This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.  
+ 
+ This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
