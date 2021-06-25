@@ -6,11 +6,11 @@ Grado en Ingeniería Informática
 
 # Descripción
 
-Bot conversacional (chatbot) cuyo objetivo es dar respuesta a todas las dudas que los alumnos puedan tener sobre el funcionamiento de la asignatura Trabajo de Fin de Grado. Dispone de una versión para la modalidad online y otra para presencial. UBUChatbot está integrado en la plataforma Moodle de la Universidad y en Slack.
+Bot conversacional (chatbot) cuyo objetivo es dar respuesta a todas las dudas que los alumnos puedan tener sobre el funcionamiento de la asignatura Trabajo de Fin de Grado. Dispone de una versión para la modalidad online y otra para presencial. UBU-Chatbot está integrado en la plataforma Moodle de la Universidad y en Slack.
 
 # Description
 
-Chatbot, the pourpose of which is to give an answer to all the questions that students may have about how the end-of-degree project subject works. It has two versions: for face to face modality and for online version. UBUChatbot is integrated in the Moodle plataform of the University and in Slack. Currently it is only available in Spanish language
+Chatbot, the pourpose of which is to give an answer to all the questions that students may have about how the end-of-degree project subject works. It has two versions: for face to face modality and for online version. UBU-Chatbot is integrated in the Moodle plataform of the University and in Slack. Currently it is only available in Spanish language
 
 # Описание
 
