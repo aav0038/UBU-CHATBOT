@@ -18,7 +18,7 @@ Chatbot, the pourpose of which is to give an answer to all the questions that st
 Доступны две версии, для онлайн-обучения, и для очного обучения. UBUчат-бот интегрирован с платформой Moodle университета и с Slack. В настоящее время поддерживает только испанский язык.
 
 # License
-   UBUChatbot Copyright (C) 2020-2021  Alfredo Asensio Vázquez  
+   UBU-Chatbot Copyright (C) 2020-2021  Alfredo Asensio Vázquez  
    
  This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.  
  
