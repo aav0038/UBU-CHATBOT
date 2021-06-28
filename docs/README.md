@@ -1,18 +1,28 @@
-![logo](https://raw.githubusercontent.com/aav0038/CHATBOT_TFG/master/LogoFinalTransparenteGranate.png)
+# Plantilla LaTeX
 
-Autor: Alfredo Asensio Vázquez  
-Tutor: Dr. Raúl Marticorena Sánchez  
-Ingeniería Informática  
+La plantilla se compone de dos documentos maestros: uno para la memoria y otro para los anexos.
 
-# Descripción
+- Memoría: ```memoria.tex```
+- Anexos: ```anexos.tex```
 
-Bot conversacional (chatbot) cuyo objetivo es dar respuesta a todas las dudas que los alumnos puedan tener sobre el funcionamiento de la asignatura Trabajo de Fin de Grado. Dispone de una versión para la modalidad online y otra para presencial. UBUChatbot está integrado en la plataforma Moodle de la Universidad y en Slack.
+En la carpeta ```tex``` se encuentran los distintos documentos que forman los documentos maestros. 
+Dichos documentos contienen las secciones y subsecciones a completar.
+En el documento ```3_Conceptos_teoricos.tex``` se encuentra una breve guía de como usar LaTeX y los comandos propios de esta plantilla.
 
-# Description
+# Creación y edición de documentos en LaTeX
 
-Chatbot, the pourpose of which is to give an answer to all the questions that students may have about how the end-of-degree project subject works. It has two versions: for face to face modality and for online version. UBUChatbot is integrated in the Moodle plataform of the University and in Slack. Currently it is only available in Spanish language
+LaTeX es un lenguaje de marcado. 
+Para crear y editar documentos en LaTeX se necesita un editor de LaTeX, que puede estar instalado en nuestro ordenador http://www.xm1math.net/texmaker/, o puede tratarse de un servicio web https://www.overleaf.com/.
 
-# Описание
+Un videotutorial de la instalación de Miktex + TexMaker en windows puede verse en 
+https://www.youtube.com/watch?v=DIdHfVpIiAk
 
-Виртуальный собеседник (чат-бот), цель которого – отвечать на все вопросы, которые могут задать студенты о том, как функционирует предмет «Дипломная работа бакалавра».
-Доступны две версии, для онлайн-обучения, и для очного обучения. UBUчат-бот интегрирован с платформой Moodle университета и с Slack. В настоящее время поддерживает только испанский язык.
+# Petición de cambios y sugerencias
+
+Se ruega a los alumnos y tutores que detecten fallos o que quieran proponer una sugerencia, que lo notifiquen mediante la creación de una issue https://github.com/ubutfgm/plantillaLatex/issues
+
+# Gracias a los contribuidores
+César Ignacio García Osorio, Álvar Arnaiz Gonzalez, José Francisco Díez Pastor, Carlos Lopez Nozal.
+Álvaro López Cantero, Roberto Izquierdo Amo, David Miguel Lozano.
+
+

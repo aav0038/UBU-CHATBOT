@@ -32,26 +32,26 @@ La implementación de la Inteligencia Artificial en el mundo laboral está tenie
 
 Las interfaces de usuario conversacional han ido evolucionando a lo largo de los años. Inicialmente, la única forma posible de interacción entre humanos y computadores era una interfaz textual. 
 
-Esta interfaz primigenia comenzó utilizando comandos con un formato estricto y evolucionó hacia el lenguaje natural. Un ejemplo de interacción textual con lenguaje natural es la búsqueda en Google, donde introducimos una frase en lenguaje natural y obtenemos una serie de resultados. Actualmente este ejemplo ha evolucionado y no es estrictamente textual, ya que tanto para la entrada como salida se pueden incluir archivos multimedia.
+Esta interfaz primigenia comenzó utilizando comandos con un formato estricto y evolucionó hacia el lenguaje natural. Un ejemplo de interacción textual con lenguaje natural es la búsqueda en Google, donde introducimos una frase en lenguaje natural y obtenemos una serie de resultados como es muestra en la Figura \ref{fig:interfazTextual}. Actualmente este ejemplo ha evolucionado y no es estrictamente textual, ya que tanto para la entrada como salida se pueden incluir archivos multimedia.
 
-\imagenMediana{interfazTextual}{Interfaz textual}
+\imagen{interfazTextual}{Interfaz textual}
 
-La siguiente evolución en este campo fueron las interfaces gráficas \textit{Graphical user interface}. Esta interfaz imita el modo en que realizamos las acciones en la vida real y reemplaza la interacción textual. 
+La siguiente evolución en este campo fueron las interfaces gráficas \textit{Graphical user interface}. Esta interfaz imita el modo en que realizamos las acciones en la vida real y reemplaza la interacción textual. Ver Figura \ref{fig:graphicalUI}.
 
 Con esta interfaz podemos realizar acciones como pulsar un botón de la pantalla o seleccionar una opción en una lista. 
 
 Con la introducción de Windows en la década de los 90 esta interfaz adquirió una gran popularidad. Siguieron evolucionando con la introducción de elementos táctiles, que evitan la necesidad de utilizar un ratón.
 
-\imagenMediana{graphicalUI}{Interfaz de usuario gráfica}
+\imagen{graphicalUI}{Interfaz de usuario gráfica}
 
-Finalmente, la última evolución de las interfaces conversacionales ha sido la \textit{Conversational UI}, que es sobre la que se diseña este proyecto. Conceptualmente es parecida a la interfaz textual, pero en este caso se produce una interacción de una manera similar a la que realizarían los humanos entre sí. A este computador humanizado se le denomina \textit{bot}. 
+Finalmente, la última evolución de las interfaces conversacionales ha sido la \textit{Conversational UI}, que es sobre la que se diseña este proyecto. Conceptualmente es parecida a la interfaz textual, pero en este caso se produce una interacción de una manera similar a la que realizarían los humanos entre sí. A este computador humanizado se le denomina \textit{bot}. Sigue el esquema mostrado en la Figura \ref{fig:conversationalUIajeno}
 
 \imagenMediana{conversationalUIajeno}{Conversational UI.}
 
 Finalmente, existe otro tipo de \textit{Conversational UI}, cuya entrada son mensajes de audio en lugar de mensajes de texto, y se denomina \textit{Voice-enabled conversational UI}. Este nuevo modelo imita la interacción humana más que ningún otro.
 
 
-Amazon Alexa y Siri son dos de los ejemplos más populares de sistemas que implementan este tipo de interfaz.
+Amazon Alexa, Google Assistant y Siri son dos de los ejemplos más populares de sistemas que implementan este tipo de interfaz.
 
 
 \newpage
@@ -60,13 +60,9 @@ Amazon Alexa y Siri son dos de los ejemplos más populares de sistemas que imple
 
 El \textit{Machine Learning}, de aquí en adelante Aprendizaje Automático, hace referencia a los sistemas que están basados en algoritmos que permiten al sistema aprender de manera autónoma a partir de la información analizada, sin necesitar la intervención de un operario humano.
 
-El Aprendizaje Automático esta fundamentado en la estadística, por medio del reconocimiento de patrones. Parte de la idea de que un conjunto de reglas podría representarse de una forma menos explícita, en una red de neuronas.
+El Aprendizaje Automático esta fundamentado en la estadística, por medio del reconocimiento de patrones. Parte de la idea de que un conjunto de reglas podría representarse de una forma menos explícita. Algunos algoritmos de aprendizaje automático son: regresión, bayesianos, agrupación, árboles de decisión y redes neuronales.
 
-\imagen{redNeuronal}{Red neuronal, que a partir de una serie de entradas obtiene una salida.}
-
-La primera máquina de red neuronal fue diseñada en 1951 por Marvin Minsky y Dean Edmonds, conocida como SNARC (Calculadora de Refuerzo Analógico Neuronal Estocástico). Contenía 40 "neuronas" que permitían aprender a escapar de un laberinto virtual \cite{machineLearning}.
-
-En nuestro proyecto, cuando introducimos los datos de entrenamiento, Dialogflow crea un modelo de Aprendizaje Automático diseñado específicamente para nuestro agente.
+En nuestro proyecto, cuando introducimos los datos de miento, Dialogflow crea un modelo de Aprendizaje Automático diseñado específicamente para nuestro agente.
 Cada vez que guardemos cambios en nuestro agente, se producirá automáticamente un entrenamiento.
 
 En el caso de nuestro agente, responde FAQs a partir de unas frases de ejemplo que le demos para referirnos a las posibles distintas formulaciones de una misma pregunta que nos puedan hacer. El agente, por medio de un Aprendizaje Automático, generará información sobre el tipo de preguntas que nos puedan hacer similares a las introducidas que busquen obtener la misma información.
@@ -86,20 +82,23 @@ Como ejemplo práctico de aplicación de este concepto en nuestro proyecto, nues
 
 \imagenMediana{NluNlp}{NLU y NLP \cite{NaturalLenguage}} 
 
-En la imagen se muestra la relación de estos conceptos y las funciones de cada uno de ellos.
-ASR es un sistema de reconocimiento de habla (que queda fuera del marco de este trabajo).
+En la Figura \ref{fig:NluNlp} se muestra la relación de estos conceptos y las funciones de cada uno de ellos.
+ASR (\textit{Automatic speech recognition}) es un sistema de reconocimiento de habla (que queda fuera del marco de este trabajo).
 
 \newpage
 
 \section{Flow-based chatbot vs AI Powered chatbot}
 
 \subsection{\textit{Flow-based chatbot}}
-No tiene componente NLU, por lo que no puede entender los mensajes que escriba el usuario. Consiste en un flujo de conversación que sigue una estructura de árbol, y en la que se le sugiere al usuario una serie de opciones que corresponderán a la operación que quiera hacer el usuario en cada momento, el usuario en ningún momento va a poder introducir texto, únicamente irá eligiendo entre las opciones que el chatbot le ofrezca tras cada elección.
+No tiene componente NLU, por lo que no puede entender los mensajes que escriba el usuario. Consiste en un flujo de conversación que sigue una estructura de árbol, y en la que se le sugiere al usuario una serie de opciones que corresponderán a la operación que quiera hacer el usuario en cada momento, el usuario en ningún momento va a poder introducir texto, únicamente irá eligiendo entre las opciones que el chatbot le ofrezca tras cada elección. En la Figura \ref{fig:flowBased} se muestra un ejemplo.
+
+
+\imagen{flowBased}{Ejemplo de flujo de conversación guiada}
 
 Está diseñado para realizar un número limitado de operaciones y no ofrece margen de maniobra al usuario. Sin embargo, tiene la ventaja de que al ser una conversación inflexible se evitan errores y dar una mala experiencia al usuario, algo muy habitual en un chatbot abierto. Son más sencillos de implementar que un chatbot que siga el modelo de NLU que se explica a continuación.
 
 \subsection{\textit{AI Powered chatbot}}
-Si tiene componente NLU, siendo el elemento principal en torno al cual gira el motor del chatbot. Por medio del NLU procesa y analiza el mensaje que introduce el usuario. Se le brinda al usuario total libertad para introducir el texto que desee. Está basado en el Aprendizaje Automático, lo que significa que va aprendiendo en base a sus ejecuciones.
+Su componente NLU es el elemento principal en torno al cual gira el motor del chatbot. Por medio del NLU procesa y analiza el mensaje que introduce el usuario. Se le brinda al usuario total libertad para introducir el texto que desee. Está basado en el Aprendizaje Automático, lo que significa que va aprendiendo en base a sus ejecuciones.
 
 Aporta mucho más margen de maniobra, más posibilidades de recibir incrementos en sus funcionalidades, ofrece una experiencia más completa y puede detectar patrones de comportamiento. En su contra acostumbra a no detectar correctamente lo que el usuario quiere decir con relativa frecuencia.
 
@@ -114,7 +113,7 @@ Una tercera opción es la unión de las dos soluciones anteriores, siendo un cha
 \section{Intent, Entity, Context, Fallback y Event}
 
 \begin{description}
-	\item[Intent:] es el objetivo que tiene un cliente cuando formula una pregunta. Se implementan asociando a cada \textit{intent} varias frases de entrenamiento cuyo objetivo sea el de realizar la misma pregunta que la del propósito de dicho \textit{intent}. Cada vez que un usuario hace una pregunta el NLU determina cuál es el \textit{intent} que más se aproxima a ella y será la respuesta asociada a dicho \textit{intent} la que responda, por lo que los \textit{intents} son un factor crítico para el correcto flujo de la conversación.
+	\item[Intent:] es el objetivo que tiene un cliente cuando formula una pregunta. Se implementan asociando a cada \textit{intent} varias frases de entrenamiento (\textit{training phrases}) cuyo objetivo sea el de realizar la misma pregunta que la del propósito de dicho \textit{intent}. Cada vez que un usuario hace una pregunta el NLU determina cuál es el \textit{intent} que más se aproxima a ella y será la respuesta asociada a dicho \textit{intent} la que responda, por lo que los \textit{intents} son un factor crítico para el correcto flujo de la conversación.
 	Debe generarse un buen modelo con muchos datos de entrenamiento. \cite{Intents}
 	\item[Entity:] es una clase de dato que puede extraerse del mensaje del usuario. El NER (\textit{Named Entity Recognition}) es la parte del NLP encargada de extraer entidades del texto. Ejemplos de entidades: teléfono, email, ciudad y números.
 	\item[Context:] similar a los contextos de una conversación real. Son variables que sirven para determinar el estado de la conversación, utilizándose para establecer cuál es el camino que debe seguir la conversación. \cite{DialogflowDocs}
@@ -131,7 +130,7 @@ Existen muchos tipos: botones de sugerencia, imágenes, mensajes de audio, enlac
 
 \imagenMediana{richResponse}{Rich response \cite{RichResponse}} 
 
-En la imagen se muestra una respuesta con botones de sugerencia (\textit{suggestion chips}). Por medio de este tipo de respuestas se facilita mucho el diseño guiado por flujos.\\
+En la Figura \ref{fig:richResponse} se muestra una respuesta con botones de sugerencia (\textit{suggestion chips}). Por medio de este tipo de respuestas se facilita mucho el diseño guiado por flujos.\\
 Las \textit{rich responses} disponibles dependen de la integración que se utilice.
 
 
@@ -144,11 +143,8 @@ Un \textit{webhook} es un mecanismo para enviar información al sistema sobre la
 Dialogflow utiliza \textit{fulfillment} que es el código que se despliega y permite al agente ejecutar la lógica del programa como respuesta a un \textit{webhook} que puede ser desencadenado tras el reconocimiento de un \textit{intent}. Esto permite utilizar la información obtenida por el NLP para generar respuestas dinámicas en el \textit{back-end}. 
 
 
-\imagen{fulfillment-flow}{Fulfillment flow \cite{FulfillmentFlow}} 
+\imagen{fulfillment-flow}{\textit{Fulfillment flow} \cite{FulfillmentFlow}} 
 
-En la imagen se muestra el flujo por el que Dialogflow manda una petición al \textit{webhook} con la información asociada al \textit{intent}. El sistema por medio del \textit{fulfillment} puede realizar cualquier acción sobre ella, como consultas a APIs externas o a base de datos.
+En la Figura \ref{fig:fulfillment-flow} se muestra el flujo por el que Dialogflow manda una petición al \textit{webhook} con la información asociada al \textit{intent}. El sistema por medio del \textit{fulfillment} puede realizar cualquier acción sobre ella, como consultas a APIs externas o a base de datos.
 
-Un ejemplo de uso podría ser que un usuario preguntase al chatbot el horario de tutorías de un profesor. En primer lugar, se detectaría un intent de consulta de horarios de tutoría que activaría una petición webhook por la que se ejecutaría en nuestro fulfillment un código que haría una consulta a una API externa en la que estaría la información de los horarios de cada profesor, para devolver esa información como un mensaje de texto en el chatbot a nuestro usuario.
-
-
-\newpage
+Un ejemplo de uso podría ser que un usuario preguntase al chatbot el horario de tutorías de un profesor. En primer lugar, se detectaría un intent de consulta de horarios de tutoría que activaría una petición webhook por la que se ejecutaría en nuestro \textit{fulfillment} un código que haría una consulta a una API externa en la que estaría la información de los horarios de cada profesor, para devolver esa información como un mensaje de texto en el chatbot a nuestro usuario.

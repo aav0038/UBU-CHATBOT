@@ -1,7 +1,140 @@
 \capitulo{5}{Aspectos relevantes del desarrollo del proyecto}
 
-Este apartado pretende recoger los aspectos más interesantes del desarrollo del proyecto, comentados por los autores del mismo.
-Debe incluir desde la exposición del ciclo de vida utilizado, hasta los detalles de mayor relevancia de las fases de análisis, diseño e implementación.
-Se busca que no sea una mera operación de copiar y pegar diagramas y extractos del código fuente, sino que realmente se justifiquen los caminos de solución que se han tomado, especialmente aquellos que no sean triviales.
-Puede ser el lugar más adecuado para documentar los aspectos más interesantes del diseño y de la implementación, con un mayor hincapié en aspectos tales como el tipo de arquitectura elegido, los índices de las tablas de la base de datos, normalización y desnormalización, distribución en ficheros3, reglas de negocio dentro de las bases de datos (EDVHV GH GDWRV DFWLYDV), aspectos de desarrollo relacionados con el WWW...
-Este apartado, debe convertirse en el resumen de la experiencia práctica del proyecto, y por sí mismo justifica que la memoria se convierta en un documento útil, fuente de referencia para los autores, los tutores y futuros alumnos.
+En este apartado se va a realizar un análisis del camino seguido en el desarrollo de este proyecto, haciendo hincapié en los aspectos más relevantes. El apartado sigue un orden cronológico en el que se empieza por la fase inicial de estudio del problema y planteamiento de la solución, y se acaba por el análisis final de resultados obtenidos y su documentación.
+
+\section{Inicio y análisis de posibles soluciones}
+
+Tras analizar las propuestas de trabajos publicadas por los profesores me resultó interesante el desarrollo de un \textit{chatbot} para la plataforma de UBUVirtual, dado que es un trabajo que considero que va a aportar valor a la Universidad y será de utilidad en el futuro. Esto era algo importante para mí, ya que he observado que muchos de los proyectos de fin de grado acaban quedando obsoletos y no reciben ningún uso una vez presentados.
+
+Por otra parte, en mi trabajo desempeñaba funciones relacionadas con \textit{chatbots}, por lo que partía de unos conocimientos previos de algunas tecnologías. Como primer paso del proyecto, hube de realizar un estudio exhaustivo de todas las herramientas que podrían ayudar a realizar el cometido, así como de las limitaciones que cada una de ellas tenía.\\
+Tras este análisis -en el que creé pequeños proyectos en varias soluciones de diferentes proveedores- determiné que la  solución óptima era utilizar la versión gratuita que ofrece Dialogflow (\textit{Trial Edition}) \cite{DialogflowTrial}. 
+\newpage
+Los motivos principales fueron los siguientes:
+\begin{itemize}
+	\tightlist
+	\item
+	La limitación de la cuenta gratuita no nos suponía ningún problema ahora ni de cara al futuro.
+	\item 
+	Fácil integración en la web y en Slack.
+	\item 
+	Personalización del CSS.
+	\item 
+	Soporte para castellano.
+	\item 
+	\textit{Rich responses}.
+	\item 
+	Monitorización de las conversaciones mediante logs.
+	\item 
+	Potente NLP de Google.
+\end{itemize}
+
+Teniendo todo esto en consideración comencé a realizar el proyecto bajo el nombre de UBUChatbot y cuyo logo se puede ver en la imagen \ref{fig:LogoFinalTransparenteGranate}. El símbolo utilizado en el logo es un oso blanco con un icono de conversación sobre un fondo granate. Decidí utilizar un oso ya que era algo diferente a las siempre utilizadas imágenes de robots o teleoperadoras. Además, este animal dota de un aspecto simpático a nuestro \textit{chatbot}, que puede resultar agradable a los alumnos e incentivarles a interactuar con él. Los colores se han seleccionado en base a los que utiliza la plataforma UBUVirtual para así preservar la identidad corporativa de la Universidad.
+\imagenMediana{LogoFinalTransparenteGranate}{Logo del proyecto.}
+
+\newpage
+
+\section{Formación y metodologías}
+
+Antes de comenzar con la implementación seguí un proceso de formación para entender bien el funcionamiento y posibilidades de nuestras herramientas: Dialogflow y Moodle. \\
+En el caso de Dialogflow consulté la documentación oficial suministrada por Google \cite{DialogflowDocs}. Para conocer el funcionamiento interno de Moodle y las posibilidades de introducción/modificación de código HTML, JavaScript y CSS opté por utilizar una versión local de Moodle en la que, por medio de prueba y error, adecuar la implementación a esta plataforma.
+
+Por otra parte, era vital entender también el funcionamiento de la asignatura de Trabajo de Fin de Grado, con el fin de poder implementar correctamente las preguntas y respuestas. Esto precisó un trabajo colaborativo con mi tutor y personal docente de la Universidad para establecer un consenso en la información a introducir en el chatbot. Por ello aplicamos una metodología ágil: Scrum. Cabe matizar que no se aplicó estrictamente esta metodología al estar sujetos a varias restricciones: la mayor parte del trabajo era individual, las fechas estaban muy determinadas por temas externos al proyecto (por lo que no se podían fijar unos plazos estrictos) y tampoco podíamos mantener reuniones diarias.
+
+Pese a todas estas limitaciones, en líneas generales sí que se aplicó esta filosofía en aspectos como los siguientes:
+\begin{itemize}
+	\tightlist
+	\item
+	Desarrollo incremental y revisiones durante y al final de cada desarrollo.
+	\item 
+	En cada iteración se entregaron e implementaron nuevas versiones del producto.
+	\item 
+	Planificación de tareas a realizar en el sprint.
+	\item 
+	Sprints de 2 semanas. En épocas de menor disponibilidad por trabajo se aumentaron los plazos a 3 o 4 semanas.
+	\item
+	Control de versiones para todos los elementos del proyecto: base de datos de preguntas y respuestas, código software del programa y documentación de la memoria y anexos.
+\end{itemize}
+
+\newpage
+
+\section{Implementación básica e integración en UBUVirtual}
+
+Comencé estudiando la documentación de FAQs sobre la asignatura disponible en UBUVirtual. A partir de ella, fui implementando y probando al mismo tiempo los correspondientes \textit{intents} en Dialogflow. Una vez implementada toda la información disponible en el FAQ, continué añadiendo nuevas preguntas que pudieran no haber salido hasta la fecha. Para ello conté con la colaboración de amigos y compañeros que cursaban o habían cursado un Trabajo de Fin de Grado para que pensasen en dudas que en su momento les habían surgido.
+
+Dado que una vez se integrase iba a estar disponible para el resto de alumnos, fueron necesarios varios meses de trabajo en la implementación de preguntas y respuestas; así se evita que las primeras impresiones de los alumnos fueran negativas y esto les produjese un rechazo a la hora de volver a utilizar el \textit{chatbot}. En el momento de su integración en UBUVirtual el 12 de enero de 2021 contaba con más de 50 respuestas \text{(intents)} para más de 280 preguntas \textit{(training phrases)}.
+
+La integración la realizamos de manera colaborativa entre tutor y alumno, siendo el primero quien tenía los permisos para añadir contenido HTML a la web. En este HTML se incluyó el código CSS para utilizar la misma combinación de colores granate y blanco que se utiliza en la plataforma. También se añadió el código JavaScript propio de Dialogflow junto con alguna personalización para adecuarlo a nuestro propósito. En la Figura \ref{fig:integracionMoodle1} se muestra el resultado de dicha integración.
+
+\imagen{integracionMoodle1}{Integración en Moodle.}
+
+Una vez integrado (enero de 2021) el tutor informó mediante un mensaje en el foro a todos los alumnos y profesores con acceso a la asignatura de la incorporación de esta característica, con el fin de que lo utilizasen y poder comenzar a recopilar información y entrenar al \textit{chatbot} con la información obtenida de los registros de estas conversaciones.
+
+Finalmente, en junio de 2021 modificamos el botón para abrir o cerrar el chatbot añadiéndole el icono del proyecto: el oso blanco sobre el fondo granate.
+
+
+
+\newpage
+\section{Estudio de características avanzadas e implementación en Slack}
+
+Una vez en funcionamiento la versión básica y en paralelo al entrenamiento manual del chatbot por medio de las nuevas preguntas que iban surgiendo en los logs, estudié e implemente nuevas características para dotarlo de resultados mas visuales.\\
+Por medio de las \textit{Rich Responses} de Dialogflow añadí formato a varias de las respuestas, fundamentalmente a aquellas que devolvían un enlace o lista; la implementación que se tenía únicamente devolvía texto plano y de esta manera se añaden hipervínculos en barras, descripciones y otras características. Estas respuestas se implementan en formaton JSON indicando el tipo de respuesta, sus parámetros y valores.
+
+De una manera parecida realicé la implementación de respuestas para la integración de Slack, aunque en este caso los JSON utilizan el lenguaje Markdown. En cada \textit{intent} se asocia una respuesta para la versión web (texto plano o JSON) y otra para la versión de Slack.
+
+Realicé la integración dentro del espacio de trabajo de Slack creado para este fin. Dialogflow dispone de integración nativa con Slack, por lo que fue un proceso rápido en el que únicamente seguí una serie de pasos: configurar Slack, crear una aplicación, agregar el usuario bot y finalmente habilitar y configurar la integración desde Dialogflow.
+
+\imagen{modeloArquitectonico}{Modelo arquitectónico \cite{DialogflowModelo}}
+
+En la Figura \ref{fig:modeloArquitectonico} se muestra el modelo arquitectónico utilizado. Se muestra también la estructura que seguirían los \textit{fulfillment} -característica analizada anteriormente- que no están integrados en el proyecto debido a que es necesario tener una cuenta de facturación asociada a la cuenta para poder utilizarlos.
+
+\newpage
+\section{Proceso de entrenamiento}
+
+El entrenamiento del \textit{chatbot} fue un proceso continuo que llevé a cabo desde el inicio del proyecto hasta su entrega, siendo la principal tarea y fuerte del proyecto y en la que más horas de trabajo invertí.
+
+Por una parte, Dialogflow realiza aprendizaje automático a partir de los logs y nuevas implementaciones, por medio del cual afina el algoritmo de asignación de \textit{intent} a una entrada. El algoritmo utilizado tanto para el entrenamiento como para la asignación son propios de Google y no son de código abierto, por lo que no hay disponible información de su implementación.
+
+Por otra parte, el entrenamiento manual consistió en el estudio de todos los logs para analizar en qué ocasiones el algoritmo de asignación fallaba, cuándo se respondían realmente las dudas y cuándo no era capaz de entender lo que le estaban diciendo, para posteriormente arreglarlo o implementarlo.
+
+Por ejemplo, si un usuario preguntaba las fechas de entrega y nuestro \textit{chatbot} detectaba el \textit{intent} en el que se enlaza al calendario de entregas lo contabilizamos como un acierto. Si en cambio hubiese detectado un intent relacionado con otro aspecto de la entrega (por ejemplo el material a entregar) lo contabilizamos como incorrecto. Finalmente, si por ejemplo el usuario decide preguntarnos por el tiempo que hace ese día lo contabilizamos como una pregunta inválida.
+
+\newpage 
+
+\section{Análisis de resultados}
+
+Para comprobar la evolución del \textit{chatbot} y comprobar si su entrenamiento estaba surgiendo efecto era necesario realizar un estudio estadístico del éxito de las conversaciones con personas ajenas al proyecto desde que resultase accesible por medio de la integración en UBUVirtual.
+
+Dialogflow en su sección de \textit{Analytics} ofrece una serie de análisis de las conversaciones, no obstante estas no sirven para el análisis de resultados por los siguientes motivos:
+
+\begin{itemize}
+	\tightlist
+	\item
+	Rango máximo permitido de un mes; es decir, no muestra las estadísticas conjuntas de todo este periodo.
+	\item 
+	Al no distinguir los usuarios que interactuan, toma también las conversaciones llevadas a cabo por el desarrollador, que en muchas ocasiones son solo conversaciones de prueba y desvían el resultado real.
+	\item 
+	Solo es capaz de distinguir si el algoritmo ha sabido asignar un \textit{intent} a la pregunta. No es capaz de discernir si la respuesta que ha dado realmente responde a la pregunta al no saber analizar el lenguaje natural como solo puede hacer un humano.
+\end{itemize}
+
+\imagen{analytics}{Dialogflow Analytics: detección de intents.}
+
+
+\newpage
+
+
+Por todos esos motivos realicé un estudio numérico de forma manual en el que analicé una por una cada conversación, determinando en qué ocasiones la respuesta que se daba realmente respondía a la pregunta y descartando también aquellas preguntas mal formuladas, incoherentes o realizadas por personas implicadas en el proyecto.
+
+Realicé este estudio tanto para la versión online como la presencial, combinándolos finalmente en la tabla de totales mostrada en la Figura \ref{fig:analisis1}.
+
+\imagen{analisis1}{Totales extraídos del análisis numérico.}
+
+En la tabla de totales se puede ver como la actividad varió mucho en los distintos meses. Esto es debido a que los meses con mayor actividad son aquellos en los que se incentivó por medio del foro o por otros canales de comunicación  a personas ajenas al proyecto a que lo utilizasen, con el fin de aumentar el número de \textit{logs} disponibles para poder continuar entrenándolo.
+
+En la imagen \ref{fig:analisis2} se muestra la evolución temporal de la tasa de éxito de respuesta.
+
+\imagen{analisis2}{Evolución temporal de la tasa de acierto.}
+
+Como podemos ver, el proyecto ha evolucionado correctamente, aumentando su tasa de éxito de un 28,7\% a 55,3\%, casi el doble. Para seguir esta línea ascendente serán necesarios nuevos logs a partir de los cuales seguir aumentando nuestra base de datos de preguntas y frases de entrenamiento. Ayudaría darle mayor visibilidad al \textit{chabot}, colocándolo en la página principal de la asignatura en lugar de la subsección en la que esta habilitado.
+
+Podemos concluir que el proyecto ha sido un éxito, dado que obtener una tasa de acierto de más del 50\% -pese a haber dispuesto de una cantidad de \textit{logs} bastante reducida- es más de lo que se podía esperar en un principio.
+Además, hemos aportado valor a la Universidad resolviendo muchas de las preguntas que les han surgido a los alumnos.

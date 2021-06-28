@@ -2,8 +2,109 @@
 
 \section{Introducción}
 
+Para el correcto desarrollo del proyecto es imprescindible establecer una planificación adecuada. En esta planificación se evalúa la viabilidad de la solución propuesta, y una vez se ha determinado que es viable se establecen una serie de etapas que va a seguir la implementación. También se establecen el calendario con los plazos para cada una de estas etapas.
+
+Este Plan de Proyecto Software se divide en dos apartados:
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{Planificación temporal:} establece los plazos de desarrollo del proyecto. Se establece una fecha de inicio y fin de proyecto, así como el intervalo de fechas previstas para cada desarrollo incremental. Las fechas marcadas han sufrido adaptaciones a lo largo del desarrollo y las cargas de trabajo de los intervalos no son semejantes. La disponibilidad del alumno ha marcado el volumen de trabajo de cada una de las fases.
+	\newline
+	\item
+	\textbf{Estudio de viabilidad:} antes de comenzar a desarrollar el proyecto es necesario determinar si es viable.
+	\begin{itemize}
+		\tightlist
+		\item
+		\textbf{Viabilidad económica:} realizar una estimación de los posibles costes y beneficios. Se analizan todo tipo de costes: humanos, software, hardware, instalaciones...
+		\item
+		\textbf{Viabilidad legal:} determinar si este proyecto cumple todas las leyes y regulaciones.
+	\end{itemize}
+\end{itemize} 
+
+
+
+\newpage
 \section{Planificación temporal}
 
+En el desarrollo del proyecto se siguió la metodología ágil Scrum \cite{Scrum}, estudiada a lo largo de la carrera.
+No se aplicó de manera estricta esta metodología, ya que se dieron varios factores que no lo hicieron posible:
+
+	\begin{itemize}
+	\tightlist
+	\item
+	No había un equipo de trabajo como tal, únicamente el alumno y tutor. En ocasiones puntuales colaboró un tercero: el presidente del tribunal. 
+	\item
+	 Al compaginar estudio y trabajo los \textit{sprints} en algunas ocasiones no fueron tan breves como se hubiera deseado, aunque nunca excedieron el máximo de un mes que establece esta metodología.
+	\end{itemize}
+
+De la misma manera, se puede determinar que se utilizo esta metodología basándonos en los siguientes puntos:
+	\begin{itemize}
+	\tightlist
+	\item
+	Desarrollo incremental del producto software por medio de \textit{sprints}.
+	\item
+	Duración general de dos semanas para los \text{sprints}.
+	\item
+	Reuniones entre alumno y tutor al final de cada \textit{sprint}, en las que se analizaba el trabajo realizado y se establecían los objetivos del siguiente \text{sprint}.
+	\end{itemize}
+
+
+\subsection{Sprint 0 (23/10/20 - 06/11/20)}
+
+El inicio de este \textit{sprint} lo marcó la primera reunión con Raúl Marticorena, en la que se dieron las indicaciones de lo qué se buscaba con el proyecto y se establecieron los primeros objetivos.\\
+Se estableció LaTeX como herramienta a utilizar para la documentación de la memoria y anexos.\\
+Las primeras tareas fueron: estudiar las FAQ de la asignatura a incorporar en la base de datos del \textit{chatbot} y determinar que herramienta se iba a utilizar. 
+
+
+\subsection{Sprint 1 (07/11/20 - 20/11/20)}
+
+Se establece Dialogflow como motor NLP elegido y se crea el proyecto. 
+Se crea un documento en el que ir recopilando las preguntas y respuestas de manera conjunta con Carlos López. 
+En la reunión de final de \textit{sprint} se estudian las herramientas disponibles para trabajar con LaTeX.\\
+Como objetivos se fijan analizar las posibles integraciones y estudiar la viabilidad de añadir hipervínculos en las respuestas del \textit{chatbot}.
+
+\subsection{Sprint 2 (21/11/20 - 27/11/20)}
+
+Como metas se establece el trabajo en la memoria, estudiando los trabajos relacionados y la descarga de un Moodle local para probar la integración del \textit{chatbot}.
+
+\subsection{Sprint 3 (28/11/20 - 11/12/20)}
+
+Se trabajó en la integración con UBUVirtual, y en la reunión del final del \textit{sprint} se probó conjuntamente a integrarlo, de manera que quedase oculto a todos los usuarios. 
+Se logró dicha integración de una primera versión muy básica del \textit{chatbot}, sin ningún tipo de personalización CSS ni soporte de hipervínculos.
+
+\subsection{Sprint 4 (12/12/20 - 15/01/21)}
+\subsection{Sprint 5 (16/01/21 - 29/01/21)}
+
+\subsection{Sprint 6 (30/01/21 - 05/03/21)}
+
+\subsection{Sprint 7 (06/03/21 - 02/04/21)}
+
+\subsection{Sprint 8 (03/04/21 - 07/05/21)}
+
+Este sprint tuvo una duración de más de dos meses, esto se decidió así por parte del alumno ante la falta de tiempo generada por su trabajo, exámenes y prácticas de la Universidad, y prueba final de estudios de ruso.
+
+En este periodo se continuó ampliando la base de datos del NLP realizando revisiones periódicas de los \textit{logs} y añadiendo las nuevas preguntas sin respuesta al documento para que Raúl Marticorena en colaboración con Carlos López les diesen respuesta.
+
+Se realiza un estudio numérico en el que todas las conversaciones son analizadas, y se determina para cada pregunta de los usuarios si se contesta de manera correcta, incorrecta, o si la pregunta era incoherente. Por medio de Excel se realiza un estudio numérico y gráfico de los resultados obtenidos.
+En la reunión se comenta este gráfico analizando los resultados obtenidos hasta la fecha, se comenta la situación del proyecto y las tareas restantes, que giraban principalmente en torno a la documentación.
+
+\subsection{Sprint 9 (08/05/21 - 21/05/21)}
+
+\subsection{Sprint 10 (22/05/21 - 09/06/21)}
+
+\subsection{Sprint 11 (10/06/21 - 18/06/21)}
+
+En esta semana se dedica la mayor parte del tiempo a la documentación de la memoria. Se añaden nuevas preguntas a la base de datos del NLP generadas a partir de los \textit{logs}.\\
+También se genera e integra el logo del proyecto en el \textit{chatbot} de UBUVirtual.
+En la reunión se comentan algunos problemas encontrados en la integración de Slack y se fija como objetivo arreglarlos.
+
+\subsection{Sprint 12 (19/06/21 - 24/06/21)}
+
+Los esfuerzos se centraron en la elaboración de la memoria y anexos. Se finaliza la implementación de las respuestas en la versión de Slack y se actualizan las de UBUVirtual para ambas modalidades. Con esta última actualización se da por cerrado los incrementos en la base de datos del \textit{NLP}. También se actualiza el estudio numérico con las últimas conversaciones registradas.
+
+
+\newpage
 \section{Estudio de viabilidad}
 
 \subsection{Viabilidad económica}
