@@ -2,10 +2,7 @@
 
 Autor: Alfredo Asensio Vázquez  
 Tutor: Dr. Raúl Marticorena Sánchez  
-Grado en Ingeniería Informática  
-
-- Memoría: ```memoria.tex```
-- Anexos: ```anexos.tex```
+Grado en Ingeniería Informática   
 
 # Descripción
 
