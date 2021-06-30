@@ -8,6 +8,8 @@
 \usepackage{lmodern} % scalable font
 \usepackage{microtype}
 \usepackage{placeins}
+\usepackage{longtable,booktabs}
+\usepackage{longtable}
 
 \RequirePackage{booktabs}
 \RequirePackage[table]{xcolor}
@@ -19,6 +21,10 @@
 \hypersetup{
 	allcolors = {red}
 }
+
+
+%Euro
+\usepackage{eurosym}
 
 % Ecuaciones
 \usepackage{amsmath}
@@ -38,6 +44,16 @@
 
 % Imagenes
 \usepackage{graphicx}
+
+\newcommand{\imagenGrande}[2]{
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[width=1.0\textwidth]{#1}
+		\caption{#2}\label{fig:#1}
+	\end{figure}
+	\FloatBarrier
+}
+
 \newcommand{\imagen}[2]{
 	\begin{figure}[!h]
 		\centering
@@ -118,7 +134,7 @@
 %
 % Nuevo comando para tablas pequeñas (menos de una página).
 \newcommand{\tablaSmall}[5]{%
- \begin{table}
+ \begin{table}[H]
   \begin{center}
    \rowcolors {2}{gray!35}{}
    \begin{tabular}{#2}

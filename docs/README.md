@@ -2,7 +2,7 @@
 
 Autor: Alfredo Asensio Vázquez  
 Tutor: Dr. Raúl Marticorena Sánchez  
-Grado en Ingeniería Informática   
+Grado en Ingeniería Informática  
 
 # Descripción
 

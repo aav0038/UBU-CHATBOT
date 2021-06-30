@@ -2,7 +2,7 @@
 
 \section{Introducción}
 
-Para el correcto desarrollo del proyecto es imprescindible establecer una planificación adecuada. En esta planificación se evalúa la viabilidad de la solución propuesta, y una vez se ha determinado que es viable se establecen una serie de etapas que va a seguir la implementación. También se establecen el calendario con los plazos para cada una de estas etapas.
+Para el correcto desarrollo del proyecto es imprescindible establecer una planificación adecuada. En esta planificación se evalúa la viabilidad de la solución propuesta y, una vez se ha determinado que es viable, se establecen una serie de etapas que va a seguir la implementación. También se fija el calendario con los plazos para cada una de estas etapas.
 
 Este Plan de Proyecto Software se divide en dos apartados:
 
@@ -38,7 +38,7 @@ No se aplicó de manera estricta esta metodología, ya que se dieron varios fact
 	 Al compaginar estudio y trabajo los \textit{sprints} en algunas ocasiones no fueron tan breves como se hubiera deseado, aunque nunca excedieron el máximo de un mes que establece esta metodología.
 	\end{itemize}
 
-De la misma manera, se puede determinar que se utilizo esta metodología basándonos en los siguientes puntos:
+De la misma manera, se puede determinar que se utilizó esta metodología basándonos en los siguientes puntos:
 	\begin{itemize}
 	\tightlist
 	\item
@@ -52,46 +52,62 @@ De la misma manera, se puede determinar que se utilizo esta metodología basánd
 
 \subsection{Sprint 0 (23/10/20 - 06/11/20)}
 
-El inicio de este \textit{sprint} lo marcó la primera reunión con Raúl Marticorena, en la que se dieron las indicaciones de lo qué se buscaba con el proyecto y se establecieron los primeros objetivos.\\
+El inicio de este \textit{sprint} lo marcó la primera reunión con Raúl Marticorena, en la que se dieron las indicaciones de lo que se buscaba con el proyecto y se establecieron los primeros objetivos.\\
 Se estableció LaTeX como herramienta a utilizar para la documentación de la memoria y anexos.\\
-Las primeras tareas fueron: estudiar las FAQ de la asignatura a incorporar en la base de datos del \textit{chatbot} y determinar que herramienta se iba a utilizar. 
+Las primeras tareas fueron: estudiar las FAQ de la asignatura a incorporar en la base de datos del \textit{chatbot} y determinar qué herramienta se iba a utilizar. 
 
 
 \subsection{Sprint 1 (07/11/20 - 20/11/20)}
 
-Se establece Dialogflow como motor NLP elegido y se crea el proyecto. 
+Se establece Dialogflow como motor NLP elegido y se crea el proyecto. También se crea el espacio de trabajo de \textit{Slack}.
 Se crea un documento en el que ir recopilando las preguntas y respuestas de manera conjunta con Carlos López. 
 En la reunión de final de \textit{sprint} se estudian las herramientas disponibles para trabajar con LaTeX.\\
-Como objetivos se fijan analizar las posibles integraciones y estudiar la viabilidad de añadir hipervínculos en las respuestas del \textit{chatbot}.
+Como objetivos se opta por analizar las posibles integraciones y estudiar la viabilidad de añadir hipervínculos en las respuestas del \textit{chatbot}.
 
 \subsection{Sprint 2 (21/11/20 - 27/11/20)}
 
-Como metas se establece el trabajo en la memoria, estudiando los trabajos relacionados y la descarga de un Moodle local para probar la integración del \textit{chatbot}.
+Del \textit{sprint} anterior se tomó la decisión de realizar la integración externa en Slack. Se empieza a trabajar introduciendo \textit{intents} a la base de datos del \textit{chatbot}.
+Como metas se establecen el trabajo en la memoria estudiando los trabajos relacionados y la descarga de un Moodle local para probar la integración del \textit{chatbot}.
 
 \subsection{Sprint 3 (28/11/20 - 11/12/20)}
-
-Se trabajó en la integración con UBUVirtual, y en la reunión del final del \textit{sprint} se probó conjuntamente a integrarlo, de manera que quedase oculto a todos los usuarios. 
+ 
+Se trabajó en la integración con UBUVirtual y en la reunión del final del \textit{sprint} se probó conjuntamente a integrarlo, de manera que quedase oculto a todos los usuarios. 
 Se logró dicha integración de una primera versión muy básica del \textit{chatbot}, sin ningún tipo de personalización CSS ni soporte de hipervínculos.
 
 \subsection{Sprint 4 (12/12/20 - 15/01/21)}
+
+Este \textit{sprint} tuvo una duración algo mayor debido a los exámenes del primer cuatrimestre. Durante este periodo se siguió trabajando en la base de datos de \textit{intents}. Por otra parte, se personalizo el código CSS del \textit{chatbot}, dotándolo de un mayor atractivo y pasando a ser visible para los usuarios el día 12 de enero. Se estudió y probó el funcionamiento de las \textit{Rich Responses} para ambas integraciones.
+
 \subsection{Sprint 5 (16/01/21 - 29/01/21)}
+
+En este \textit{sprint} se comenzaron a recibir los primeros \textit{logs} de conversaciones reales llevadas a cabo por otros estudiantes con nuestro \textit{chatbot}. Se trabajó en analizar estas preguntas ampliando la base de datos de \textit{intents} con las que no se contaba anteriormente y arreglando los fallos que surgían en el algoritmo de asignación de \textit{intents}. Se implementaron respuestas para \textit{Slack} y las \textit{Rich Responses}.
 
 \subsection{Sprint 6 (30/01/21 - 05/03/21)}
 
+Tuvo una duración mayor a un mes por motivos de disponibilidad. En este tiempo se centraron los esfuerzos en la implementación de las \textit{Rich Responses}. Se integró en \textit{Slack} y fueron añadiéndose respuestas para esta implementación.
+
+
 \subsection{Sprint 7 (06/03/21 - 02/04/21)}
+
+Se continúa trabajando en el análisis de \textit{logs}, arreglando todas las conversaciones. Se continúa creando \textit{intents} e implementando \textit{Rich Responses} para todos aquellos que contienen un hipervínculo o una lista.
+Empieza a cobrar mayor importancia la documentación del proyecto en la que se empiezan a invertir más horas y se centra el foco de las reuniones con el tutor.
 
 \subsection{Sprint 8 (03/04/21 - 07/05/21)}
 
-Este sprint tuvo una duración de más de dos meses, esto se decidió así por parte del alumno ante la falta de tiempo generada por su trabajo, exámenes y prácticas de la Universidad, y prueba final de estudios de ruso.
-
 En este periodo se continuó ampliando la base de datos del NLP realizando revisiones periódicas de los \textit{logs} y añadiendo las nuevas preguntas sin respuesta al documento para que Raúl Marticorena en colaboración con Carlos López les diesen respuesta.
 
-Se realiza un estudio numérico en el que todas las conversaciones son analizadas, y se determina para cada pregunta de los usuarios si se contesta de manera correcta, incorrecta, o si la pregunta era incoherente. Por medio de Excel se realiza un estudio numérico y gráfico de los resultados obtenidos.
+Se realiza un estudio numérico en el que todas las conversaciones son analizadas y se determina para cada pregunta de los usuarios si se contesta de manera correcta, incorrecta, o si la pregunta era incoherente. Por medio de Excel se realiza un estudio numérico y gráfico de los resultados obtenidos.
 En la reunión se comenta este gráfico analizando los resultados obtenidos hasta la fecha, se comenta la situación del proyecto y las tareas restantes, que giraban principalmente en torno a la documentación.
 
 \subsection{Sprint 9 (08/05/21 - 21/05/21)}
 
+Se continúa con el análisis de \textit{logs}, ampliación de base de datos de \textit{intents} y documentación de la memoria. Se estudian los conceptos teóricos necesarios para la comprensión del trabajo y se realiza su documentación en la memoria. En la reunión se comentan aspectos relativos a estos.
+
 \subsection{Sprint 10 (22/05/21 - 09/06/21)}
+
+Se incentiva a personas ajenas al proyecto a utilizar el \textit{chatbot} con el objetivo de obtener una última gran recopilación de \textit{logs} para poder analizar en vista de que se está en las fases finales del proyecto.
+Pruebas de compatibilidad del \textit{chatbot} con distintos navegadores web y de \textit{smartphones}.
+Se sigue trabajando en la documentación y la reunión gira en torno a esta.
 
 \subsection{Sprint 11 (10/06/21 - 18/06/21)}
 
@@ -101,7 +117,19 @@ En la reunión se comentan algunos problemas encontrados en la integración de S
 
 \subsection{Sprint 12 (19/06/21 - 24/06/21)}
 
-Los esfuerzos se centraron en la elaboración de la memoria y anexos. Se finaliza la implementación de las respuestas en la versión de Slack y se actualizan las de UBUVirtual para ambas modalidades. Con esta última actualización se da por cerrado los incrementos en la base de datos del \textit{NLP}. También se actualiza el estudio numérico con las últimas conversaciones registradas.
+Los esfuerzos se centraron en la elaboración de la memoria y anexos. Se finaliza la implementación de las respuestas en la versión de Slack y se actualizan las de UBUVirtual para ambas modalidades. Con esta última actualización se da por cerrados los incrementos en la base de datos del \textit{NLP}. También se actualiza el estudio numérico con las últimas conversaciones registradas.
+
+\subsection{Sprint 13 (25/06/21 - 02/07/21)}
+
+Se realizan correcciones en la memoria y se trabaja en la elaboración de los anexos.
+En la reunión de final del \textit{sprint} se comentan aspectos relativos a ambos documentos. 
+
+
+\subsection{Cronograma}
+
+En la Figura \ref{fig:cronograma} se muestra el cronograma seguido por el proyecto. La implementación se refiere a todo aquello relacionado con los componentes de Dialogflow.
+
+\imagenGrande{cronograma}{Cronograma del proyecto}
 
 
 \newpage
@@ -109,6 +137,135 @@ Los esfuerzos se centraron en la elaboración de la memoria y anexos. Se finaliz
 
 \subsection{Viabilidad económica}
 
+Este apartado va a analizar los costes y posibles beneficios del proyecto vistos desde una perspectiva empresarial; se tendrán en cuenta los recursos humanos, así como todos los gastos derivados que se generarían en una empresa real.
+
+\subsubsection{Costes humanos}
+
+Se va a extrapolar el total de horas dedicadas al proyecto -se estiman 300- al equivalente en tiempo que supondría para una jornada completa de 8h/diarias. Contando días festivos esto produce una equivalencia aproximada de dos meses de trabajo a jornada completa. 
+
+El salario mensual bruto de un Ingeniero Informático junior se sitúa en torno a los 18.000 \euro{} brutos anuales, por lo que se va a suponer un sueldo mensual de 1500 \euro{} brutos.\\
+La cotización de la Seguridad Social en 2021 es del 23,6\% para la empresa y 4,7\% para el trabajador \cite{cotizacion}. El IRPF es de un 12\% para este tramo. \cite{irpf} \\
+La empresa paga un 23,6\% de estos 1500 \euro{} a la Seguridad Social.
+De estos 1500€ el trabajador paga a la seguridad social un 4,7\% y el IRPF lo que supone 250,5 \euro{} (70,5 + 180). 
+Por lo que el sueldo neto será de 1249,5 \euro{}.
+
+En la Tabla \ref{tabla:costesHumanos} se calcula el coste humano total.
+
+\tablaSmallSinColores{Costes humanos.}
+{l l}{costesHumanos}
+{\textbf{Concepto} & \textbf{Coste}\\}
+{Salario mensual bruto 			& 1500 \euro{}	\\ 
+	Cotización seguridad social 			& 354 \euro{}	\\ 
+	\midrule
+	Total mensual					& 1854 \euro{}	 \\
+	\midrule
+	Total 2 meses					& 3708 \euro{}	\\
+}
+
+\subsubsection{Costes hardware}
+
+En la Tabla \ref{tabla:costesHardware} se muestra el gasto total en componentes físicos.
+Se asume un periodo de amortización para el hardware de 3 años (36 meses) y que han sido utilizados 2 meses. 
+\newpage
+
+\tablaSmallSinColores{Costes hardware.}
+{l l l}{costesHardware}
+{\textbf{Concepto} & \textbf{Coste}  & \textbf{Coste amortizado}\\}
+{Ordenador portátil 	& 800 \euro{}	& 44,5 \euro{}\\
+	Smartphone 	& 300 \euro{} & 16,7 \euro{}\\
+	Ratón 	& 40 \euro{} & 44,5 \euro{} \\
+	Monitor 	& 100 \euro{} & 5,5 \euro{}\\
+	Teclado 	& 15 \euro{} & 0,8 \euro{}\\
+	\midrule
+	Total					& 1255 \euro{}	& 70 \euro{} \\
+}
+
+
+\subsubsection{Costes licencias}
+
+La Tabla \ref{tabla:costesLicencias} recoge el coste total de las licencias software utilizadas.
+Se asume un periodo de amortización para las licencias software de 6 años (72 meses) y que han sido utilizadas 2 meses. 
+
+\tablaSmallSinColores{Costes de licencias.}
+{l l l}{costesLicencias}
+{\textbf{Concepto} & \textbf{Coste} & \textbf{Coste amortizado}\\}
+{Windows 10 Home \cite{costeWindows10} 	& 135 \euro{}	& 3,8 \euro{}\\
+	Dialogflow Free Trial 	\cite{costeDialogflow} & 0 \euro{} & 0 \euro{}\\
+	Adobe Photoshop 	\cite{costePhotoshop} & 12 \euro{}/mes & 12 \euro{}/mes\\
+	\midrule
+	Total					& 27,8 \euro{}	& 27,8 \euro{}\\
+}
+
+
+
+\subsubsection{Costes redes y comunicación}
+
+La Tabla \ref{tabla:costesRedes} recoge el coste total de la conexión a Internet.
+
+\tablaSmallSinColores{Costes de redes y comunicación.}
+{l l}{costesRedes}
+{\textbf{Concepto} & \textbf{Coste}\\}
+{Internet \cite{costeInternet}& 30 \euro{} /mes \\
+	\midrule
+	Total					& 60 \euro{}	\\
+}
+
+
+\newpage
+\subsubsection{Costes infraestructura}
+
+La Tabla \ref{tabla:costeInfraestructura} recoge el coste de alquiler aproximado de una oficina pequeña en Zaragoza. El precio de alquiler del metro cuadrado en Zaragoza es en el momento de rectar este documento de 8.4 \euro{} \cite{costeMetroZaragoza}.
+
+\tablaSmallSinColores{Costes infraestructura.}
+{l l}{costeInfraestructura}
+{\textbf{Concepto} & \textbf{Coste}\\}
+{Alquiler oficina \cite{costeMetroZaragoza}& 450 \euro{} /mes \\
+	\midrule
+	Total					& 900 \euro{}	\\
+}
+
+
+\subsubsection{Costes totales}
+
+En la Tabla \ref{tabla:costesTotales} se muestra el coste total del proyecto..
+
+\tablaSmallSinColores{Costes totales.}
+{l l}{costesTotales}
+{\textbf{Tipo coste} & \textbf{Coste}\\}
+{Humano 				& 3000 \euro{} \\
+	Hardware 				& 70 \euro{} \\
+	Licencias 				& 27,8 \euro{} \\
+	Redes y comunicación 	& 60 \euro{} \\
+	Infraestructura 		& 900 \euro{} \\ 
+	\midrule
+	Total					& 4057,8 \euro{}	\\
+}
+
+
+\subsubsection{Beneficios}
+
+Para obtener beneficios podrían implementarse \textit{chatbots} similares para otras universidades o cualquier entidad que podría mejorar su negocio con la incorporación de este elemento para la respuesta de preguntas frecuentes.\\
+El precio aproximado podría rondar los 4000 \euro{} por licencia, siendo el mantenimiento un servicio opcional con un precio aproximado de 800 \euro{} al mes. \\
+Por lo que con la venta de una única licencia sin mantenimiento se habría amortizado el desarrollo.
+
+
+\newpage
 \subsection{Viabilidad legal}
 
+En la Tabla \ref{tabla:licenciasSoftware} se recoge la información relativa a las licencias software de los programas utilizados en el proyecto. 
 
+\tablaSmall{Licencias software.}{l l l}{licenciasSoftware}
+{ Software & Licencia & Fuente \\}{ 
+	Dialogflow & Google APIs Terms of Service & \cite{dialogflowLicense} \\ 
+	Notepad++ & GNU GPL & \cite{notepadLicense} \\ 
+	Visual Studio Code & MIT License & \cite{visualStudioLicense} \\ 
+	Slack & Slack API Terms of Service & \cite{slackLicense} \\ 
+	JSON & The JSON License & \cite{jsonLicense} \\ 
+} 
+
+
+En el caso de Dialogflow la licencia es distinta para la versión de prueba que estamos utilizando que para las versiones de pago y cuya especificación se encuentra en el enlace de la tabla anterior. Al no tener un fin comercial nuestro proyecto, podemos utilizarla.
+
+La licencia JSON es libre, simple, sin \textit{copyleft} y permisiva.\\
+GNU GPL es libre, abierta y con \textit{copyleft}.\\
+MIT License es abierta, son \textit{copyleft} y permisiva.

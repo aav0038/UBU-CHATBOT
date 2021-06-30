@@ -2,10 +2,327 @@
 
 \section{Introducción}
 
+En este apartado se detallan los objetivos generales del proyecto, los requisitos y la especificación de los mismos.  
+Se analizan tanto los requisitos funcionales como los no funcionales. 
+\begin{itemize}
+	\tightlist
+	\item
+	Requisitos funcionales: comportamientos específicos que debe tener el sistema. Se relacionan con los casos de uso.
+	\item
+	Requisitos no funcionales: especifican los criterios a seguir, restricciones y condiciones que impone el cliente.
+
+\end{itemize}
+
 \section{Objetivos generales}
+
+
+\begin{itemize}
+	\tightlist
+	\item
+	Implementar un \textit{chatbot} que responda las preguntas frecuentes de la asignatura Trabajo de Fin de Grado tanto para la modalidad online como presencial.
+	\item
+	Ser capaces de dar respuesta al mayor número de preguntas posible.
+	\item
+	Integrar el \textit{chatbot} en UBUVirtual y Slack.
+	\item
+	Diseñar una interfaz conversacional que resulte agradable a los usuarios y respete la imagen corporativa.
+	\item
+	Capturar los \textit{logs} de las conversaciones para analizarlos y extraer resultados. 
+\end{itemize}
+\newpage
 
 \section{Catalogo de requisitos}
 
+
+\subsection{Requisitos funcionales}\label{requisitosFuncionales}
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{RF-1 Interacción texual:} la aplicación debe permitir al usuario interactuar con ella mediante texto.
+	\item
+	\textbf{RF-2 Reconocimiento de preguntas:} la aplicación debe ser capaz de reconocer las preguntas que introduce el usuario.
+	\item
+	\textbf{RF-3 Respuesta a las preguntas:} la aplicación debe ser capaz de responder a las preguntas que le formule el usuario.
+	\item
+	\textbf{RF-4 Información mediante hipervínculos:} la aplicación debe adjuntar como hipervínculos las redirecciones a otras páginas.
+	\item
+	\textbf{RF-5 Minimizar la interfaz conversacional:} la aplicación debe permitir minimizar la interfaz conversacional.
+	\item
+	\textbf{RF-6 Expandir la interfaz conversacional:} la aplicación debe permitir expandir la interfaz conversacional.
+	\item
+	\textbf{RF-7 Informe de error:} la aplicación debe informar de un error al usuario cuando su mensaje de entrada no sea un texto válido o no haya sido posible interpretarlo. 
+\end{itemize}
+
+
+\subsection{Requisitos no funcionales}\label{requisitosNoFuncionales}
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{RNF-1 Rendimiento:} la aplicación tiene que tener un tiempo de respuesta bajo.  
+	\item
+	\textbf{RNF-2 Usabilidad:} la aplicación debe ser intuitiva y fácil de entender y utilizar.  
+	\item
+	\textbf{RNF-3 Colores corporativos:} la aplicación debe mantener los colores corporativos de UBUVirtual.  
+	\item
+	\textbf{RNF-4 Disponibilidad:} la aplicación debe estar disponible el mayor tiempo posible.
+	\item
+	\textbf{RNF-5 Mantenibilidad:} la aplicación debe ser fácilmente modificable.
+	\item
+	\textbf{RNF-6 Registro de actividad:} la aplicación debe almacenar las interacciones llevadas a cabo con los usuarios.
+	\item
+	\textbf{RNF-7 Portabilidad:} la aplicación debe almacenar las interacciones llevadas a cabo con los usuarios.
+	\item
+	\textbf{RNF-8 Compatibilidad de navegadores:} la aplicación debe ser compatible para los navegadores más importantes, incluyendo también los navegadores de \textit{smartphones}.
+\end{itemize}
+
+\newpage
 \section{Especificación de requisitos}
 
+\subsection{Diagrama de casos de uso}
+\imagen{diagramaCasosDeUso}{Diagrama de casos de uso.}
 
+El actor -usuario- va a ser el estudiante, profesor o cualquier persona con acceso a la asignatura que comience una nueva sesión con el \textit{chatbot}.
+
+\newpage
+
+\subsection{Casos de uso}
+
+\begin{longtable}[H]{@{}ll@{}}
+	\toprule
+	\begin{minipage}[b]{0.23\columnwidth}\raggedright\strut
+		\textbf{CU-01}\strut
+	\end{minipage} & \begin{minipage}[b]{0.71\columnwidth}\raggedright\strut
+		\textbf{Expandir la interfaz conversacional.}\strut
+	\end{minipage}\tabularnewline
+	\midrule
+	\endhead  
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Requisitos asociados}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		RF-6\strut
+	\end{minipage}\tabularnewline
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Descripción}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		Permite al usuario expandir la interfaz conversacional del \textit{chatbot}.\strut
+	\end{minipage}\tabularnewline
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Precondición}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		El usuario está logeado en UBUVirtual y dentro de la asignatura Trabajo Fin de Grado, en el apartado \textit{Chatbot de preguntas frecuentes}.\\
+		El \textit{chatbot} esta minimizado.\strut
+	\end{minipage}\tabularnewline
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Acciones}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		\begin{enumerate}
+			\def\labelenumi{\arabic{enumi}.}
+			\tightlist
+			\item
+			El usuario accede a la página en que aparece el icono del \textit{chatbot}.
+			\item
+			El usuario hace clic en el botón circular con el logo del proyecto.
+			\item
+			Se expande la interfaz conversacional.
+		\end{enumerate}\strut
+	\end{minipage}\tabularnewline
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Postcondición}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		La interfaz conversacional queda expandida y el usuario puede interactuar con el \textit{chatbot}.\strut
+	\end{minipage}\tabularnewline
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Excepciones}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		-\strut
+	\end{minipage}\tabularnewline
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Importancia}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		Alta\strut
+	\end{minipage}\tabularnewline
+	\bottomrule
+	\caption{CU-01 Expandir la interfaz conversacional.}
+\end{longtable}
+
+\newpage
+\begin{longtable}[H]{@{}ll@{}}
+	\toprule
+	\begin{minipage}[b]{0.23\columnwidth}\raggedright\strut
+		\textbf{CU-02}\strut
+	\end{minipage} & \begin{minipage}[b]{0.71\columnwidth}\raggedright\strut
+		\textbf{Formular una pregunta.}\strut
+	\end{minipage}\tabularnewline
+	\midrule
+	\endhead  
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Requisitos asociados}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		RF-1, RF-2, RF-3, RF-4, RF-7\strut
+	\end{minipage}\tabularnewline
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Descripción}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		El usuario introduce de manera textual una pregunta al \textit{chatbot}.\strut
+	\end{minipage}\tabularnewline
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Precondición}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		El usuario está logeado en UBUVirtual y dentro de la asignatura Trabajo Fin de Grado, en el apartado \textit{Chatbot de preguntas frecuentes}.\\
+		El \textit{chatbot} esta expandido.\strut
+	\end{minipage}\tabularnewline
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Acciones}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		\begin{enumerate}
+			\def\labelenumi{\arabic{enumi}.}
+			\tightlist
+			\item
+			El usuario escribe y envía por medio de la interfaz conversacional una pregunta al \textit{chatbot}.
+			\item
+			El programa analiza la pregunta introducida e intenta reconocerla.
+			\item
+			Se responde al usuario en modo texto y por medio de la interfaz conversacional a su pregunta. 
+			\item
+			El \textit{chatbot} queda a la espera de recibir nuevas preguntas.
+		\end{enumerate}\strut
+	\end{minipage}\tabularnewline
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Postcondición}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		Se devuelve un mensaje con la respuesta a la pregunta.\strut
+	\end{minipage}\tabularnewline
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Excepciones}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		Si el \textit{chatbot} no es capaz de reconocer la pregunta introducida por el usuario o está mal formulada se informa al usuario por medio de un mensaje de que no ha sido posible entenderle.\strut
+	\end{minipage}\tabularnewline
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Importancia}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		Alta\strut
+	\end{minipage}\tabularnewline
+	\bottomrule
+	\caption{CU-02 Formular una pregunta.}
+\end{longtable}
+
+\newpage
+\begin{longtable}[H]{@{}ll@{}}
+	\toprule
+	\begin{minipage}[b]{0.23\columnwidth}\raggedright\strut
+		\textbf{CU-03}\strut
+	\end{minipage} & \begin{minipage}[b]{0.71\columnwidth}\raggedright\strut
+		\textbf{Formular una pregunta. (Slack) }\strut
+	\end{minipage}\tabularnewline
+	\midrule
+	\endhead  
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Requisitos asociados}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		RF-1, RF-2, RF-3, RF-4, RF-7\strut
+	\end{minipage}\tabularnewline
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Descripción}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		El usuario introduce de manera textual una pregunta al \textit{chatbot}.\strut
+	\end{minipage}\tabularnewline
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Precondición}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		El usuario está logeado en el espacio de trabajo de Slack y en la aplicación \textit{UBU Asistante Virtual}.
+	\end{minipage}\tabularnewline
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Acciones}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		\begin{enumerate}
+			\def\labelenumi{\arabic{enumi}.}
+			\tightlist
+			\item
+			El usuario escribe y envía por medio de la interfaz conversacional una pregunta al \textit{chatbot	}.
+			\item
+			El programa analiza la pregunta introducida e intenta reconocerla.
+			\item
+			Se responde al usuario en modo texto y por medio de la interfaz conversacional a su pregunta. 
+			\item
+			El \textit{chatbot} queda a la espera de recibir nuevas preguntas.
+		\end{enumerate}\strut
+	\end{minipage}\tabularnewline
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Postcondición}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		Se devuelve un mensaje con la respuesta a la pregunta.\strut
+	\end{minipage}\tabularnewline
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Excepciones}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		Si el \textit{chatbot} no es capaz de reconocer la pregunta introducida por el usuario o está mal formulada se informa al usuario por medio de un mensaje de que no ha sido posible entenderle.\strut
+	\end{minipage}\tabularnewline
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Importancia}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		Alta\strut
+	\end{minipage}\tabularnewline
+	\bottomrule
+	\caption{CU-03 Formular una pregunta. (Slack)}
+\end{longtable}
+
+\newpage
+
+
+\begin{longtable}[H]{@{}ll@{}}
+	\toprule
+	\begin{minipage}[b]{0.23\columnwidth}\raggedright\strut
+		\textbf{CU-04}\strut
+	\end{minipage} & \begin{minipage}[b]{0.71\columnwidth}\raggedright\strut
+		\textbf{Ocultar interfaz conversacional.}\strut
+	\end{minipage}\tabularnewline
+	\midrule
+	\endhead  
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Requisitos asociados}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		RF-5\strut
+	\end{minipage}\tabularnewline
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Descripción}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		Permite al usuario ocultar la interfaz conversacional del \textit{chatbot}.\strut
+	\end{minipage}\tabularnewline
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Precondición}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		El usuario está logeado en UBUVirtual y dentro de la asignatura Trabajo Fin de Grado, en el apartado \textit{Chatbot de preguntas frecuentes}.\\
+		El \textit{chatbot} esta expandido.\strut
+	\end{minipage}\tabularnewline
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Acciones}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		\begin{enumerate}
+			\def\labelenumi{\arabic{enumi}.}
+			\tightlist
+			\item 
+			El usuario hace clic en el botón circular con el logo del proyecto.
+			\item
+			La interfaz conversacional queda oculta.
+		\end{enumerate}\strut
+	\end{minipage}\tabularnewline
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Postcondición}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		La interfaz conversacional queda oculta.\strut
+	\end{minipage}\tabularnewline
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Excepciones}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		-\strut
+	\end{minipage}\tabularnewline
+	\begin{minipage}[t]{0.23\columnwidth}\raggedright\strut
+		\textbf{Importancia}\strut
+	\end{minipage} & \begin{minipage}[t]{0.71\columnwidth}\raggedright\strut
+		Alta\strut
+	\end{minipage}\tabularnewline
+	\bottomrule
+	\caption{CU-04 Ocultar interfaz conversacional.}
+\end{longtable}
