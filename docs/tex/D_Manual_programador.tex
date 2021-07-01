@@ -2,10 +2,95 @@
 
 \section{Introducción}
 
+En este apartado se va a detallar la estructura de directorios del proyecto y los conceptos necesarios para la programación del sistema así como para su instalación y ejecución. Finalmente se va a detallar el proceso de pruebas utilizado.
+
 \section{Estructura de directorios}
+
+La estructura de directorios del proyecto es la siguiente:
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{/}: logo del proyecto, fichero de la licencia y un documento en el que se recopilan las estadísticas de los registros de las conversaciones.
+	\item
+	\textbf{/chatbotOnline/}: configuración del agente y documento informativo de las preguntas implementadas para la modalidad online.
+	\item
+	\textbf{/chatbotOnline/entities/}: entidades del agente para la modalidad online.
+	\item
+	\textbf{/chatbotOnline/intents/}: \textit{intents} del agente para la modalidad online.
+	\item
+	\textbf{/chatbotPresencial/}: configuración del agente y documento informativo de las preguntas implementadas para la modalidad presencial.
+	\item
+	\textbf{/chatbotPresencial/entities/}: entidades del agente para la modalidad presencial.
+	\item
+	\textbf{/chatbotPresencial/intents/}: \textit{intents} del agente para la modalidad presencial.
+	\item
+	\textbf{/docs/}: documentación del proyecto.
+	\item
+	\textbf{/docs/img/}: imágenes utilizadas en la documentación.
+	\item
+	\textbf{/docs/ltx/}: documentación en formato \LaTeX.
+	\item
+	\textbf{/scripts/}: ficheros .html necesarios para la integración del \textit{chatbot} en UBUVirtual.
+\end{itemize}
 
 \section{Manual del programador}
 
 \section{Compilación, instalación y ejecución del proyecto}
 
+\newpage
 \section{Pruebas del sistema}
+
+Al tratarse de un proyecto ciertamente particular no se han realizado las pruebas de código habituales de sistema tradicionales.
+
+\subsection{Pruebas de compatibilidad}
+
+Para las pruebas de compatibilidad se accedió a las plataformas UBUVirtual y Slack por medio de distintos navegadores. Con estas pruebas también se ratifica que la integración se ha realizado correctamente.
+A Safari se accedió desde un \textit{smartphone} con IOs.
+En la tabla \ref{tablaCompatibilidad} se marca como superado aquellas plataformas en las que el \textit{chatbot} funcionó sin ningún problema.
+
+\renewcommand{\arraystretch}{1.2}
+	\begin{tabular}{|c|c|c|}  
+		\cline{2-3}
+		\multicolumn{1}{c|}{} & UBUVirtual & Slack \\
+		\hline
+		Chrome & \cmark & \cmark \\
+		\hline
+		Firefox & \cmark & \cmark \\
+		\hline
+		MS Edge & \cmark & \cmark \\
+		\hline
+		Opera & \cmark & \cmark \\
+		\hline
+		Safari & \cmark & \cmark \\
+		\hline
+		IExplorer & \xmark & \xmark \\
+		\hline  
+	\end{tabular}\\
+
+Tabla D.5: Compatibilidad con distintos navegadores.
+\label{tablaCompatibilidad}
+
+Internet Explorer resultó ser el único navegador incompatible con el \textit{chatbot}.
+
+\subsection{Pruebas de funcionalidad}
+
+Para comprobar la funcionalidad del proyecto se determinan varias maneras:
+\begin{itemize}
+	\tightlist
+	\item 
+	Introducción manual de preguntas en el \textit{chatbot} integrado en UBUVirtual o Slack o directamente desde la consola de pruebas de Dialogflow. Se comprueba que la respuesta ofrecida por el programa responde a la pregunta.
+	\item 
+	Análisis manual de \textit{logs} en el apartado \textit{History} de Dialogflow. De forma similar a la descrita en el apartado anterior con la ayuda de que se marcaran con un símbolo de \textit{warning} aquellas conversaciones que hayan tenido algún \textit{fallback}.
+	\item 
+	Validación de la implementación generada al realizar el entrenamiento del agente en la herramienta \textit{Validation}.
+\end{itemize}
+
+En la figura \ref{fig:validation} se muestra la validación del sistema, en la que se observan distintas advertencias -recomendaciones todas ellas- y ningún error.
+\imagenGrande{validation}{Validación del agente.}
+
+Finalmente para comprobar que nuestro sistema es preciso se ha realizado un estudio numérico del análisis de todas las conversaciones llevadas a cabo por los usuarios desde que se integrase en la plataforma UBUVirtual.  
+
+Dado que al tratarse de lenguaje natural no es posible hacer test automáticos para comprobar que las salidas del programa responden correctamente a la entrada introducida por el usuario se ha tenido que realizar manualmente. Obteniendo para el mes de junio un 55,36\% de respuestas correctas sobre un total 56 preguntas formuladas.
+
+Una tasa de éxito que se puede decir que cumple el objetivo del proyecto; que no es el de responder como haría un humano, sino el de reducir la carga de trabajo de los profesores y ayudar a los alumnos de una manera considerable.
