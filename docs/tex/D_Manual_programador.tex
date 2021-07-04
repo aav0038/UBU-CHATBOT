@@ -36,9 +36,175 @@ La estructura de directorios del proyecto es la siguiente:
 
 \section{Manual del programador}
 
-\section{Compilación, instalación y ejecución del proyecto}
+Las herramientas utilizadas en el proyecto han sido las siguientes:
+
+\subsection{Herramientas utilizadas}
+\begin{itemize}
+	\tightlist
+	\item
+	Dialogflow
+	\item
+	Notepad++
+	\item 
+	Visual Studio Code
+\end{itemize}
+
+
+\subsection{Dialogflow}
+
+El primer paso para la creación del proyecto es crear una cuenta de Google con la que acceder a la herramienta web Dialogflow. Se muestra en la Figura \ref{fig:dialogflow0}.
+
+\imagenPequena{dialogflow0}{Creación de cuenta para acceder a la herramienta online.}
+
+Posteriormente se hace clic en la rueda dentada que permite crear un nuevo agente, como se muestra en la Figura \ref{fig:dialogflow1}
+\imagenPequena{dialogflow1}{Creación de agente en Dialogflow.}
+
+Deberemos introducir la información básica de nuestro proyecto como se nos pide en la Figura \ref{fig:dialogflow2}
+\imagen{dialogflow2}{Configuración básica del agente.}
+
+El agente habrá sido creado y ya se puede comenzar a implementar el \textit{chatbot}.
 
 \newpage
+\subsubsection{\textit{Intents}}
+
+El pilar básico del proyecto son los \textit{intents}: nuestra base de datos de preguntas y respuestas. Al listado de \textit{intents} ya creados y la opción de crear nuevos se accede desde el panel de navegación de la parte izquierda de la pantalla, como se muestra en la Figura \ref{fig:dialogflow3}.
+\imagen{dialogflow3}{Panel de \textit{intents}}
+
+Al pulsar sobre la opción \textit{Create Intent} se despliega el panel de creación mostrado en la figura \ref{fig:dialogflow4}.
+\imagen{dialogflow4}{Creación de un \textit{intent}}
+
+\newpage
+En este panel debemos introducir los siguientes elementos:
+\begin{itemize}
+	\tightlist
+	\item 
+	\textbf{Contexto:} contexto de entrada y de salida. El de entrada establece qué contextos deben estar activos para poder acceder a este \textit{intent} y el de salida qué contextos se activan una vez accedido a este \textit{intent} y por cuántos turnos de conversación.
+	\item
+	\textbf{Eventos:} eventos que disparan el \textit{intent}. Siempre tendremos uno para el evento \textit{WELCOME} que se corresponde con el mensaje inicial que lanzamos.
+	\item
+	\textbf{Frases de entrenamiento:} listado de frases que cuando se detecten provocarán que el agente acceda a este \textit{intent}. Es recomendable poner el mayor número de frases posibles para mejorar la tasa de éxito del algoritmo de asignación.
+	\item
+	\textbf{Acciones y parámetros}: algunas palabras de las frases de entrenamiento pueden tratarse de Entidades. En este apartado estableceremos dichas relaciones y el tipo de parámetro que es cada uno.
+	\item
+	\textbf{Respuestas:} las respuestas que devolverá nuestro \textit{chatbot} para cada integración cuando se acceda a este \textit{intent}. Es aquí donde se pueden configurar las \textit{Rich Responses}, lo cual se explica en el apartado \ref{Notepad}.
+	\item
+	\textbf{\textit{Fulfillment:}} al marcar esta opción activamos los \textit{fulfillment} -llamadas a código externo- para este \textit{intent}.
+\end{itemize}
+
+\subsubsection{\textit{Entities}}
+
+Las Entidades son un concepto importante dentro de un proyecto de Dialogflow. Una entidad es un tipo de dato.  
+
+Vamos a verlo con un ejemplo: tenemos una entidad llamada \textit{tfg} la cual incluye todos los sinónimos con los que el usuario puede nombrar al Trabajo de Fin de Grado. Esto se va a utilizar en la implementación de los \textit{intents}. Cuando escribamos en una frase de entrenamiento las palabras \textit{trabajo fin de grado} -o cualquier sinónimo- estableceremos que es un parámetro de tipo \textit{tfg}, ya que es como hemos definido esta entidad. Esto producirá que detecte cualquier frase que tenga alguno de los valores introducidos en dicha entidad.  
+
+De esta manera evitamos tener que escribir una frase de entrenamiento para cada sinónimo de una palabra.
+
+\newpage
+
+Para crear una Entidad o ver el listado de las que tenemos accedemos a la sección \textit{Entities} del menú de navegación lateral. En la Figura \ref{fig:dialogflow5} se muestra el proceso de creación de una Entidad.
+
+\imagen{dialogflow5}{Implementación de una Entidad.}
+
+Dentro de una entidad se pueden introducir distintos valores, cada uno de ellos con sus sinónimos. Por ejemplo, podríamos tener una entidad \textit{Vehículo} en la que cada fila se correspondiera a un tipo de vehículo. Posteriormente, cuando se disparase un \textit{intent} que contuviese algún valor de esta Entidad se recogería la información tanto de que es una entidad Vehículo como que su valor es coche/moto/camión. Esto es importante ya que podría sernos de utilidad saber el tipo de vehículo si por ejemplo la respuesta que tuviésemos que dar fuese distinta en función del tipo de vehículo.
+
+\subsubsection{\textit{Rich Responses}}\label{Notepad}
+
+Para implementar las \textit{Rich Responses} -que permiten funciones como el formateo de texto, los hipervínculos o las \textit{chip responses}- debemos generar un objeto JSON en el que definir las variables, comportamientos y textos. Consultamos la documentación de Dialogflow Messenger \cite{richResponses} para consultar las distintas opciones e implementaciones.
+
+A la hora de implementarlas se ha utilizado el editor de textos Notepad++ ya que soporta el formato JSON.
+
+\imagen{dialogflow8}{Edición de JSON para una \textit{Rich Response} con Notepad++.}
+
+En la Figura \ref{fig:dialogflow8} se muestra el editor con el JSON para un ejemplo de respuesta que responde a las fechas de entrega. En este caso se está respondiendo un mensaje de texto junto a un hipervínculo, el cual tiene una descripción e imagen asociada entre otras características.
+
+Una vez hemos implementado el JSON con la respuesta, debemos ir al \textit{intent} en el que la queremos implantar. Vamos al apartado de respuestas y hacemos clic en \textit{add responses}. Previamente podemos eliminar la respuesta por defecto que teníamos si no queremos que las concatene. Seleccionamos \textit{Custom Payload} como se muestra en la Figura \ref{fig:dialogflow9}.
+\imagen{dialogflow9}{Añadiendo \textit{Rich Response} a un \textit{intent}.}
+
+Una vez hemos seleccionado esta opción pegamos nuestro código de la misma forma que se ha hecho en la imagen anterior. Guardamos y la respuesta ya estará implementada.
+
+\newpage
+\subsubsection{\textit{Fulfillments}}
+
+Los \textit{fulfillment} son una respuesta en código que pueden disparar algunos \textit{intents}. En este proyecto no ha sido necesario utilizarlos. 
+
+\imagen{dialogflow7}{Panel de \textit{fulfillments} de Dialogflow.}
+
+Existen dos posibilidades:
+
+\begin{itemize}
+	\tightlist
+	\item 
+	\textit{Inline Editor}: es una versión simplificada que permite introducir el código directamente en Dialogflow. Exige introducir una cuenta de facturación.
+	\item	
+	\textit{Webhook}: url de la plataforma en la que esté alojado nuestro código. Se realizará una petición POST cuando se dispare un \textit{intent} con \textit{fulfillment}. Podríamos habilitar las Cloud Functions del proyecto de Google asociado al agente, pero también requeriría cuenta de facturación. Otra posible opción es utilizar una plataforma en la nube como Heroku para alojar nuestro código. Está solución también tiene restricciones en su versión gratuita.
+\end{itemize}
+
+\subsubsection{\textit{Integrations}}
+
+Para realizar las integraciones accederemos a la herramienta \textit{Integrations} en el menú lateral de Dialogflow. Se muestra en la Figura \ref{fig:dialogflow10}.
+\imagen{dialogflow10}{Menú de integraciones de Dialogflow.} 
+
+Para la integración con UBUVirtual hacemos clic en Dialogflow Messenger, ya que es la única integración web que permite las \textit{rich responses}. Se nos desplegará una ventana modal como la mostrada en la Figura \ref{fig:dialogflow11}.
+
+\imagenMediana{dialogflow11}{Ventana modal para la integración web.}
+
+Copiamos el código que nos suministra. Deberemos añadir este código HTML en UBUVirtual. En el apartado \ref{personalizacionHTML} se explica cómo modificarlo con un editor como Visual Studio Code para personalizar la apariencia del \textit{chatbot}.
+
+Para añadir el HTML a UBUVirtual necesitaremos tener permisos de administrador. Accedemos en UBUVirtual a \textit{Administración del sitio/Apariencia/HTML adicional}. Ver Figura \ref{fig:dialogflow12}.
+
+\imagen{dialogflow12}{Panel de administración de Moodle.}
+
+Introducimos nuestro código y guardamos los cambios. Ver Figura \ref{fig:dialogflow13}. Con esto el \textit{chatbot} habrá quedado integrado en UBUVirtual.
+
+\imagen{dialogflow13}{Insertar HTML adicional.}
+
+Para la integración con Slack en primer lugar necesitamos crear un espacio de trabajo. Para ello accedemos a la web de Slack \cite{urlSlack} mostrada en la Figura \ref{fig:slack1}. Introducimos un email y seguimos los pasos introduciendo nuestros datos.
+
+\imagen{slack1}{Web para la creación del espacio de trabajo.}
+
+Una vez creado el espacio de trabajo volvemos a Dialogflow y dentro de \textit{Integrations} hacemos clic en Slack para que se despliegue el modal mostrado en la Figura \ref{fig:slack5}.
+
+\imagenPequena{slack5}{Modal de la integración de Slack.}
+
+Pulsamos sobre el botón \textit{TEST IN SLACK} y seleccionamos el espacio de trabajo que acabamos de crear, tal y como se muestra en la Figura \ref{fig:slack6}.
+
+\imagenPequena{slack6}{Selección de espacio de trabajo para la integración.}
+
+Confirmamos y comprobamos como al acceder ahora a Slack nos aparece el \textit{chatbot} ya integrado como una aplicación. Ver Figura \ref{fig:slack7}.
+
+\imagen{slack7}{Chatbot integrado correctamente en Slack.}
+
+
+\subsection{Visual Studio Code} \label{personalizacionHTML}
+
+Con este editor de código se ha programado el código HTML5 de la integración de UBUVirtual y también se utilizó para el control de versiones, ya que nos facilita mucho su uso.
+
+\imagenMediana{visualCSS}{Personalización del CSS de la interfaz conversacional.}
+
+En la Figura \ref{fig:visualCSS} se muestra el código CSS en el que se personalizan los colores del \textit{chatbot}. El código hexadecimal de los colores se ha obtenido desde el inspector de elementos del navegador Chrome, extrayendo los valores utilizados en UBUVirtual para mantener la estética de la página.
+
+También se incluye en el fichero HTML que importamos en UBUVirtual la personalización de los valores por defecto del \text{chatbot} mediante el \textit{Custom Element} que nos proporciona Dialogflow.
+
+Los \textit{Custom Elements} son una característica del estandar \textit{Web Components} que permite crear elementos personalizados que encapsulan la funcionalidad en una página HTML. \cite{customElements}
+\imagenMediana{customElement}{Custom Element para el \textit{chatbot} de Dialogflow.}
+
+En la Figura \ref{fig:customElement} vemos la configuración básica de nuestro agente: \textit{intent} inicial, nombre, id del agente, idioma e imagen del icono del chat.
+
+\imagen{visualControlVersiones}{Uso del control de versiones desde la interfaz del IDE.}
+
+Finalmente en la Figura \ref{fig:visualControlVersiones} se muestra la herramienta \textit{Source Control} integrada en el IDE que se ha utilizado para trabajar con el control de versiones de GitHub del proyecto. 
+
+
+
+
+
+\section{Compilación, instalación y ejecución del proyecto}
+
+El proyecto está alojado en los servidores de Dialogflow e integrado en UBUVirtual por lo que no es necesaria su compilación ni instalación.
+
+Para ejecutarlo es tan sencillo como acceder al recurso disponible en UBUVirtual donde automáticamente se desplegará y podrá comenzar a utilizarse.
+
+
 \section{Pruebas del sistema}
 
 Al tratarse de un proyecto ciertamente particular no se han realizado las pruebas de código habituales de sistema tradicionales.
@@ -91,6 +257,6 @@ En la figura \ref{fig:validation} se muestra la validación del sistema, en la q
 
 Finalmente para comprobar que nuestro sistema es preciso se ha realizado un estudio numérico del análisis de todas las conversaciones llevadas a cabo por los usuarios desde que se integrase en la plataforma UBUVirtual.  
 
-Dado que al tratarse de lenguaje natural no es posible hacer test automáticos para comprobar que las salidas del programa responden correctamente a la entrada introducida por el usuario se ha tenido que realizar manualmente. Obteniendo para el mes de junio un 55,36\% de respuestas correctas sobre un total 56 preguntas formuladas.
+Dado que al tratarse de lenguaje natural no es posible hacer test automáticos para comprobar que las salidas del programa responden correctamente a la entrada introducida por el usuario, se ha tenido que realizar manualmente. Obteniendo para el mes de junio un 55,36\% de respuestas correctas sobre un total 56 preguntas formuladas.
 
-Una tasa de éxito que se puede decir que cumple el objetivo del proyecto; que no es el de responder como haría un humano, sino el de reducir la carga de trabajo de los profesores y ayudar a los alumnos de una manera considerable.
+Una tasa de éxito que cumple el objetivo del proyecto; que no es el de responder como haría un humano, sino el de reducir la carga de trabajo de los profesores y ayudar a los alumnos de manera considerable.

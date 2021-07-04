@@ -2,7 +2,33 @@
 
 \section{Introducción}
 
+En este apartado se explica con detalle como se han estructurado los datos, los procedimientos y la arquitectura que se ha utilizado.
+
 \section{Diseño de datos}
+
+Los datos se estructuran en torno a los \textit{intents} y \textit{entities}.
+
+\subsection{Entities}
+
+Hemos considerado las tres entidades mostradas en la figura \ref{fig:Entities}, al darse el caso de que había sinónimos de estos que se repetían en muchas ocasiones.
+
+\imagenEnana{Entities}{Entidades utilizadas en el agente.}
+
+\subsection{Intents}
+
+Aquí es donde almacenamos nuestras frases de entrenamiento y respuestas. Disponemos de un total de 205 archivos JSON para 103 intents diferentes en la modalidad online, y 195 archivos para 98 \textit{intents} diferentes en la modalidad presencial. En las Figuras \ref{fig:bbdd1} y \ref{fig:bbdd2} se presenta el esquema utilizado para la versión online.
+
+\imagenGrande{bbdd1}{Diseño de \textit{intents} del agente para la modalidad online (Parte 1).}
+
+\imagenGrande{bbdd2}{Diseño de \textit{intents} del agente para la modalidad online (Parte 2).}
+
+Se ha utilizado la nomenclatura de comenzar el nombre del \textit{intent} con un simbolo \textit{\_} para determinar aquellos cuya respuesta es una \textit{rich response}.
+
+\newpage
+Para hacer legible y mantenible nuestra base de datos de preguntas y respuestas se dispone de un documento de texto en el que se recopila toda la información. De esta manera una persona ajena al proyecto podrá comprender la estructura rápidamente.
+
+\imagenGrande{recopilacion}{Primera página del documento recopilatorio de preguntas y respuestas.}
+
 
 \section{Diseño procedimental}
 
