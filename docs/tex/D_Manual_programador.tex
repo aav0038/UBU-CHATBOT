@@ -136,7 +136,7 @@ Existen dos posibilidades:
 	\item 
 	\textit{Inline Editor}: es una versión simplificada que permite introducir el código directamente en Dialogflow. Exige introducir una cuenta de facturación.
 	\item	
-	\textit{Webhook}: url de la plataforma en la que esté alojado nuestro código. Se realizará una petición POST cuando se dispare un \textit{intent} con \textit{fulfillment}. Podríamos habilitar las Cloud Functions del proyecto de Google asociado al agente, pero también requeriría cuenta de facturación. Otra posible opción es utilizar una plataforma en la nube como Heroku para alojar nuestro código. Está solución también tiene restricciones en su versión gratuita.
+	\textit{Webhook}: url de la plataforma en la que esté alojado nuestro código. Se realizará una petición POST cuando se dispare un \textit{intent} con \textit{fulfillment}. Podríamos habilitar las Cloud Functions del proyecto de Google asociado al agente, pero también requeriría cuenta de facturación. Otra posible opción es utilizar una plataforma en la nube como Heroku para alojar nuestro código. Esta solución también tiene restricciones en su versión gratuita, ya que si no introducimos una tarjeta de crédito solo vamos a disponer de 550 horas al mes. \cite{heroku}
 \end{itemize}
 
 \subsubsection{\textit{Integrations}}
@@ -150,13 +150,13 @@ Para la integración con UBUVirtual hacemos clic en Dialogflow Messenger, ya que
 
 Copiamos el código que nos suministra. Deberemos añadir este código HTML en UBUVirtual. En el apartado \ref{personalizacionHTML} se explica cómo modificarlo con un editor como Visual Studio Code para personalizar la apariencia del \textit{chatbot}.
 
-Para añadir el HTML a UBUVirtual necesitaremos tener permisos de administrador. Accedemos en UBUVirtual a \textit{Administración del sitio/Apariencia/HTML adicional}. Ver Figura \ref{fig:dialogflow12}.
+Para añadir el HTML a UBUVirtual necesitaremos tener permisos de administrador. Accedemos al curso en UBUVirtual y creamos un recurso de tipo página. Ver Figura \ref{fig:integracion1}.
 
-\imagen{dialogflow12}{Panel de administración de Moodle.}
+\imagen{integracion1}{Creación de página en el curso de UBUVirtual.}
 
-Introducimos nuestro código y guardamos los cambios. Ver Figura \ref{fig:dialogflow13}. Con esto el \textit{chatbot} habrá quedado integrado en UBUVirtual.
+Introducimos nuestro código y guardamos los cambios. Ver Figura \ref{fig:integracion}. Con esto el \textit{chatbot} habrá quedado integrado en UBUVirtual.
 
-\imagen{dialogflow13}{Insertar HTML adicional.}
+\imagen{integracion}{Insertar el código HTML.}
 
 Para la integración con Slack en primer lugar necesitamos crear un espacio de trabajo. Para ello accedemos a la web de Slack \cite{urlSlack} mostrada en la Figura \ref{fig:slack1}. Introducimos un email y seguimos los pasos introduciendo nuestros datos.
 

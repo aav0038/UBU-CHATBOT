@@ -32,6 +32,25 @@ Para hacer legible y mantenible nuestra base de datos de preguntas y respuestas 
 
 \section{Diseño procedimental}
 
+El proceso de interaccion es siempre el mismo: el usuario formula una pregunta desde el \textit{chatbot} de UBUVirtual o Slack, esta pregunta se envía al agente de Dialogflow que está alojado en un servidor. 
+
+A continuación, este mensaje se envía a la API Natural Language de Google Cloud, la cuál mediante un algoritmo asigna un \textit{intent} de salida.
+
+En el agente de Dialogflow se consulta la respuesta del \textit{intent} asignado y se devuelve al usuario por medio de la interfaz por la que se esta operando.
+
+\imagen{diagramaSecuencia}{Diagrama de secuencia.}
+
+\newpage
+
 \section{Diseño arquitectónico}
+
+El agente de Dialogflow está alojado en un servidor de Google Cloud. Dicho servidor reside en Estados Unidos, y Dialogflow nos lo proporciona de manera gratuita al utilizar una versión reducida.
+
+El usuario accede por medio de su navegador al \textit{chatbot} de la asignatura, el cuál está integrado en UBUVirtual. Es decir, en primer lugar accede al servidor en el que se aloja la plataforma Moodle de la Universidad. 
+
+La arquitectura que sigue la interacción es la del modelo cliente-servidor: el usuario introduce una pregunta en el \textit{chatbot} (cliente) la cuál envía una petición al servidor (agente de Dialogflow) que
+ la procesa y devuelve una respuesta al cliente.
+
+\imagen{diagramaDespliegue}{Diagrama de despliegue.}
 
 
