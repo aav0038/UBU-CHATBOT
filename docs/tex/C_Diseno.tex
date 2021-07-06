@@ -2,7 +2,7 @@
 
 \section{Introducción}
 
-En este apartado se explica con detalle como se han estructurado los datos, los procedimientos y la arquitectura que se ha utilizado.
+En este apartado se explica con detalle cómo se han estructurado los datos, los procedimientos y la arquitectura que se ha utilizado.
 
 \section{Diseño de datos}
 
@@ -12,11 +12,11 @@ Los datos se estructuran en torno a los \textit{intents} y \textit{entities}.
 
 Hemos considerado las tres entidades mostradas en la figura \ref{fig:Entities}, al darse el caso de que había sinónimos de estos que se repetían en muchas ocasiones.
 
-\imagenEnana{Entities}{Entidades utilizadas en el agente.}
+\imagen{Entities}{Entidades utilizadas en el agente.}
 
 \subsection{Intents}
 
-Aquí es donde almacenamos nuestras frases de entrenamiento y respuestas. Disponemos de un total de 205 archivos JSON para 103 intents diferentes en la modalidad online, y 195 archivos para 98 \textit{intents} diferentes en la modalidad presencial. En las Figuras \ref{fig:bbdd1} y \ref{fig:bbdd2} se presenta el esquema utilizado para la versión online.
+Aquí es donde almacenamos nuestras frases de entrenamiento y respuestas. Disponemos de un total de 205 archivos JSON para 103 intents diferentes en la modalidad online y 195 archivos para 98 \textit{intents} diferentes en la modalidad presencial. En las Figuras \ref{fig:bbdd1} y \ref{fig:bbdd2} se presenta el esquema utilizado para la versión online.
 
 \imagenGrande{bbdd1}{Diseño de \textit{intents} del agente para la modalidad online (Parte 1).}
 
@@ -32,9 +32,9 @@ Para hacer legible y mantenible nuestra base de datos de preguntas y respuestas 
 
 \section{Diseño procedimental}
 
-El proceso de interaccion es siempre el mismo: el usuario formula una pregunta desde el \textit{chatbot} de UBUVirtual o Slack, esta pregunta se envía al agente de Dialogflow que está alojado en un servidor. 
+El proceso de interacción es siempre el mismo: el usuario formula una pregunta desde el \textit{chatbot} de UBUVirtual o Slack, esta pregunta se envía al agente de Dialogflow que está alojado en un servidor. 
 
-A continuación, este mensaje se envía a la API Natural Language de Google Cloud, la cuál mediante un algoritmo asigna un \textit{intent} de salida.
+A continuación, este mensaje se envía a la API Natural Language de Google Cloud, la cual mediante un algoritmo asigna un \textit{intent} de salida.
 
 En el agente de Dialogflow se consulta la respuesta del \textit{intent} asignado y se devuelve al usuario por medio de la interfaz por la que se esta operando.
 
@@ -44,11 +44,11 @@ En el agente de Dialogflow se consulta la respuesta del \textit{intent} asignado
 
 \section{Diseño arquitectónico}
 
-El agente de Dialogflow está alojado en un servidor de Google Cloud. Dicho servidor reside en Estados Unidos, y Dialogflow nos lo proporciona de manera gratuita al utilizar una versión reducida.
+El agente de Dialogflow está alojado en un servidor de Google Cloud. Dicho servidor reside en Estados Unidos y Dialogflow nos lo proporciona de manera gratuita al utilizar una versión reducida.
 
-El usuario accede por medio de su navegador al \textit{chatbot} de la asignatura, el cuál está integrado en UBUVirtual. Es decir, en primer lugar accede al servidor en el que se aloja la plataforma Moodle de la Universidad. 
+El usuario accede por medio de su navegador al \textit{chatbot} de la asignatura que está integrado en UBUVirtual. Es decir, en primer lugar accede al servidor en el que se aloja la plataforma Moodle de la Universidad. 
 
-La arquitectura que sigue la interacción es la del modelo cliente-servidor: el usuario introduce una pregunta en el \textit{chatbot} (cliente) la cuál envía una petición al servidor (agente de Dialogflow) que
+La arquitectura que sigue la interacción es la del modelo cliente-servidor: el usuario introduce una pregunta en el \textit{chatbot} (cliente) la cual envía una petición al servidor (agente de Dialogflow) que
  la procesa y devuelve una respuesta al cliente.
 
 \imagen{diagramaDespliegue}{Diagrama de despliegue.}
