@@ -1,7 +1,6 @@
 ![logo](https://raw.githubusercontent.com/aav0038/CHATBOT_TFG/master/LogoFinalTransparenteGranate.png) 
 
 Autor: Alfredo Asensio Vázquez  
-Tutor: Dr. Raúl Marticorena Sánchez  
 Grado en Ingeniería Informática  
 
 # Descripción
